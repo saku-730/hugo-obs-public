@@ -1,0 +1,39 @@
+---
+title: dir-diagram
+tags:
+  - 2025/02
+  - Go
+created: 2025-02-27
+updated: 2025-08-31
+---
+###### **目次**
+```toc
+style:nestedList
+minLevel:2
+maxLevel:5
+```
+# dir-diagram
+
+自作。ディレクトリ図をいちいち作るのが面倒だったのでChatgptに9.9割つくってもらった。
+
+[GitHub - saku-730/directory_diagram.](https://github.com/saku-730/directory_diagram)
+
+100%Goで書かれている。
+
+## インストール
+
+Go でつくったのでバイナリにコンパイルしたやつ(dir-diagram)がある。それをダウンロードして`echo $PATH`の中のどこかへ。
+
+今は`/usr/bin`に入っている。
+
+## 使い方
+
+引数に根本となるディレクトリを指定。引数がなければカレントディレクトリを根本にする。
+
+-h 隠しファイルの表示/非表示。nで表示。デフォルトは非表示
+-t 階層の深さを数字で指定。デフォルトは3
+-f ファイルに出力したければファイル名を指定。このオプションがなければ標準出力へ。
+
+## 参考
+
+1. 
