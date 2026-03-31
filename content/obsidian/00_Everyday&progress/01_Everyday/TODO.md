@@ -17,8 +17,8 @@ maxLevel:5
 ## レベル1
 
 - 撹乱の定量化調べ
-- [雌雄同体まとめ]({{< relref "20_Research/21_General/雌雄同体まとめ.md" >}})
-- [単為生殖まとめ]({{< relref "20_Research/21_General/単為生殖まとめ.md" >}})
+- [雌雄同体まとめ]({{< relref "/obsidian/20_Research/21_General/雌雄同体まとめ" >}})
+- [単為生殖まとめ]({{< relref "/obsidian/20_Research/21_General/単為生殖まとめ" >}})
 - 
 
 ## レベル2

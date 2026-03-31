@@ -7,7 +7,7 @@ tags:
   - Snap
 created: 2024-05-30
 updated: 2025-08-31
-date: "2024-05-30 23:54"
+date: 2024-05-30
 ---
 ###### **目次**
 ```toc
@@ -49,7 +49,7 @@ laptop
 
 - Desktop : とりあえずの保管場所。Downloadsよりも長期的に入れておきたいものやディレクトリごとなどで大きいものなど。
 - Downloads : とりあえずファイルを入れておく場所。なるべくきれいに保つ。
-- Documents(cloud) : メインのディレクトリ。hugoやobsidian、研究室関連のものなどを入れる。長期保管。[Mathematica]({{< relref "60_Manual_2/62_Software/Mathematica.md" >}})など一部のソフトはデフォルトでここにファイルを保管する。
+- Documents(cloud) : メインのディレクトリ。hugoやobsidian、研究室関連のものなどを入れる。長期保管。[Mathematica]({{< relref "/obsidian/60_Manual_2/62_Software/Mathematica" >}})など一部のソフトはデフォルトでここにファイルを保管する。
 - Local_Documents : クラウド共有しないDocuments。メインPCでしか使うことのない電子書籍やTbio関連のプログラム等。
 - Google(cloud) : Google drive をマウントする。
 - MEGA(cloud) : MEGAで共有する用で、とりあえず入れておきたいファイルの保管場所。論文の保管場所としても使う。(zoteroでしか論文を開かない)
@@ -72,7 +72,7 @@ MX公式側が用意してくれている。ほとんど中身はaptで入れる
 ### snap
 
 MXLinuxではsystemdがオプションなので基本はsnapを使えないがsystemdを起動すれば使える。なんだかんだsnapは便利なので使っている。そのうえでのいくつか注意点。
-[MXLinux]({{< relref "60_Manual_2/64_OS/MXLinux.md" >}}#mx-linuxでのsnapの問題)も参考に。
+[MXLinux]({{< relref "/obsidian/60_Manual_2/64_OS/MXLinux" >}}#mx-linuxでのsnapの問題)も参考に。
 
 #### install
 

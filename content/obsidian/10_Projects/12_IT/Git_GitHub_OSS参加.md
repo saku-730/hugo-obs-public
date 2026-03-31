@@ -23,7 +23,7 @@ maxLevel:5
 ```
 # Git, GitHub, OSS参加
 
-まとめマニュアル→[Git]({{< relref "60_Manual_2/63_Programing/Git.md" >}})
+まとめマニュアル→[Git]({{< relref "/obsidian/60_Manual_2/63_Programing/Git" >}})
 
 Git,GitHubをちゃんとつかえないと今後困るよなあということでGit,GitHubをやる。
 その上でOSSの参加方法、つまるところGit,GitHubでの共同開発の方法も学びたいのでこれも同時にやろうという計画。前半がGit,後半がOSS。

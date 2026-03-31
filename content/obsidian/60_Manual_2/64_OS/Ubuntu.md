@@ -112,7 +112,7 @@ source ~/.bashrc
 
 ### ネットワーク
 
-[ubuntu-server]({{< relref "60_Manual_2/64_OS/ubuntu-server.md" >}}#network)も参照。
+[ubuntu-server]({{< relref "/obsidian/60_Manual_2/64_OS/ubuntu-server" >}}#network)も参照。
 
 nmcli:NetworkManagerをいじるためのCLI。
 

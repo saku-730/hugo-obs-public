@@ -21,7 +21,7 @@ maxLevel:5
 sudo apt install postgresql
 ```
 
-[flyway]({{< relref "60_Manual_2/62_Software/flyway.md" >}})を使うためにJDBCドライバーのダウンロード
+[flyway]({{< relref "/obsidian/60_Manual_2/62_Software/flyway" >}})を使うためにJDBCドライバーのダウンロード
 
 [Download \| pgJDBC](https://jdbc.postgresql.org/download/)
 
@@ -90,7 +90,7 @@ ALTER DATABASE データベース名 OWNER TO 新しいオーナー名;
 
 ## 命名規則
 
-列名、テーブル名の基本はスネークケース参照→[Code_writing]({{< relref "60_Manual_2/63_Programing/Code_writing.md" >}}#変数名)
+列名、テーブル名の基本はスネークケース参照→[Code_writing]({{< relref "/obsidian/60_Manual_2/63_Programing/Code_writing" >}}#変数名)
 
 テーブル名は複数形にする。エンティティは複数形か集合名詞で表せる。
 

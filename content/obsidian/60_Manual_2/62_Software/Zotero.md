@@ -6,7 +6,7 @@ tags:
   - Paper
 created: 2024-06-01
 updated: 2025-08-31
-date: "2024-06-01 08:12"
+date: 2024-06-01
 ---
 ###### **目次**
 ```toc
@@ -45,7 +45,7 @@ sudo apt install zotero
 sudo ln -s /usr/lib/zotero-beta/zotero /usr/bin/zotero-beta
 ```
 
-アプリケーションダッシュボードに表示するため``/usr/share/applications``に``.desktop``ファイルを追加。[MXLinux]({{< relref "60_Manual_2/64_OS/MXLinux.md" >}}#アプリケーションダッシュボード-スタートメニュー)
+アプリケーションダッシュボードに表示するため``/usr/share/applications``に``.desktop``ファイルを追加。[MXLinux]({{< relref "/obsidian/60_Manual_2/64_OS/MXLinux" >}}#アプリケーションダッシュボード-スタートメニュー)
 
 ## 設定
 

@@ -24,7 +24,7 @@ maxLevel:5
 
 ## 準備 情報集め
 
-ibm,abmを使用した論文を読む。生物系に限らない。集計は[ibm]({{< relref "20_Research/23_Theory/ibm.md" >}})で行う。
+ibm,abmを使用した論文を読む。生物系に限らない。集計は[ibm]({{< relref "/obsidian/20_Research/23_Theory/ibm" >}})で行う。
 
 ## 設計
 

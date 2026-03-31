@@ -96,7 +96,7 @@ git submodule add <テーマのgithubのhttp> theme/テーマ名
 
 ### コミットメッセージ
 
-基本的には記事の更新日(例20240601)。ただし.yamlの編集やメニューの編集等サイト構造の編集は[Git]({{< relref "60_Manual_2/63_Programing/Git.md" >}}#コミットメッセージ)を参照。
+基本的には記事の更新日(例20240601)。ただし.yamlの編集やメニューの編集等サイト構造の編集は[Git]({{< relref "/obsidian/60_Manual_2/63_Programing/Git" >}}#コミットメッセージ)を参照。
 
 ## 記事作成
 

@@ -16,5 +16,5 @@ maxLevel:5
 
 ## 資料
 
-[Knowledge-os：資料まとめ]({{< relref "10_Projects/19_Others/Knowledge-os：資料まとめ.md" >}})
+[Knowledge-os：資料まとめ]({{< relref "/obsidian/10_Projects/19_Others/Knowledge-os：資料まとめ" >}})
 

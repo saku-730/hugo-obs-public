@@ -315,8 +315,8 @@ PyTorch以外は基本最新、Python=3.12.11
 
 ## 参考
 
-1. [LLM自作入門]({{< relref "30_Reading_record/33_Computer/LLM自作入門.md" >}})
-2. [大規模言語モデル入門]({{< relref "30_Reading_record/33_Computer/大規模言語モデル入門.md" >}})
+1. [LLM自作入門]({{< relref "/obsidian/30_Reading_record/33_Computer/LLM自作入門" >}})
+2. [大規模言語モデル入門]({{< relref "/obsidian/30_Reading_record/33_Computer/大規模言語モデル入門" >}})
 3. [Large Language Models in Genomics—A Perspective on Personalized Medicine](https://www.mdpi.com/2306-5354/12/5/440)
 4. [塩基配列解析に使われるファイルの特徴と扱い: fasta, sra, ab1 など](https://ultrabem-branch3.com/informatics/bioinformatics/sequence_files)
 5. [バイオインフォマティクスの主要なファイル形式](https://bioinfosite.com/file_format/)

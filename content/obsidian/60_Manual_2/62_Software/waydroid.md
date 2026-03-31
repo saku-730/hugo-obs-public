@@ -19,7 +19,7 @@ Linux用のAndroid環境
 
 [Install Instructions \| Waydroid](https://docs.waydro.id/usage/install-on-desktops)
 
-公式の手順通りに。ただし[Wayland]({{< relref "60_Manual_2/62_Software/Wayland.md" >}})環境が必要。名前の通りか。
+公式の手順通りに。ただし[Wayland]({{< relref "/obsidian/60_Manual_2/62_Software/Wayland" >}})環境が必要。名前の通りか。
 
 ## 参考
 

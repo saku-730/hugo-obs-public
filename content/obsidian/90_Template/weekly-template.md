@@ -3,9 +3,8 @@ title: "<% tp.file.title %>"
 tags:
   - Weekly
   - "<% tp.file.creation_date(\"YYYY\") %>/<% tp.file.creation_date(\"MM\") %>"
-date: "<% tp.file.creation_date() %>"
 ---
-[progress]({{< relref "10_Projects/progress.md" >}})
+[progress]({{< relref "/obsidian/10_Projects/progress" >}})
 
 ## やらないといけないこと
 

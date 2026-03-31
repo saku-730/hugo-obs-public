@@ -263,7 +263,7 @@ lua-language-server --version
 
 ## VSCode_Neovim
 
-[VSCode]({{< relref "60_Manual_2/62_Software/VSCode.md" >}})でNeovimを使えるようにする拡張機能。vimのキーバインドにするのではなく裏側でNeovim自体を起動して使う。
+[VSCode]({{< relref "/obsidian/60_Manual_2/62_Software/VSCode" >}})でNeovimを使えるようにする拡張機能。vimのキーバインドにするのではなく裏側でNeovim自体を起動して使う。
 
 設定の↓をインストール後確認したパスに編集する。同期しないようにしておく。VSCodeを使うのが基本的にLinuxでNeovimのバスが一致するなら同期しても問題ないか。
 
