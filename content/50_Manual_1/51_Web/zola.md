@@ -41,7 +41,7 @@ sudo snap install --edge zola
 
 ## テーマ
 
-[HUGOBlog]({{< relref "/content/50_Manual_1/51_Web/HUGOBlog" >}})と同じような感じ。
+[HUGOBlog]({{< relref "/50_Manual_1/51_Web/HUGOBlog" >}})と同じような感じ。
 
 導入方法は
 1. `themes`ディレクトリに移動して`git clone `でテーマのリポジトリをダウンロード

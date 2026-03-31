@@ -45,7 +45,7 @@ sudo apt install zotero
 sudo ln -s /usr/lib/zotero-beta/zotero /usr/bin/zotero-beta
 ```
 
-アプリケーションダッシュボードに表示するため``/usr/share/applications``に``.desktop``ファイルを追加。[MXLinux]({{< relref "/content/60_Manual_2/64_OS/MXLinux" >}}#アプリケーションダッシュボード-スタートメニュー)
+アプリケーションダッシュボードに表示するため``/usr/share/applications``に``.desktop``ファイルを追加。[MXLinux]({{< relref "/60_Manual_2/64_OS/MXLinux" >}}#アプリケーションダッシュボード-スタートメニュー)
 
 ## 設定
 

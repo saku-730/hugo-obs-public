@@ -28,7 +28,7 @@ terminology-component-tree.avif
 
 > 誰にも気にされていないときが、ナビゲーションにとって理想的な状態だと言えます。
 
-[デザイニング・ウェブナビゲーション]({{< relref "/content/30_Reading_record/33_Computer/デザイニング・ウェブナビゲーション" >}}) p3 
+[デザイニング・ウェブナビゲーション]({{< relref "/30_Reading_record/33_Computer/デザイニング・ウェブナビゲーション" >}}) p3 
 
 ### 色
 
@@ -47,4 +47,4 @@ Cross-origin resource sharing
 ## 参考
 
 1. [【Webセーフカラーとは】使い方の解説と216色のカラーコード見本 \| 『アラサー男子がアメリカで生き抜けるか。』を検証するブログ](https://ksonoda.com/web-safe-color/)
-2. [デザイニング・ウェブナビゲーション]({{< relref "/content/30_Reading_record/33_Computer/デザイニング・ウェブナビゲーション" >}})
+2. [デザイニング・ウェブナビゲーション]({{< relref "/30_Reading_record/33_Computer/デザイニング・ウェブナビゲーション" >}})

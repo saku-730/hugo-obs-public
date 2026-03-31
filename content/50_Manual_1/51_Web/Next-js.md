@@ -16,7 +16,7 @@ maxLevel:5
 
 ## インストール
 
-[node_js]({{< relref "/content/50_Manual_1/51_Web/node_js" >}})のインストールが必要。
+[node_js]({{< relref "/50_Manual_1/51_Web/node_js" >}})のインストールが必要。
 
 ## ディレクトリ構造
 
