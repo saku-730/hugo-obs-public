@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>31_Living_things on My New Hugo Project</title>
-    <link>http://localhost:1313/30_reading_record/31_living_things/</link>
-    <description>Recent content in 31_Living_things on My New Hugo Project</description>
+    <title>31_Living_things :: knowladge store</title>
+    <link>http://localhost:1313/30_reading_record/31_living_things/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/30_reading_record/31_living_things/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evolution and the Theory of Games</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/evolution-and-the-theory-of-games/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/evolution-and-the-theory-of-games/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/evolution-and-the-theory-of-games/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;evolution-and-the-theory-of-games&#34;&gt;Evolution and the Theory of Games&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/Evolution_and%20_the_Theory_of_Games.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;和訳「進化とゲーム理論　闘争の論理」&lt;/p&gt;&#xA;&lt;p&gt;生物学におけるゲーム理論の初期の本。基本的内容が多い。1970-80くらいの論文の寄せ集めともいえる。数式的な説明は比較的少ない。そのためなんとなくの概念で説明されることが多くてもやもやする。&lt;/p&gt;&#xA;&lt;p&gt;特に説明して具体例の流れになるとかなり冗長で読みたくなくなる。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/evolution-and-the-theory-of-games/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>ダーウィンの思想</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E3%83%80%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%B3%E3%81%AE%E6%80%9D%E6%83%B3/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E3%83%80%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%B3%E3%81%AE%E6%80%9D%E6%83%B3/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E3%83%80%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%B3%E3%81%AE%E6%80%9D%E6%83%B3/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;ダーウィンの思想&#34;&gt;ダーウィンの思想&lt;/h1&gt;&#xA;&lt;p&gt;ダーウィンの行動を追っていく伝記的な側面も多少はあるがメインはダーウィンの進化論解説。なぜダーウィンがその発想に至ったのか。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一章-ビーグル号の航海&#34;&gt;第一章 ビーグル号の航海&lt;/h2&gt;&#xA;&lt;p&gt;ダーウィンがケンブリッジ大学で聖職者の資格のための勉強をしているときビーグル号航海の機会を得る。そこで艦長、フィッツロイからライエルの「地質学原理」を授かる。指導教官のジョン・スティーブン・ヘンズローとその同僚のアダム・セジウィックは聖書の権威の大勢派でありライエルに反する意見であった。地質学原理の要点は地質学的な変化を神や特別な力ではなく基本原理によって説明しようとしたことである。ただしライエルの著作からは人間が他の動物と連続的につながることを認めない傾向が見受けられる。ラマルクの進化論もライエルは否定している。またライエルは人間と動物を厳然と理性と道徳的能力によって分けられるとしているがフェーゴ島でのフェーゴ人との出会いでダーウィンは異なる感覚を持つ。ダーウィンは様々な島で地質調査をし地質学にはまる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第二章-結婚と自然淘汰説&#34;&gt;第二章 結婚と自然淘汰説&lt;/h2&gt;&#xA;&lt;p&gt;マルサス「人口論」を生物にも適用することによって自然淘汰説をひらめいたとされる。&lt;/p&gt;&#xA;&lt;p&gt;30歳前に信仰心が強いがダーウィンの進化論者としてのスタンスをよく理解したエマと結婚する。&lt;/p&gt;&#xA;&lt;p&gt;ダーウィンは人間の道徳性を自然への社会性への適応として理解する。これは当時としては革新的であった。デイヴィット・ヒュームとのつながりも著者は示唆している。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第三章-ダーウィンのデモン&#34;&gt;第三章 ダーウィンのデモン&lt;/h2&gt;&#xA;&lt;p&gt;マクスウェルの悪魔に模して著者はダーウィンのデモンを提唱する。これは自然選択による進化の結果を予測するデモンであり重要なのは自然選択が偶然の素材から特定の方向の結果(進化)を導くことである。そのような自然選択を踏まえた転生説(後の進化論)をダーウィンは「エッセイ」にまとめるが社会的な批判を考慮して発表しない。しかし転生説を説く「創造の自然史の痕跡」が出版され先を越される。この書物には科学者からも多くの批判があり転生説を受け入れる土壌が世間に出来上がっていないことをまじまじと知ることとなった。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第四章-種はなぜ分かれていくのか&#34;&gt;第四章 種はなぜ分かれていくのか&lt;/h2&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E3%83%80%E3%83%BC%E3%82%A6%E3%82%A3%E3%83%B3%E3%81%AE%E6%80%9D%E6%83%B3/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>ドーキンスvs.グールド</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9vs%E3%82%B0%E3%83%BC%E3%83%AB%E3%83%89/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9vs%E3%82%B0%E3%83%BC%E3%83%AB%E3%83%89/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9vs%E3%82%B0%E3%83%BC%E3%83%AB%E3%83%89/</guid>
-      <description>&lt;p&gt;%% To save images locally, enable the &amp;lsquo;Enable Cover Image Save&amp;rsquo; option in the settings and enter as follows: %%&#xA;&lt;img src=&#34;http://localhost:1313/obsidian/%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9vs%E3%82%B0%E3%83%BC%E3%83%AB%E3%83%89.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;ドーキンスvsグールド&#34;&gt;ドーキンスvs.グールド&lt;/h1&gt;&#xA;&lt;p&gt;一般向けにドーキンスとグールドの考え方を紹介している。そのため生物の知識がほとんどなくても読めるように丁寧に説明されている。そういった高校生物の説明みたいな部分は適当に読み飛ばすとかなり短く早く読める。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9vs%E3%82%B0%E3%83%BC%E3%83%AB%E3%83%89/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>マレー諸島</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E3%83%9E%E3%83%AC%E3%83%BC%E8%AB%B8%E5%B3%B6/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E3%83%9E%E3%83%AC%E3%83%BC%E8%AB%B8%E5%B3%B6/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E3%83%9E%E3%83%AC%E3%83%BC%E8%AB%B8%E5%B3%B6/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;マレー諸島&#34;&gt;マレー諸島&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>動物の進化生態学入門</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E5%8B%95%E7%89%A9%E3%81%AE%E9%80%B2%E5%8C%96%E7%94%9F%E6%85%8B%E5%AD%A6%E5%85%A5%E9%96%80/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E5%8B%95%E7%89%A9%E3%81%AE%E9%80%B2%E5%8C%96%E7%94%9F%E6%85%8B%E5%AD%A6%E5%85%A5%E9%96%80/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;動物の進化生態学入門&#34;&gt;動物の進化生態学入門&lt;/h1&gt;&#xA;&lt;p&gt;進化生態学というかフィールド生物学系の入門書。ほんとに入門からやるので高校知識くらいから書かれている。&lt;/p&gt;&#xA;&lt;h2 id=&#34;序章&#34;&gt;序章&lt;/h2&gt;&#xA;&lt;p&gt;最後の方の生態学を意味がないからやる意味なくね、みたいな意見に対してのちょっと怒っているんじゃないかというくらいの書きぶりがいい。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第部&#34;&gt;第Ⅰ部&lt;/h2&gt;&#xA;&lt;p&gt;p18:染色体の図で人のイラストがいきなりのアニメ調&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>土壌動物(その生態分布と多様性)</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E5%9C%9F%E5%A3%8C%E5%8B%95%E7%89%A9%E3%81%9D%E3%81%AE%E7%94%9F%E6%85%8B%E5%88%86%E5%B8%83%E3%81%A8%E5%A4%9A%E6%A7%98%E6%80%A7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E5%9C%9F%E5%A3%8C%E5%8B%95%E7%89%A9%E3%81%9D%E3%81%AE%E7%94%9F%E6%85%8B%E5%88%86%E5%B8%83%E3%81%A8%E5%A4%9A%E6%A7%98%E6%80%A7/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;土壌動物その生態分布と多様性&#34;&gt;土壌動物(その生態分布と多様性)&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E3%83%9E%E3%83%AC%E3%83%BC%E8%AB%B8%E5%B3%B6/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>外来動物対策のゆくえ</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E5%A4%96%E6%9D%A5%E5%8B%95%E7%89%A9%E5%AF%BE%E7%AD%96%E3%81%AE%E3%82%86%E3%81%8F%E3%81%88/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E5%A4%96%E6%9D%A5%E5%8B%95%E7%89%A9%E5%AF%BE%E7%AD%96%E3%81%AE%E3%82%86%E3%81%8F%E3%81%88/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E5%A4%96%E6%9D%A5%E5%8B%95%E7%89%A9%E5%AF%BE%E7%AD%96%E3%81%AE%E3%82%86%E3%81%8F%E3%81%88/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;外来動物対策のゆくえ&#34;&gt;外来動物対策のゆくえ&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E5%A4%96%E6%9D%A5%E5%8B%95%E7%89%A9%E5%AF%BE%E7%AD%96%E3%81%AE%E3%82%86%E3%81%8F%E3%81%88.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;外来生物：海外から持ち込まれた種。&lt;/p&gt;&#xA;&lt;p&gt;外来種：本来生息することのない地域に人為的に持ち込まれた種。国内外来種もある。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1章-外来種とはなにか&#34;&gt;1章 外来種とはなにか&lt;/h2&gt;&#xA;&lt;p&gt;外来種の始まりの説明。&lt;/p&gt;&#xA;&lt;p&gt;特定外来などの法律的な取り組み。法律は運用上の問題を考慮するのが大変。&lt;/p&gt;&#xA;&lt;h2 id=&#34;2章-島嶼部の外来動物対策&#34;&gt;2章 島嶼部の外来動物対策&lt;/h2&gt;&#xA;&lt;p&gt;小笠原の事例紹介。&lt;/p&gt;&#xA;&lt;p&gt;ノヤギ、ノブタ、ウシガエルのなかでの最適な駆除の順番はちゃんと考えたんだなと。ノブタが捕食して抑えている可能性のあるウシガエルを最初に、つぎにノヤギを駆除すると草が増えてノブタの駆除がしにくくなるかもしれないのでノヤギを駆除してからノブタ。ウシガエルは簡単におもいつくけどノブタとノヤギの順番は実際の駆除の場面を考えないと気づけないよなあ。&lt;/p&gt;&#xA;&lt;p&gt;そこまで考えてもノブタ駆除したらその餌だった外来植物が増えちゃったり、ノブタを駆除するときに絶滅危惧で天然記念物の猛禽類のオガサワラノスリを刺激して繁殖に負の影響を与えてもだめとかいうむずすぎる問題。&lt;/p&gt;&#xA;&lt;p&gt;p58:積極的な外来種対策の理由&lt;/p&gt;&#xA;&lt;p&gt;これには&lt;a href=&#34;http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/&#34;&gt;進化のからくり&lt;/a&gt;の著者の働きも貢献してるんだろうなと思われる。いい話だ。&lt;/p&gt;&#xA;&lt;p&gt;p92:&lt;/p&gt;&#xA;&lt;p&gt;駆除を続けていくとだんだん密度が減って駆除が難しくなっていくからもっと頑張って捕まえないといけない。しかし捕獲事業は年月が経つほど熱意が減り漠然と習慣化した捕獲行為になりがちという。でも最後まで駆除しないとまた増える。きつすぎる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;4章-正しい選択&#34;&gt;4章 正しい選択&lt;/h2&gt;&#xA;&lt;p&gt;p151:&lt;/p&gt;&#xA;&lt;p&gt;クリス・トマスの本の内容だが人間も自然の一部であり人間が生物を移動させるのも人間が進化の結果たどり着いたものというのは今まで思っていた感覚とかなり重なった。人間を特別視してはいけない。&lt;/p&gt;&#xA;&lt;h2 id=&#34;全般的な感想&#34;&gt;全般的な感想&lt;/h2&gt;&#xA;&lt;p&gt;外来種、外来動物問題を制度的な目線で多く取り上げている。生物学的に多様性がどうのこうのというよりも実際問題としてこれからどうしていくのがいいか、今までやってきてどんなふうだったのかを説明している。最後にじゃあどうすればいいのかをまとめているがおそらく著者もはっきりと結論が出せていないのかなと思う。しょうがないところはある。外来種問題は一人がどうこうできる問題でないどころか一つの国でもどうにもならないことがある。その上、正しさがなんなのかがはっきりしていない。そのうえで色々な正しさを最後に紹介してくれているのがよかった。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>生命と非生命のあいだ</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;生命と非生命のあいだ&#34;&gt;生命と非生命のあいだ&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;題名は「生物と無生物のあいだ」のもじり。もじりのもじりじゃねーか&lt;/p&gt;&#xA;&lt;p&gt;生命起源についての学説紹介。題名をもじりたかったのはわかるがこの題名だと生物の定義とか哲学的な話するのかな~と思っちゃうからやめてほしい。まあ生命の起源、なんて本は腐るほど出ているからそうしたくないのはわかるが。&lt;/p&gt;&#xA;&lt;p&gt;話の脱線、本題になかなか入らなかったりが多い。&lt;/p&gt;&#xA;&lt;p&gt;p227:アヴァロンの爆発&lt;/p&gt;&#xA;&lt;p&gt;5億7000万年前からの多細胞生物の急激な増加をアヴァロンの爆発と呼ぶ。カンブリア以前はあまり知らなかったので初耳。カンブリア紀の前をフォーチュニアン紀というのも初耳。&lt;/p&gt;&#xA;&lt;p&gt;第8章：生命のスペクトラム&lt;/p&gt;&#xA;&lt;p&gt;主に生命と非生命を0,1で分けるのではなくスペクトラム的に変化するのでは、という提案。生命の起源論が少し奇跡に頼らなくてすむようになる。スペクトラム的に考えるのは最近だと割と多く見るような気がする(性別とか種とか)のでこれはありな気もする。実際、生物の定義がそもそも完全にはできないことがある意味でスペクトラムを支持しているともいえる。ただこのスペクトラムの話は結局定義から逃げているのでは、という考えもあるので安易に採用してこれでいいよねとなるのもよくない。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E5%A4%96%E6%9D%A5%E5%8B%95%E7%89%A9%E5%AF%BE%E7%AD%96%E3%81%AE%E3%82%86%E3%81%8F%E3%81%88/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>自己組織化と進化の論理</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E8%87%AA%E5%B7%B1%E7%B5%84%E7%B9%94%E5%8C%96%E3%81%A8%E9%80%B2%E5%8C%96%E3%81%AE%E8%AB%96%E7%90%86/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E8%87%AA%E5%B7%B1%E7%B5%84%E7%B9%94%E5%8C%96%E3%81%A8%E9%80%B2%E5%8C%96%E3%81%AE%E8%AB%96%E7%90%86/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E8%87%AA%E5%B7%B1%E7%B5%84%E7%B9%94%E5%8C%96%E3%81%A8%E9%80%B2%E5%8C%96%E3%81%AE%E8%AB%96%E7%90%86/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;自己組織化と進化の論理&#34;&gt;自己組織化と進化の論理&lt;/h1&gt;&#xA;&lt;p&gt;まあ意味がわからない。難しい。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E8%87%AA%E5%B7%B1%E7%B5%84%E7%B9%94%E5%8C%96%E3%81%A8%E9%80%B2%E5%8C%96%E3%81%AE%E8%AB%96%E7%90%86/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>進化とはなにか</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%8B-%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%AA%E3%83%BC/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%8B-%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%AA%E3%83%BC/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%8B-%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%AA%E3%83%BC/</guid>
-      <description>&lt;h1 id=&#34;進化とはなにか&#34;&gt;進化とはなにか&lt;/h1&gt;&#xA;&lt;p&gt;p28：「まず生物は動物と植物とウイルスにわけられるが、それぞれ化学的に見て根本的に違った生活法が特徴である。」&lt;/p&gt;&#xA;&lt;p&gt;色々間違えているのはおいておいてハクスリーはウイルスを生物に含めていたのか。それとも時代によるものか？&lt;/p&gt;&#xA;&lt;p&gt;p30の記述からここでは植物に菌類や藻類も含まれている。&lt;/p&gt;&#xA;&lt;p&gt;p39,40でウイルスに関して少し悩んでいるような様子は伺える。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%A8%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%8B-%E3%83%8F%E3%82%AF%E3%82%B9%E3%83%AA%E3%83%BC/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>進化のからくり</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;進化のからくり&#34;&gt;進化のからくり&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;進化についての色々な話を散りばめてる。にしてもカワニナが好きなんだなと感じる。&lt;/p&gt;&#xA;&lt;p&gt;第5章：進化学者のやる気は好奇心の多さに比例する&lt;/p&gt;&#xA;&lt;p&gt;第6章：恋愛なんて無駄とか言わないで&lt;/p&gt;&#xA;&lt;p&gt;黒歴史からの進化学への融合の話はよかった。なんだかんだ研究者はいつまでも面倒でだるい勉強をし続けるべきだしそういう人間が勝てるのだと思う。&lt;/p&gt;&#xA;&lt;p&gt;第11章：エンドレスサマー&lt;/p&gt;&#xA;&lt;p&gt;最後の研究嫌いも不仲もなかったいう落ちがいい。最初のほうはああ、だめな話なのかなと思わせておいてどんどんよくなっていったみたいなありがちな話になりかけてたところでいや最初っからそんなことはない、普通の話だよってなるのがいい。&lt;/p&gt;&#xA;&lt;p&gt;全体的に研究者の精神性のいい話が多い。進化学の本ではなく研究者の本。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>進化教育学入門</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E6%95%99%E8%82%B2%E5%AD%A6%E5%85%A5%E9%96%80/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E6%95%99%E8%82%B2%E5%AD%A6%E5%85%A5%E9%96%80/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E6%95%99%E8%82%B2%E5%AD%A6%E5%85%A5%E9%96%80/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;進化教育学入門&#34;&gt;進化教育学入門&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E9%80%B2%E5%8C%96%E6%95%99%E8%82%B2%E5%AD%A6%E5%85%A5%E9%96%80.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;動物行動学的な観点、究極要因を探る考え方から教育を考えてこうしたらいいのではという本。&lt;/p&gt;&#xA;&lt;p&gt;〜学入門という本の割には中身も表紙もとっつきやすい。実際読んだ感想は入門書というよりも著者の経験を通して得られた知見をまとめましたみたいな本。&lt;/p&gt;&#xA;&lt;p&gt;プロローグのラジオパーソナリティの話は典型的な研究者とマスメディアの衝突例だと思う。これをうまい具合にできる人はメディア人気があるんだろうけどそれはそれでどうなんだ。&lt;/p&gt;&#xA;&lt;p&gt;途中でいきなりヤギ部の話がでてきてこの著者が、先生、シリーズのヤギの人だあ と唐突に気づく。&lt;/p&gt;&#xA;&lt;p&gt;Ⅰ部1 ヒト以外の動物は、どう学習するか&lt;/p&gt;&#xA;&lt;p&gt;ある対象(ex. 天敵)についてどのように反応するかは生得的に決まっているわけではないがその対象に対して学習するというのは決まっているというのは確かに直感的にもわかるし当たり前感はあるがおもしろい。&lt;/p&gt;&#xA;&lt;p&gt;p169 生物専用モジュールの助けを借りる方法&lt;/p&gt;&#xA;&lt;p&gt;はたらく細胞で免疫がわかりやすいのってこれだよな。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E6%95%99%E8%82%B2%E5%AD%A6%E5%85%A5%E9%96%80/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生命と非生命のあいだ</title>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>都市に侵入する獣たち</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%83%BD%E5%B8%82%E3%81%AB%E4%BE%B5%E5%85%A5%E3%81%99%E3%82%8B%E7%8D%A3%E3%81%9F%E3%81%A1/</link>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%83%BD%E5%B8%82%E3%81%AB%E4%BE%B5%E5%85%A5%E3%81%99%E3%82%8B%E7%8D%A3%E3%81%9F%E3%81%A1/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%83%BD%E5%B8%82%E3%81%AB%E4%BE%B5%E5%85%A5%E3%81%99%E3%82%8B%E7%8D%A3%E3%81%9F%E3%81%A1/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;都市に侵入する獣たち&#34;&gt;都市に侵入する獣たち&lt;/h1&gt;&#xA;&lt;p&gt;p12 序章の一文目&lt;/p&gt;&#xA;&lt;p&gt;「この本は、けっして存在するはずはなかった生態系について書かれたものだ。」&lt;/p&gt;&#xA;&lt;p&gt;第1章：都市は生命あふれる場所にこそつくられた&lt;/p&gt;&#xA;&lt;p&gt;水が豊富にあり船が航行しやすい河川があり原材料が豊富、といった特徴は都市に適しておりそれは同時に生物が多く生息している場所でもある。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%83%BD%E5%B8%82%E3%81%AB%E4%BE%B5%E5%85%A5%E3%81%99%E3%82%8B%E7%8D%A3%E3%81%9F%E3%81%A1/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>土壌動物(その生態分布と多様性)</title>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E5%9C%9F%E5%A3%8C%E5%8B%95%E7%89%A9%E3%81%9D%E3%81%AE%E7%94%9F%E6%85%8B%E5%88%86%E5%B8%83%E3%81%A8%E5%A4%9A%E6%A7%98%E6%80%A7/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E5%9C%9F%E5%A3%8C%E5%8B%95%E7%89%A9%E3%81%9D%E3%81%AE%E7%94%9F%E6%85%8B%E5%88%86%E5%B8%83%E3%81%A8%E5%A4%9A%E6%A7%98%E6%80%A7/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>動物の進化生態学入門</title>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E5%8B%95%E7%89%A9%E3%81%AE%E9%80%B2%E5%8C%96%E7%94%9F%E6%85%8B%E5%AD%A6%E5%85%A5%E9%96%80/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E5%8B%95%E7%89%A9%E3%81%AE%E9%80%B2%E5%8C%96%E7%94%9F%E6%85%8B%E5%AD%A6%E5%85%A5%E9%96%80/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ルーター on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%BC/</link>
-    <description>Recent content in ルーター on My New Hugo Project</description>
+    <title>ルーター :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%BC/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OPNsense</title>
-      <link>http://localhost:1313/60_manual_2/64_os/opnsense/</link>
+      <link>http://localhost:1313/60_manual_2/64_os/opnsense/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/64_os/opnsense/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;opnsense&#34;&gt;OPNsense&lt;/h1&gt;&#xA;&lt;h2 id=&#34;ハードウェア&#34;&gt;ハードウェア&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CPU：i3-7100T&lt;/li&gt;&#xA;&lt;li&gt;ストレージ：SATA SSD 32GB ミラーリング&lt;/li&gt;&#xA;&lt;li&gt;メモリ：DDR4 4GB&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;CPUはほとんどなんでもいい。なるべく消費電力の小さいものが望ましい。CPU使用率と温度をダッシュボードである程度見て、問題なさそうなら問題ない。&lt;/p&gt;&#xA;&lt;p&gt;ストレージもほとんど使わない。初期状態だと4GBほど。全機能を使った場合の推奨は120GBだがまあ多くても64GBで足りそう。&lt;/p&gt;&#xA;&lt;p&gt;メモリは最低4GBとされている。デフォルトで1-2GBくらいは使っている。足りなくなったら足すくらいでOK。速度はあまり問題にならないのでDDR3でもいい。&lt;/p&gt;&#xA;&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://opnsense.org/download/&#34;&gt;Download - OPNsense&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;↑公式からダウンロードする。基本的にimage typeはvgaでやる。ventoyだとうまく行かなかった。&lt;/p&gt;&#xA;&lt;p&gt;起動後、色々勝手に始まるので少し待つ。インストール作業はCLI&lt;/p&gt;&#xA;&lt;p&gt;ユーザー名:installer, パスワード:opnsense でログインするとインストールが始まる。&lt;/p&gt;&#xA;&lt;p&gt;その後最低限の設定が終わるとWebUIが立ち上がる。ただしこの時点ではまだインターフェース割当が行われておらずつながらないので最低限の設定としてインターフェース割当だけはCLIでやってしまおう。&lt;/p&gt;&#xA;&lt;p&gt;インターフェースの割当。WANとLAN(とOPT)の割当を行う。インターフェース名を表示していい感じに割り当てていく。それぞれがどの端子を表す名前なのかは数とかから予測するくらいしかできないが後で変更することも可能なのでとりあえず割り当てていく。&#xA;LANとOPTは基本的に同じ機能なので気にしなければそこはどっちがどっちでもいい。&lt;/p&gt;&#xA;&lt;h2 id=&#34;設定&#34;&gt;設定&lt;/h2&gt;&#xA;&lt;h3 id=&#34;初期設定&#34;&gt;初期設定&lt;/h3&gt;&#xA;&lt;p&gt;最低限使える用にするために。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;インターフェースの割当。WANとLAN(とOPT)の割当を行う。&lt;/li&gt;&#xA;&lt;li&gt;ファイアウォールルールの設定。デフォルトだとすべて弾く設定になっていることがあるので、全部受け入れるように Firewall &amp;gt; Rules から全部通すルールを追加。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;メモ&#34;&gt;メモ&lt;/h3&gt;&#xA;&lt;p&gt;設定を変更したら基本的にサービスを再起動する。しかしそれだけではうまくいかない場合、一旦シャットダウンしてもう一度起動する(再起動ではない)。または物理的にLANケーブルをつなぎなおす。なんでこうなるのかよくわかっていない。&lt;/p&gt;&#xA;&lt;p&gt;LANとOPTは名前は違うが初期設定でのファイアウォールルールなどが異なるだけで機能的には同じである。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://manual.sakura.ad.jp/vps/os-reinstall/iso-install/opnsense.html&#34;&gt;OPNsense — さくらの VPS マニュアル&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://opnsense.org&#34;&gt;OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection. - OPNsense&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://knowledge.sakura.ad.jp/16674/&#34;&gt;FreeBSDベースのファイアウォールOS「OPNsense」（インストール編） | さくらのナレッジ&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/64_os/opnsense/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

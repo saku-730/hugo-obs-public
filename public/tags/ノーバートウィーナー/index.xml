@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ノーバートウィーナー on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/%E3%83%8E%E3%83%BC%E3%83%90%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%8A%E3%83%BC/</link>
-    <description>Recent content in ノーバートウィーナー on My New Hugo Project</description>
+    <title>ノーバートウィーナー :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/%E3%83%8E%E3%83%BC%E3%83%90%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%8A%E3%83%BC/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/%E3%83%8E%E3%83%BC%E3%83%90%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%8A%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>人間機械論</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/</guid>
-      <description>&lt;p&gt;%% To save images locally, enable the &amp;lsquo;Enable Cover Image Save&amp;rsquo; option in the settings and enter as follows: %%&#xA;&lt;img src=&#34;http://localhost:1313/obsidian/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;人間機械論&#34;&gt;人間機械論&lt;/h1&gt;&#xA;&lt;p&gt;p9-10&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本書の主題は、次のこと、すなわち、社会というものはそれがもつ通報および通信機関の研究を通じてはじめて理解できるものであることと、これらの通報及び通信期間が将来発達するにつれて、人から機械へ、機械から人へ、および機会と機会との間の通報がますます大きな役割を演ずるにちがいないことを示すことにある。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;p57&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;サイバネティックスの立場からみれば、機械の構造も生物の構造も、その機械または生物から期待しうる性能を示す指標である。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;AIにハードウェアとしての肉体が必要な理由を最も端的に説明した文か。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

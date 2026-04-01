@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>32_Science on My New Hugo Project</title>
-    <link>http://localhost:1313/30_reading_record/32_science/</link>
-    <description>Recent content in 32_Science on My New Hugo Project</description>
+    <title>32_Science :: knowladge store</title>
+    <link>http://localhost:1313/30_reading_record/32_science/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/30_reading_record/32_science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>スチュワート微分積分学I(原著第8版)</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E3%82%B9%E3%83%81%E3%83%A5%E3%83%AF%E3%83%BC%E3%83%88%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6i%E5%8E%9F%E8%91%97%E7%AC%AC8%E7%89%88/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E3%82%B9%E3%83%81%E3%83%A5%E3%83%AF%E3%83%BC%E3%83%88%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6i%E5%8E%9F%E8%91%97%E7%AC%AC8%E7%89%88/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E3%82%B9%E3%83%81%E3%83%A5%E3%83%AF%E3%83%BC%E3%83%88%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6i%E5%8E%9F%E8%91%97%E7%AC%AC8%E7%89%88/</guid>
-      <description>&lt;p&gt;%% To save images locally, enable the &amp;lsquo;Enable Cover Image Save&amp;rsquo; option in the settings and enter as follows: %%&#xA;&lt;img src=&#34;http://localhost:1313/obsidian/%E3%82%B9%E3%83%81%E3%83%A5%E3%83%AF%E3%83%BC%E3%83%88%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6I%28%E5%8E%9F%E8%91%97%E7%AC%AC8%E7%89%88%29.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;スチュワート微分積分学i原著第8版&#34;&gt;スチュワート微分積分学I(原著第8版)&lt;/h1&gt;&#xA;&lt;p&gt;微分積分のおおよそ高校範囲。かなり詳しく丁寧に解説してくれる。また練習用の節末、章末問題が非常に豊富にある。&lt;/p&gt;&#xA;&lt;h2 id=&#34;目次&#34;&gt;目次&lt;/h2&gt;&#xA;&lt;p&gt;微分積分学についての序文&lt;/p&gt;&#xA;&lt;p&gt;1．関数と極限&lt;br&gt;&#xA;1・1　関数を表す四つの方法&lt;br&gt;&#xA;1・2　数学モデル：基本的関数&lt;br&gt;&#xA;1・3　簡単な関数から新しい関数をつくる&lt;br&gt;&#xA;1・4　接線と速度について&lt;br&gt;&#xA;1・5　関数の極限&lt;br&gt;&#xA;1・6　極限公式を使った極限の計算&lt;br&gt;&#xA;1・7　極限の明確な定義&lt;br&gt;&#xA;1・8　連　続&lt;br&gt;&#xA;章末問題&lt;br&gt;&#xA;問題解決のための考え方&lt;/p&gt;&#xA;&lt;p&gt;2．導関数&lt;br&gt;&#xA;2・1　微分係数と変化率&lt;br&gt;&#xA;2・2　導関数&lt;br&gt;&#xA;2・3　微分公式&lt;br&gt;&#xA;2・4　3角関数の微分公式&lt;br&gt;&#xA;2・5　合成関数の微分公式&lt;br&gt;&#xA;2・6　陰関数微分法&lt;br&gt;&#xA;2・7　自然科学，社会科学における変化率&lt;br&gt;&#xA;2・8　関係性のある変化率&lt;br&gt;&#xA;2・9　線形近似と微分&lt;br&gt;&#xA;章末問題&lt;br&gt;&#xA;追加問題&lt;/p&gt;&#xA;&lt;p&gt;3．微分の応用&lt;br&gt;&#xA;3・1　最大値・最小値，極大値・極小値&lt;br&gt;&#xA;3・2　平均値の定理&lt;br&gt;&#xA;3・3　導関数とグラフの形状&lt;br&gt;&#xA;3・4　無限遠における極限，水平な漸近線&lt;br&gt;&#xA;3・5　グラフの描き方&lt;br&gt;&#xA;3・6　微積分学と計算機によるグラフ&lt;br&gt;&#xA;3・7　最適化問題&lt;br&gt;&#xA;3・8　Newton法&lt;br&gt;&#xA;3・9　原始関数&lt;br&gt;&#xA;章末問題&lt;br&gt;&#xA;追加問題&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E3%82%B9%E3%83%81%E3%83%A5%E3%83%AF%E3%83%BC%E3%83%88%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6i%E5%8E%9F%E8%91%97%E7%AC%AC8%E7%89%88/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>ゼミナール_ゲーム理論入門</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E3%82%BC%E3%83%9F%E3%83%8A%E3%83%BC%E3%83%AB_%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96%E5%85%A5%E9%96%80/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E3%82%BC%E3%83%9F%E3%83%8A%E3%83%BC%E3%83%AB_%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96%E5%85%A5%E9%96%80/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E3%82%BC%E3%83%9F%E3%83%8A%E3%83%BC%E3%83%AB_%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96%E5%85%A5%E9%96%80/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;ゼミナール_ゲーム理論入門&#34;&gt;ゼミナール_ゲーム理論入門&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E3%82%BC%E3%83%9F%E3%83%8A%E3%83%BC%E3%83%AB_%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96%E5%85%A5%E9%96%80.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;数式少なめでモデルをつかいながらわかりやすく丁寧な説明。ちゃんと題名通り入門本。507というページ数は丁寧さを表している。ゲーム理論の最初にもってこい。&lt;a href=&#34;http://localhost:1313/30_reading_record/32_science/%E4%B8%80%E6%AD%A9%E3%81%9A%E3%81%A4%E5%AD%A6%E3%81%B6%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96/&#34;&gt;一歩ずつ学ぶゲーム理論&lt;/a&gt;よりもこっちを先に読めばよかったかもしれない。&lt;/p&gt;&#xA;&lt;p&gt;第13章：ゲーム理論の勉強を進めるために&lt;/p&gt;&#xA;&lt;p&gt;ゲーム理論の参考書の紹介がかなり豊富。ただしこの本自体が2008年初版なので古いのは覚悟すること。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E3%82%BC%E3%83%9F%E3%83%8A%E3%83%BC%E3%83%AB_%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96%E5%85%A5%E9%96%80/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>ひとの目、驚異の進化</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;ひとの目驚異の進化&#34;&gt;ひとの目、驚異の進化&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>一歩ずつ学ぶゲーム理論</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E4%B8%80%E6%AD%A9%E3%81%9A%E3%81%A4%E5%AD%A6%E3%81%B6%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E4%B8%80%E6%AD%A9%E3%81%9A%E3%81%A4%E5%AD%A6%E3%81%B6%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E4%B8%80%E6%AD%A9%E3%81%9A%E3%81%A4%E5%AD%A6%E3%81%B6%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;一歩ずつ学ぶゲーム理論&#34;&gt;一歩ずつ学ぶゲーム理論&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E4%B8%80%E6%AD%A9%E3%81%9A%E3%81%A4%E5%AD%A6%E3%81%B6%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;ゲーム理論の入門本。冗長といえるくらいに説明してくれているので初学者にいい。その代わり厳密な部分の論理や数式は他の書籍を参考にすべし。それはこの本自身にも書かれていてあくまで「一歩ずつ学ぶ」入門の位置づけである。とはいえ概念だけで終わりとかはほとんどなく正確にゲーム理論を論理的に記述しているので十分ためになる。&lt;/p&gt;&#xA;&lt;p&gt;他のゲーム理論の本を読んで思ったがゲーム理論入門本にしては数式的な定義についてしっかりしている。その分、わかりやすい説明は他の本がいい。&lt;/p&gt;&#xA;&lt;p&gt;なんとなくの概念を他の本で数式なし(少なめ)でわかったあとに読むべき。一歩ずつ学ぶことはできるが一歩が思ったよりも重い本。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E4%B8%80%E6%AD%A9%E3%81%9A%E3%81%A4%E5%AD%A6%E3%81%B6%E3%82%B2%E3%83%BC%E3%83%A0%E7%90%86%E8%AB%96/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>人間機械論</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/</guid>
-      <description>&lt;p&gt;%% To save images locally, enable the &amp;lsquo;Enable Cover Image Save&amp;rsquo; option in the settings and enter as follows: %%&#xA;&lt;img src=&#34;http://localhost:1313/obsidian/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;人間機械論&#34;&gt;人間機械論&lt;/h1&gt;&#xA;&lt;p&gt;p9-10&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本書の主題は、次のこと、すなわち、社会というものはそれがもつ通報および通信機関の研究を通じてはじめて理解できるものであることと、これらの通報及び通信期間が将来発達するにつれて、人から機械へ、機械から人へ、および機会と機会との間の通報がますます大きな役割を演ずるにちがいないことを示すことにある。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;p57&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;サイバネティックスの立場からみれば、機械の構造も生物の構造も、その機械または生物から期待しうる性能を示す指標である。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;AIにハードウェアとしての肉体が必要な理由を最も端的に説明した文か。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E4%BA%BA%E9%96%93%E6%A9%9F%E6%A2%B0%E8%AB%96/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>西洋博物学者列伝</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E8%A5%BF%E6%B4%8B%E5%8D%9A%E7%89%A9%E5%AD%A6%E8%80%85%E5%88%97%E4%BC%9D/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E8%A5%BF%E6%B4%8B%E5%8D%9A%E7%89%A9%E5%AD%A6%E8%80%85%E5%88%97%E4%BC%9D/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E8%A5%BF%E6%B4%8B%E5%8D%9A%E7%89%A9%E5%AD%A6%E8%80%85%E5%88%97%E4%BC%9D/</guid>
-      <description>&lt;p&gt;%% To save images locally, enable the &amp;lsquo;Enable Cover Image Save&amp;rsquo; option in the settings and enter as follows: %%&#xA;&lt;img src=&#34;http://localhost:1313/obsidian/%E8%A5%BF%E6%B4%8B%E5%8D%9A%E7%89%A9%E5%AD%A6%E8%80%85%E5%88%97%E4%BC%9D.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;西洋博物学者列伝&#34;&gt;西洋博物学者列伝&lt;/h1&gt;&#xA;&lt;p&gt;生物学、地質学はもともと博物学でありそれはチャールズ・ダーウィンで一つの終わりを迎える。ダーウィンをこの本では終わりとした理由は&lt;/p&gt;&#xA;&lt;p&gt;p7-8&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;ダーウィンは科学が底辺の広い主として素人の研究から、現在のような高度に専門家した知的職業へと変化する時代-顕微鏡などの機器の発達に加えて、ヨーロッパ諸国が海外へと進出したために自然界に関する情報が飛躍的に増えたこともその一因-の象徴となっているのだ。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;博物学が発達した結果、素人の研究から専門家の研究へと変わっていった。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E8%A5%BF%E6%B4%8B%E5%8D%9A%E7%89%A9%E5%AD%A6%E8%80%85%E5%88%97%E4%BC%9D/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>54_IT on My New Hugo Project</title>
-    <link>http://localhost:1313/50_manual_1/54_it/</link>
-    <description>Recent content in 54_IT on My New Hugo Project</description>
+    <title>54_IT :: knowladge store</title>
+    <link>http://localhost:1313/50_manual_1/54_it/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/50_manual_1/54_it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache-Jena</title>
-      <link>http://localhost:1313/50_manual_1/54_it/apache-jena/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/apache-jena/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/apache-jena/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;apache-jena&#34;&gt;Apache-Jena&lt;/h1&gt;&#xA;&lt;p&gt;セマンティックwebとLinked Dataのためのフレームワーク。もっとわかりやすく言えば、RDFトリプルのデータベースソフト的な。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/apache-jena/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>CouchDB</title>
-      <link>http://localhost:1313/50_manual_1/54_it/couchdb/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/couchdb/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/couchdb/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;couchdb&#34;&gt;CouchDB&lt;/h1&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.couchdb.org/en/stable/index.html&#34;&gt;Overview — Apache CouchDB® 3.5 Documentation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/couchdb/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>Network</title>
-      <link>http://localhost:1313/50_manual_1/54_it/network/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/network/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/network/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;network&#34;&gt;Network&lt;/h1&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/network/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>PostgreSQL</title>
-      <link>http://localhost:1313/50_manual_1/54_it/postgresql/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/postgresql/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/postgresql/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;postgresql&#34;&gt;PostgreSQL&lt;/h1&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install postgresql&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/60_manual_2/62_software/flyway/&#34;&gt;flyway&lt;/a&gt;を使うためにJDBCドライバーのダウンロード&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://jdbc.postgresql.org/download/&#34;&gt;Download | pgJDBC&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;初期設定&#34;&gt;初期設定&lt;/h2&gt;&#xA;&lt;p&gt;aptでのインストールであればデータベースクラスタの作成は自動で行われている。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pg_lsclusters&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;これでデータベースクラスターの情報が出る。.fonc&lt;/p&gt;&#xA;&lt;p&gt;データベースにログイン&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo -u postgres psql&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;このように基本的には&lt;code&gt;psql&lt;/code&gt;を使うときはユーザー指定が必要でしてしなければ現在のユーザー名で探す。そのためpcのユーザー名がposgreに存在しなければエラーになる。&lt;/p&gt;&#xA;&lt;p&gt;ユーザー作成&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE ROLE saku WITH LOGIN PASSWORD &amp;#39;14afqrzv&amp;#39;;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;データベース作成&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CREATE DATABASE specimen_db OWNER saku;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;作ったデータベースに入れるか確認。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;psql -h localhost -U saku -d specimen_db&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;dockerで建てているなら&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker compose exec postgres psql -U  -d&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;コマンドリスト&#34;&gt;コマンドリスト&lt;/h2&gt;&#xA;&lt;p&gt;データベース一覧&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\l&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ユーザー一覧&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\du&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;データベースの所有者変更&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ALTER DATABASE データベース名 OWNER TO 新しいオーナー名;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;命名規則&#34;&gt;命名規則&lt;/h2&gt;&#xA;&lt;p&gt;列名、テーブル名の基本はスネークケース参照→&lt;a href=&#34;http://localhost:1313/60_manual_2/63_programing/code_writing/#%E5%A4%89%E6%95%B0%E5%90%8D&#34;&gt;Code_writing&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;テーブル名は複数形にする。エンティティは複数形か集合名詞で表せる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;pgadmin&#34;&gt;pgAdmin&lt;/h2&gt;&#xA;&lt;p&gt;postgresqlの管理GUIソフトみたいなやつ。&lt;/p&gt;&#xA;&lt;h3 id=&#34;接続&#34;&gt;接続&lt;/h3&gt;&#xA;&lt;p&gt;左メニューServersを右クリックで&lt;code&gt;Register &amp;gt; Server...&lt;/code&gt; から作ったデータベースの情報を入力して接続開始。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/postgresql/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>RDF</title>
-      <link>http://localhost:1313/50_manual_1/54_it/rdf/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/rdf/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/rdf/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;rdf&#34;&gt;RDF&lt;/h1&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/rdf/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>データベース一般</title>
-      <link>http://localhost:1313/50_manual_1/54_it/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E4%B8%80%E8%88%AC/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E4%B8%80%E8%88%AC/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E4%B8%80%E8%88%AC/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;データベース一般&#34;&gt;データベース一般&lt;/h1&gt;&#xA;&lt;h2 id=&#34;正規化&#34;&gt;正規化&lt;/h2&gt;&#xA;&lt;p&gt;基本は第3正規化まで。&lt;/p&gt;&#xA;&lt;p&gt;無損失分解であり情報の保存がされることを意識すること。そうでなければ何らかの間違ったテーブル分割を行っている。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第1正規化&#34;&gt;第1正規化&lt;/h3&gt;&#xA;&lt;p&gt;一つのセルに一つの値だけ。&lt;/p&gt;&#xA;&lt;p&gt;目的：関数従属性を成立させるために各日に必要。&lt;/p&gt;&#xA;&lt;p&gt;方法：成立させるためにはテーブル分割が基本。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第2正規化&#34;&gt;第2正規化&lt;/h3&gt;&#xA;&lt;p&gt;部分関数従属を解消する。&lt;/p&gt;&#xA;&lt;p&gt;目的；部分関数従属にあたるエンティティのみを登録できない。データ入力での間違いの防止。エンティティの分離によるわかりやすさを上げる。&lt;/p&gt;&#xA;&lt;p&gt;方法；テーブル分割。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第3正規化&#34;&gt;第3正規化&lt;/h3&gt;&#xA;&lt;p&gt;推移的関数従属の解消。&lt;/p&gt;&#xA;&lt;p&gt;目的；推移的関数従属で決まるエンティティのみでの登録をお可能にする。エンティティの分割によりわかりやすくする。&lt;/p&gt;&#xA;&lt;p&gt;方法；テーブル分割。&lt;/p&gt;&#xA;&lt;h3 id=&#34;チェックリスト&#34;&gt;チェックリスト&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;スカラー値になっているか？&lt;/li&gt;&#xA;&lt;li&gt;関数従属は主キー以外に存在していないか？&lt;/li&gt;&#xA;&lt;li&gt;テーブル分割により情報が失われていないか？無損失分解であるか？&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;er図&#34;&gt;ER図&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://app.diagrams.net&#34;&gt;Flowchart Maker &amp;amp; Online Diagram Software&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;↑でつくろう。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://qiita.com/szn-t/items/e05e9e59af3471a724a4&#34;&gt;ER図の作り方まとめ データモデリング - Qiita&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://e-seventh.com/draw-io-er-diagram/&#34;&gt;diagrams.net(draw.io)でER図を描く方法　※画像つき解説 | Web Apps Labo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E4%B8%80%E8%88%AC/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>バックアップ</title>
-      <link>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;バックアップ&#34;&gt;バックアップ&lt;/h1&gt;&#xA;&lt;p&gt;個別のバックアップソフトウェアについては&lt;a href=&#34;http://localhost:1313/60_manual_2/62_software/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%B3%BB/&#34;&gt;バックアップ系&lt;/a&gt;で扱う。ここではバックアップ一般における方法論、方針等をまとめる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;バックアップ種類&#34;&gt;バックアップ種類&lt;/h2&gt;&#xA;&lt;h3 id=&#34;フルバックアップ&#34;&gt;フルバックアップ&lt;/h3&gt;&#xA;&lt;h3 id=&#34;差分バックアップ&#34;&gt;差分バックアップ&lt;/h3&gt;&#xA;&lt;h3 id=&#34;増分バックアップ&#34;&gt;増分バックアップ&lt;/h3&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>要件定義</title>
-      <link>http://localhost:1313/50_manual_1/54_it/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;要件定義&#34;&gt;要件定義&lt;/h1&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://qiita.com/syantien/items/9a8a7cbaeca2be3ef0d7&#34;&gt;[Doc] 要件定義書テンプレート・要件定義書の書き方 ドキュメントテンプレート - Qiita&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

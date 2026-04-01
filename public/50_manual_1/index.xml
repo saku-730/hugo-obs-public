@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>50_Manual_1 on My New Hugo Project</title>
-    <link>http://localhost:1313/50_manual_1/</link>
-    <description>Recent content in 50_Manual_1 on My New Hugo Project</description>
+    <title>50_Manual_1 :: knowladge store</title>
+    <link>http://localhost:1313/50_manual_1/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/50_manual_1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>59_Document</title>
+      <link>http://localhost:1313/50_manual_1/59_document/index.html</link>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/50_manual_1/59_document/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>51_Web</title>
+      <link>http://localhost:1313/50_manual_1/51_web/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/51_web/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>52_Project</title>
+      <link>http://localhost:1313/50_manual_1/52_project/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/52_project/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>53_music</title>
+      <link>http://localhost:1313/50_manual_1/53_music/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/53_music/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>54_IT</title>
+      <link>http://localhost:1313/50_manual_1/54_it/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/54_it/index.html</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

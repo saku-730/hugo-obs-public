@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux/MXLinux on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/linux/mxlinux/</link>
-    <description>Recent content in Linux/MXLinux on My New Hugo Project</description>
+    <title>Linux/MXLinux :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/linux/mxlinux/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/mxlinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MXLinux</title>
-      <link>http://localhost:1313/60_manual_2/64_os/mxlinux/</link>
-      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/64_os/mxlinux/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;mx-linux&#34;&gt;MX Linux&lt;/h1&gt;&#xA;&lt;p&gt;MXLinuxをメインPC/ノートPCとして使っていく上でのメモ。&lt;/p&gt;&#xA;&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;&#xA;&lt;h3 id=&#34;os&#34;&gt;OS&lt;/h3&gt;&#xA;&lt;p&gt;バージョン確認&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat /proc/version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ハードウェア&#34;&gt;ハードウェア&lt;/h3&gt;&#xA;&lt;p&gt;laptop&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CPU : Ryzen7 5700&lt;/li&gt;&#xA;&lt;li&gt;RAM : 16GB&lt;/li&gt;&#xA;&lt;li&gt;storage : M.2 nvme 500GB&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ディレクトリ構成&#34;&gt;ディレクトリ構成&lt;/h2&gt;&#xA;&lt;p&gt;他のlinux系統とほとんど変わりなくツリー構造のディレクトリ構成をしている。&lt;/p&gt;&#xA;&lt;h3 id=&#34;root直下の使い分け&#34;&gt;root直下の使い分け&lt;/h3&gt;&#xA;&lt;h3 id=&#34;user直下の使い分け&#34;&gt;user直下の使い分け&lt;/h3&gt;&#xA;&lt;p&gt;(cloud)はクラウドで他のPCと共有する。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Desktop : とりあえずの保管場所。Downloadsよりも長期的に入れておきたいものやディレクトリごとなどで大きいものなど。&lt;/li&gt;&#xA;&lt;li&gt;Downloads : とりあえずファイルを入れておく場所。なるべくきれいに保つ。&lt;/li&gt;&#xA;&lt;li&gt;Documents(cloud) : メインのディレクトリ。hugoやobsidian、研究室関連のものなどを入れる。長期保管。&lt;a href=&#34;http://localhost:1313/60_manual_2/62_software/mathematica/&#34;&gt;Mathematica&lt;/a&gt;など一部のソフトはデフォルトでここにファイルを保管する。&lt;/li&gt;&#xA;&lt;li&gt;Local_Documents : クラウド共有しないDocuments。メインPCでしか使うことのない電子書籍やTbio関連のプログラム等。&lt;/li&gt;&#xA;&lt;li&gt;Google(cloud) : Google drive をマウントする。&lt;/li&gt;&#xA;&lt;li&gt;MEGA(cloud) : MEGAで共有する用で、とりあえず入れておきたいファイルの保管場所。論文の保管場所としても使う。(zoteroでしか論文を開かない)&lt;/li&gt;&#xA;&lt;li&gt;Research : 研究用。論文以外。&lt;/li&gt;&#xA;&lt;li&gt;Templates : libreofficeのpowerpointのテンプレートを入れるくらいしか使っていない。&lt;/li&gt;&#xA;&lt;li&gt;program : プログラムをつくったらここに1ディレクトリ1プロジェクトで入れる。&lt;/li&gt;&#xA;&lt;li&gt;R, miniforge3, snap, zotero : ソフトが勝手に作る。基本触らない。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;隠しディレクトリ&#34;&gt;隠しディレクトリ&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;.ssh : sshの設定と鍵&lt;/li&gt;&#xA;&lt;li&gt;.config : 各種ソフトウェアの設定&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;パッケージ&#34;&gt;パッケージ&lt;/h2&gt;&#xA;&lt;h3 id=&#34;mx-package-manager&#34;&gt;MX package manager&lt;/h3&gt;&#xA;&lt;p&gt;MX公式側が用意してくれている。ほとんど中身はaptで入れるものと変わらなかったりするが細かい挙動がうまく調整されている。設定などが円滑なのでこれにあるものはこれを使う。&lt;/p&gt;</description>
+      <link>http://localhost:1313/60_manual_2/64_os/mxlinux/index.html</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/60_manual_2/64_os/mxlinux/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

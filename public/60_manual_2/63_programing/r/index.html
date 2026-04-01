@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html id="R-html" lang="ja" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="R :: knowladge store">
+    <meta property="og:url" content="http://localhost:1313/60_manual_2/63_programing/r/index.html">
+    <meta property="og:site_name" content="knowladge store">
+    <meta property="og:title" content="R :: knowladge store">
+    <meta property="og:locale" content="ja">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="60_Manual_2">
+    <meta property="article:tag" content="2025/03">
+    <meta property="article:tag" content="R">
+    <meta property="article:tag" content="Rstudio">
+    <meta itemprop="name" content="R :: knowladge store">
+    <meta itemprop="wordCount" content="1407">
+    <meta itemprop="keywords" content="2025/03,R,Rstudio">
+    <title>R :: knowladge store</title>
+    <link href="../../../css/auto-complete/auto-complete.min.css?1775018587" rel="stylesheet">
+    <script src="../../../js/auto-complete/auto-complete.min.js?1775018587" defer></script>
+    <script src="../../../js/search-lunr.js?1775018587" defer></script>
+    <script src="../../../js/search.js?1775018587" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="../../../searchindex.ja.js?1775018587";
+    </script>
+    <script src="../../../js/lunr/lunr.min.js?1775018587" defer></script>
+    <script src="../../../js/lunr/lunr.stemmer.support.min.js?1775018587" defer></script>
+    <script src="../../../js/lunr/lunr.multi.min.js?1775018587" defer></script>
+    <script src="../../../js/lunr/tinyseg.js?1775018587" defer></script>
+    <script src="../../../js/lunr/lunr.ja.min.js?1775018587" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['ja'];
+    </script>
+    <link href="../../../fonts/fontawesome/css/all.min.css?1775018587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../fonts/fontawesome/css/all.min.css?1775018587" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar/perfect-scrollbar.min.css?1775018587" rel="stylesheet">
+    <link href="../../../css/theme.css?1775018587" rel="stylesheet">
+    <link href="../../../css/format-html.css?1775018587" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/60_manual_2\/63_programing\/r\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `テキストをクリップボードにコピー`;
+      window.T_Copied_to_clipboard = `テキストをクリップボードにコピーしました!`;
+      window.T_Link_copied_to_clipboard = `リンクをクリップボードにコピーしました!`;
+      window.T_Reset_view = `ビューのリセット`;
+      window.T_View_reset = `リセットを見る`;
+      window.T_No_results_found = `"{0}" の結果が見つかりません`;
+      window.T_N_results_found = `"{0}" で {1} 件の結果が見つかりました`;
+      window.T_Browser_unsupported_feature = `このブラウザはこの機能をサポートしていません`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-origin="/60_manual_2/63_programing/r/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="メニュー (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="目次 (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#インストール">インストール</a></li>
+    <li><a href="#パッケージ">パッケージ</a></li>
+    <li><a href="#書き方">書き方</a>
+      <ul>
+        <li><a href="#基本">基本</a></li>
+      </ul>
+    </li>
+    <li><a href="#rstudio">RStudio</a>
+      <ul>
+        <li><a href="#設定">設定</a></li>
+      </ul>
+    </li>
+    <li><a href="#rstudio-server">RStudio Server</a></li>
+    <li><a href="#ggplot2">ggplot2</a></li>
+    <li><a href="#shiny">Shiny</a>
+      <ul>
+        <li><a href="#例">例</a></li>
+        <li><a href="#埋め込み">埋め込み</a></li>
+        <li><a href="#ui">UI</a></li>
+      </ul>
+    </li>
+    <li><a href="#shiny-server">Shiny server</a>
+      <ul>
+        <li><a href="#インストール-1">インストール</a></li>
+        <li><a href="#基本コマンド">基本コマンド</a></li>
+        <li><a href="#設定-1">設定</a></li>
+      </ul>
+    </li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="../../../index.html"><span itemprop="name">knowladge store</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="../../../60_manual_2/index.html"><span itemprop="name">60_Manual_2</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="../../../60_manual_2/63_programing/index.html"><span itemprop="name">63_Programing</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">R</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="../../../60_manual_2/63_programing/python/index.html" title="Python (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="../../../60_manual_2/63_programing/ruby/index.html" title="Ruby (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="更に"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 60_manual_2" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+<div class="R-taxonomy taxonomy-tags cstyle tags" title="タグ" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../tags/2025/03/index.html">2025/03</a></li>
+    <li><a class="term-link" href="../../../tags/r/index.html">R</a></li>
+    <li><a class="term-link" href="../../../tags/rstudio/index.html">Rstudio</a></li>
+  </ul>
+</div>
+  </header>
+
+<h1 id="r">R</h1>
+
+<h6 id="目次"><strong>目次</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toc" data-lang="toc"><span style="display:flex;"><span>style:nestedList
+</span></span><span style="display:flex;"><span>minLevel:2
+</span></span><span style="display:flex;"><span>maxLevel:5</span></span></code></pre></div>
+<h1 id="r">R<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="インストール">インストール<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p><a href="https://ftp.yz.yamagata-u.ac.jp/pub/cran/" rel="external">The Comprehensive R Archive Network</a></p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update -qq
+</span></span><span style="display:flex;"><span>sudo apt install --no-install-recommends software-properties-common dirmngr
+</span></span><span style="display:flex;"><span>wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+</span></span><span style="display:flex;"><span>sudo add-apt-repository <span style="color:#e6db74">&#34;deb https://cloud.r-project.org/bin/linux/ubuntu </span><span style="color:#66d9ef">$(</span>lsb_release -cs<span style="color:#66d9ef">)</span><span style="color:#e6db74">-cran40/&#34;</span>
+</span></span><span style="display:flex;"><span>sudo add-apt-repository <span style="color:#e6db74">&#34;deb https://cloud.r-project.org/bin/linux/ubuntu </span><span style="color:#66d9ef">$(</span>lsb_release -cs<span style="color:#66d9ef">)</span><span style="color:#e6db74">-cran40/&#34;</span>
+</span></span><span style="display:flex;"><span>sudo apt-get install r-base-dev</span></span></code></pre></div>
+<p>Rstudio インストール</p>
+<p><a href="https://posit.co/download/rstudio-desktop/" rel="external">RStudio Desktop - Posit</a></p>
+<h2 id="パッケージ">パッケージ<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>tidyverseで必要なライブラリをインストールする。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install libxml2-dev libfontconfig1-dev libcurl4-openssl-dev  libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev</span></span></code></pre></div>
+<p><a href="https://www.tidyverse.org" rel="external">Tidyverse</a></p>
+<h2 id="書き方">書き方<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="基本">基本<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>最初に環境変数をすべてリセットする。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">rm</span>(list<span style="color:#f92672">=</span><span style="color:#a6e22e">objects</span>())</span></span></code></pre></div>
+<h2 id="rstudio">RStudio<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="設定">設定<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Tools &gt; Global options(一番下) から色々変えられる。</p>
+<p>とりあえず変えたほうがいいのは</p>
+<ul>
+<li>Appearance Editor themeをTomorrow Night Brightに</li>
+<li>Pane Layout Add ColumnでSourceを追加</li>
+<li>Packages からPrimary CRAN repository: をJapan(山形大学)に変更</li>
+<li>Code Editing&gt;Keybindings: からVimに変更</li>
+</ul>
+<h2 id="rstudio-server">RStudio Server<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>Rstudio serever インストール</p>
+<p><a href="https://posit.co/download/rstudio-server/" rel="external">RStudio Server - Posit</a></p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install gdebi-core
+</span></span><span style="display:flex;"><span>wget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2024.12.1-563-amd64.deb
+</span></span><span style="display:flex;"><span>sudo gdebi rstudio-server-2024.12.1-563-amd64.deb</span></span></code></pre></div>
+<h2 id="ggplot2">ggplot2<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h2 id="shiny">Shiny<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>インタラクティブな図を作るためのライブラリ。割とTidyverseをそのままでつくれる。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>└── app  
+   ├── app.R  
+   ├── global.R  
+   ├── server.R  
+   └── ui.R</code></pre></div>
+<p>ディレクトリ構成はこんな感じでやるといい。一つのグラフを作るのに一つのディレクトリをつくる。サーバーとUIを分けるとわかりやすくなる。</p>
+<ul>
+<li>app.R ：Shinyを実行する。Shiny serverであればいらない。スクリプト一つでShinyを起動するために作成する。</li>
+<li>server.R ：サーバー側の処理でグラフの関数などを作成する</li>
+<li>ui.R ：動かすグラフの変数や色などのUIを設定する</li>
+<li>global.R ： server.Rとui.Rの両方でつかわれるライブラリ、関数等をここに書く</li>
+</ul>
+<h3 id="例">例<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>server.R</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">shinyServer</span>(<span style="color:#66d9ef">function</span>(input,output) {
+</span></span><span style="display:flex;"><span>  dt <span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">reactive</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">tibble</span>(
+</span></span><span style="display:flex;"><span>      x <span style="color:#f92672">=</span><span style="color:#a6e22e">seq</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0.1</span>),
+</span></span><span style="display:flex;"><span>      y <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> input<span style="color:#f92672">$</span>beta<span style="color:#f92672">*</span><span style="color:#a6e22e">runif</span>(<span style="color:#a6e22e">length</span>(x))      
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  output<span style="color:#f92672">$</span>xyPlot <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">renderPlot</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">dt</span>() <span style="color:#f92672">%&gt;%</span> <span style="color:#a6e22e">ggplot</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">geom_point</span>(<span style="color:#a6e22e">aes</span>(x<span style="color:#f92672">=</span>x,y<span style="color:#f92672">=</span>y),size<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>,color<span style="color:#f92672">=</span>input<span style="color:#f92672">$</span>color)	<span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">ylim</span>(<span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">annotate</span>(<span style="color:#e6db74">&#34;text&#34;</span>,x<span style="color:#f92672">=</span><span style="color:#ae81ff">0.1</span>,y<span style="color:#f92672">=</span><span style="color:#ae81ff">0.9</span>, size<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,
+</span></span><span style="display:flex;"><span>               label<span style="color:#f92672">=</span><span style="color:#a6e22e">sprintf</span>(<span style="color:#e6db74">&#34;r=%f&#34;</span>,<span style="color:#a6e22e">cor.test</span>(<span style="color:#a6e22e">dt</span>()<span style="color:#f92672">$</span>x,<span style="color:#a6e22e">dt</span>()<span style="color:#f92672">$</span>y)<span style="color:#f92672">$</span>estimate)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">annotate</span>(<span style="color:#e6db74">&#34;text&#34;</span>,x<span style="color:#f92672">=</span><span style="color:#ae81ff">0.1</span>,y<span style="color:#f92672">=</span><span style="color:#ae81ff">0.8</span>, size<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,
+</span></span><span style="display:flex;"><span>               label<span style="color:#f92672">=</span><span style="color:#a6e22e">sprintf</span>(<span style="color:#e6db74">&#34;P=%f&#34;</span>,<span style="color:#a6e22e">cor.test</span>(<span style="color:#a6e22e">dt</span>()<span style="color:#f92672">$</span>x,<span style="color:#a6e22e">dt</span>()<span style="color:#f92672">$</span>y)<span style="color:#f92672">$</span>p.value))
+</span></span><span style="display:flex;"><span>  })
+</span></span><span style="display:flex;"><span>  output<span style="color:#f92672">$</span>formula <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">renderUI</span>({
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">withMathJax</span>(<span style="color:#e6db74">&#34;$$y=\\beta x + (1 - \\beta) x&#39;$$&#34;</span>)
+</span></span><span style="display:flex;"><span>  })               
+</span></span><span style="display:flex;"><span>})</span></span></code></pre></div>
+<p>ui.R</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">shinyUI</span>(<span style="color:#a6e22e">fluidPage</span>(
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">titlePanel</span>(<span style="color:#e6db74">&#34;XY plot&#34;</span>),
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">withMathJax</span>(),
+</span></span><span style="display:flex;"><span>  tags<span style="color:#f92672">$</span><span style="color:#a6e22e">head</span>(
+</span></span><span style="display:flex;"><span>    tags<span style="color:#f92672">$</span><span style="color:#a6e22e">style</span>(
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">HTML</span>(
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;.MathJax {          
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            font-size: 2em !important;       
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">          }&#34;</span>
+</span></span><span style="display:flex;"><span>      )
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>  ),    
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">sidebarLayout</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">sidebarPanel</span>(
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">sliderInput</span>(<span style="color:#e6db74">&#34;beta&#34;</span>,
+</span></span><span style="display:flex;"><span>                  <span style="color:#e6db74">&#34;Beta:&#34;</span>,
+</span></span><span style="display:flex;"><span>                  min <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>,
+</span></span><span style="display:flex;"><span>                  max <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>                  value <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span>),
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">selectInput</span>(<span style="color:#e6db74">&#34;color&#34;</span>,
+</span></span><span style="display:flex;"><span>                  <span style="color:#e6db74">&#34;select color&#34;</span>,
+</span></span><span style="display:flex;"><span>                  <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;red&#34;</span>,<span style="color:#e6db74">&#34;blue&#34;</span>,<span style="color:#e6db74">&#34;green&#34;</span>,<span style="color:#e6db74">&#34;black&#34;</span>))
+</span></span><span style="display:flex;"><span>    ),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">mainPanel</span>(
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">uiOutput</span>(<span style="color:#e6db74">&#34;formula&#34;</span>),
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">plotOutput</span>(<span style="color:#e6db74">&#34;xyPlot&#34;</span>)
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>  )
+</span></span><span style="display:flex;"><span>))</span></span></code></pre></div>
+<p>global.R</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(shiny)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(shinydashboard)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(tibble)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(ggplot2)</span></span></code></pre></div>
+<p>app.R</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(shiny)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">runApp</span>(<span style="color:#e6db74">&#34;../app&#34;</span>,launch.browser<span style="color:#f92672">=</span>T)</span></span></code></pre></div>
+<h3 id="埋め込み">埋め込み<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>他のサイトに埋め込む場合、</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>&lt;iframe src=&#34;http://127.0.0.1:7858&#34;&gt;&lt;/iframe&gt;</code></pre></div>
+<p>でそのままの状態で埋め込める。</p>
+<h3 id="ui">UI<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p><a href="https://gallery.shinyapps.io/095-plot-interaction-advanced/" rel="external">gallery.shinyapps.io/095-plot-interaction-advanced/</a>
+ここでほとんどのUIの例が見れる。</p>
+<h4 id="テーマ">テーマ<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>ui.R内に以下を書く。<a href="https://bootswatch.com" rel="external">Bootswatch: Free themes for Bootstrap</a>を使っているのでこれのなかから良さそうなテーマを選ぶと楽。詳細なフォントや背景色を個別に設定することもできる。詳しくは<a href="https://rstudio.github.io/bslib/reference/bs_theme.html" rel="external"> Create a Bootstrap theme — bs_theme • bslib</a></p>
+<p>ui.R</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span>theme <span style="color:#f92672">=</span> bslib<span style="color:#f92672">::</span><span style="color:#a6e22e">bs_theme</span>(bootswatch <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;darkly&#34;</span>)</span></span></code></pre></div>
+<p>ui.Rを更新するとテーマが変わるがグラフ内はggplot2等で作られているのでテーマが適用されない。そのため以下をserver.Rに追加するとui.Rと同じテーマが適用される。</p>
+<p>server.R</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>thematic::thematic_shiny()</code></pre></div>
+<p>ただしこれを使うと色がいい感じに配色されるがそれだけなので文字の大きさなどを変更する場合には↓のようにggplotのthemeで色々やる。その際には↑のthematicを消さないとエラーとなるので色などの配色は自分で書く必要がある。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>ggplot() +
+ ... +
+ theme()</code></pre></div>
+<h2 id="shiny-server">Shiny server<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p><a href="https://docs.posit.co/shiny-server/" rel="external">Shiny Server v1.5.22 Configuration Reference</a></p>
+<h3 id="インストール-1">インストール<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>Ubuntu24.04</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install shiny-server </span></span></code></pre></div>
+<p>トップページは↓のurlになる。ポート番号はデフォルトの場合。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>http://localhost:3838/</code></pre></div>
+<h3 id="基本コマンド">基本コマンド<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>サーバー開始</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start shiny-server</span></span></code></pre></div>
+<p>サーバー停止</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl stop shiny-server</span></span></code></pre></div>
+<p>サーバー再起動</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl restart shiny-server</span></span></code></pre></div>
+<p>サーバー状態</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl satus shiny-server</span></span></code></pre></div>
+<h3 id="設定-1">設定<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>基本的に<code>/etc/shiniy-server/shiny-server.conf</code>をいじる。</p>
+<p>Rだとライブラリがインストールされている環境がユーザーごとに異なるため、shinyをどのユーザーによって実行するのか設定するといい。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>location / {
+  run_as saku;
+}</code></pre></div>
+<p>これによって<code>saku</code>のユーザー環境でshinyが実行される。</p>
+<p>Shiny serverによって実行されるディレクトリは↓で設定する。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code>site_dir /home/saku/Shiny:</code></pre></div>
+<h2 id="参考">参考<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ol>
+<li><a href="https://www.r-project.org" rel="external">R: The R Project for Statistical Computing</a></li>
+<li><a href="https://docs.posit.co/shiny-server/" rel="external">Shiny Server v1.5.22 Configuration Reference</a></li>
+<li><a href="https://www.karada-good.net/analyticsr/r-638/" rel="external">Rで解析：Shinyの導入と覚書</a></li>
+<li><a href="https://shiny.posit.co" rel="external">Shiny</a></li>
+<li><a href="https://mastering-shiny.org/index.html" rel="external">Welcome | Mastering Shiny</a></li>
+<li><a href="https://r4ds.hadley.nz" rel="external">R for Data Science (2e)</a></li>
+<li><a href="https://bootswatch.com" rel="external">Bootswatch: Free themes for Bootstrap</a></li>
+<li><a href="https://qiita.com/ocean_f/items/03a31a8a7ce222bb3838#%E5%AF%BE%E5%BF%9C%E3%81%99%E3%82%8B%E5%BC%95%E6%95%B0%E5%90%8D%E3%81%AF%E3%81%A9%E3%81%86%E3%82%84%E3%81%A3%E3%81%A6%E6%8E%A2%E3%81%99%E3%81%8B" rel="external">【ggplot2】themeの使い方まとめ2021：作ったグラフの見た目をきれいにコントロールするために R - Qiita</a></li>
+<li></li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="../../../index.html">
+          <span class="logo-title default-animation">knowladge store</span>
+        </a>
+        <search><form action="../../../search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="検索 (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">検索</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="検索...">
+            <button class="search-clear" type="button" data-search-clear="" title="検索をクリア"><i class="fas fa-fw fa-times" title="検索をクリア"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="../../../index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/30_reading_record/index.html"><a class="padding default-animation" href="../../../30_reading_record/index.html">30_Reading_record</a><ul id="R-subsections-57ff82c84f1623db769125a15922e108" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/40_academic/index.html"><a class="padding default-animation" href="../../../40_academic/index.html">40_academic</a><ul id="R-subsections-04412d84917e984880c2dec5efb5624c" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/50_manual_1/index.html"><a class="padding default-animation" href="../../../50_manual_1/index.html">50_Manual_1</a><ul id="R-subsections-449ade3a674ba1ea8c9f6e8bf21a37e5" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/60_manual_2/index.html"><a class="padding default-animation" href="../../../60_manual_2/index.html">60_Manual_2</a><ul id="R-subsections-9fa68aaefafbd7685816b7c3b3930793" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/60_manual_2/61_notebook/index.html"><a class="padding default-animation" href="../../../60_manual_2/61_notebook/index.html">61_Notebook</a><ul id="R-subsections-14746188abd31a41ca23fb4c14a085fe" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/60_manual_2/62_software/index.html"><a class="padding default-animation" href="../../../60_manual_2/62_software/index.html">62_Software</a><ul id="R-subsections-9e90200af138232ee05dc08d070de5dc" class="collapsible-menu"></ul></li>
+            <li class="parent alwaysopen " data-nav-id="/60_manual_2/63_programing/index.html"><a class="padding default-animation" href="../../../60_manual_2/63_programing/index.html">63_Programing</a><ul id="R-subsections-65787adb140ffaa628afea2b8a3a401b" class="collapsible-menu">
+            <li class="" data-nav-id="/60_manual_2/63_programing/code_writing/index.html"><a class="padding" href="../../../60_manual_2/63_programing/code_writing/index.html">Code_writing</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/docker/index.html"><a class="padding" href="../../../60_manual_2/63_programing/docker/index.html">Docker</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/git/index.html"><a class="padding" href="../../../60_manual_2/63_programing/git/index.html">Git</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/github/index.html"><a class="padding" href="../../../60_manual_2/63_programing/github/index.html">GitHub</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/go/index.html"><a class="padding" href="../../../60_manual_2/63_programing/go/index.html">Go</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/java/index.html"><a class="padding" href="../../../60_manual_2/63_programing/java/index.html">Java</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/lua/index.html"><a class="padding" href="../../../60_manual_2/63_programing/lua/index.html">lua</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/python/index.html"><a class="padding" href="../../../60_manual_2/63_programing/python/index.html">Python</a></li>
+            <li class="active " data-nav-id="/60_manual_2/63_programing/r/index.html"><a class="padding" href="../../../60_manual_2/63_programing/r/index.html">R</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/ruby/index.html"><a class="padding" href="../../../60_manual_2/63_programing/ruby/index.html">Ruby</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/rust/index.html"><a class="padding" href="../../../60_manual_2/63_programing/rust/index.html">Rust</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/xml/index.html"><a class="padding" href="../../../60_manual_2/63_programing/xml/index.html">XML</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/index.html"><a class="padding" href="../../../60_manual_2/63_programing/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/index.html">シェルスクリプト</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/index.html"><a class="padding" href="../../../60_manual_2/63_programing/%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/index.html">テスト駆動開発</a></li>
+            <li class="" data-nav-id="/60_manual_2/63_programing/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/index.html"><a class="padding" href="../../../60_manual_2/63_programing/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA/index.html">個人開発</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/60_manual_2/64_os/index.html"><a class="padding default-animation" href="../../../60_manual_2/64_os/index.html">64_OS</a><ul id="R-subsections-08637278a01daff585584a59fb99cd72" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/60_manual_2/65_diy/index.html"><a class="padding default-animation" href="../../../60_manual_2/65_diy/index.html">65_DIY</a><ul id="R-subsections-f410078b5a698b918e096f18cf027e77" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/60_manual_2/66_electronics/index.html"><a class="padding default-animation" href="../../../60_manual_2/66_electronics/index.html">66_Electronics</a><ul id="R-subsections-1b68c640f006d47b96d5faa22c9f6d5d" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/60_manual_2/67_parts/index.html"><a class="padding default-animation" href="../../../60_manual_2/67_parts/index.html">67_Parts</a><ul id="R-subsections-8e977d5b3d07eb9ce73ae65850668e98" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/60_manual_2/68_tool/index.html"><a class="padding default-animation" href="../../../60_manual_2/68_tool/index.html">68_Tool</a><ul id="R-subsections-b488036678c97d9a8b32208ed5166a94" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/60_manual_2/69_other/index.html"><a class="padding default-animation" href="../../../60_manual_2/69_other/index.html">69_Other</a><ul id="R-subsections-fe636809d466496c99bafb8a9f996eeb" class="collapsible-menu"></ul></li></ul></li>
+            <li class="" data-nav-id="/70_dictionary/index.html"><a class="padding default-animation" href="../../../70_dictionary/index.html">70_Dictionary</a><ul id="R-subsections-d6a0ceb91ae595bc782103df70f95d38" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="../../../js/perfect-scrollbar/perfect-scrollbar.min.js?1775018587" defer></script>
+    <script src="../../../js/theme.js?1775018587" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

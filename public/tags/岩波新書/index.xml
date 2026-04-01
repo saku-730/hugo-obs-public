@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>岩波新書 on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/%E5%B2%A9%E6%B3%A2%E6%96%B0%E6%9B%B8/</link>
-    <description>Recent content in 岩波新書 on My New Hugo Project</description>
+    <title>岩波新書 :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/%E5%B2%A9%E6%B3%A2%E6%96%B0%E6%9B%B8/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/%E5%B2%A9%E6%B3%A2%E6%96%B0%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>文章のみがき方</title>
-      <link>http://localhost:1313/30_reading_record/39_others/%E6%96%87%E7%AB%A0%E3%81%AE%E3%81%BF%E3%81%8C%E3%81%8D%E6%96%B9/</link>
+      <link>http://localhost:1313/30_reading_record/39_others/%E6%96%87%E7%AB%A0%E3%81%AE%E3%81%BF%E3%81%8C%E3%81%8D%E6%96%B9/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/39_others/%E6%96%87%E7%AB%A0%E3%81%AE%E3%81%BF%E3%81%8C%E3%81%8D%E6%96%B9/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;文章のみがき方&#34;&gt;文章のみがき方&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E6%96%87%E7%AB%A0%E3%81%AE%E3%81%BF%E3%81%8C%E3%81%8D%E6%96%B9.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;しっとりした口調で様々な例を出しながら短く一つの題をまとめている。&lt;a href=&#34;http://localhost:1313/30_reading_record/39_others/%E8%AA%AD%E6%9B%B8%E8%AB%96/&#34;&gt;読書論&lt;/a&gt;に似た風味を感じる。圧倒的な例の多さ、それをたしかにわかりやすく噛み砕いている点が特に一致する。書いていることはずっと役に立つことだろう。すぐにものにできなくとも。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/39_others/%E6%96%87%E7%AB%A0%E3%81%AE%E3%81%BF%E3%81%8C%E3%81%8D%E6%96%B9/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

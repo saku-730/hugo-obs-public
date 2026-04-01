@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>自作PC on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/%E8%87%AA%E4%BD%9Cpc/</link>
-    <description>Recent content in 自作PC on My New Hugo Project</description>
+    <title>自作PC :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/%E8%87%AA%E4%BD%9Cpc/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/%E8%87%AA%E4%BD%9Cpc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PC</title>
-      <link>http://localhost:1313/60_manual_2/65_diy/pc/</link>
+      <link>http://localhost:1313/60_manual_2/65_diy/pc/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/65_diy/pc/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;pc&#34;&gt;PC&lt;/h1&gt;&#xA;&lt;p&gt;ハードウェアとしてのパソコン。主に自作PCについて。&lt;/p&gt;&#xA;&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;&#xA;&lt;h3 id=&#34;自宅pc&#34;&gt;自宅PC&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CPU : Ryzen7 5700x&lt;/li&gt;&#xA;&lt;li&gt;GPUI : RX7600&lt;/li&gt;&#xA;&lt;li&gt;RAM : 48GB(16×2, 8✕2)&lt;/li&gt;&#xA;&lt;li&gt;Storage : 1TB(Windows), 500GB(Ubuntu), 1TB HDD(Ubuntu Backup)&lt;/li&gt;&#xA;&lt;li&gt;CPU cooler : 空冷サイドフロー&lt;/li&gt;&#xA;&lt;li&gt;PSU : 650W Bronze&lt;/li&gt;&#xA;&lt;li&gt;Mother : B550&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ラボpc&#34;&gt;ラボPC&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CPU : Ryzen5 5600&lt;/li&gt;&#xA;&lt;li&gt;GPU : RX480&lt;/li&gt;&#xA;&lt;li&gt;RAM : 32GB&lt;/li&gt;&#xA;&lt;li&gt;storage : M.2 nvme 500GB&lt;/li&gt;&#xA;&lt;li&gt;CPU cooler : リテールクーラー&lt;/li&gt;&#xA;&lt;li&gt;PSU : 650W Silver&lt;/li&gt;&#xA;&lt;li&gt;Mother：B550&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;cpu&#34;&gt;CPU&lt;/h2&gt;&#xA;&lt;p&gt;==いろいろ悩むが結局、Passmark基準で選んで問題ない。==そのうえで消費電力が大きすぎないか、TDPが大きすぎないかに注意する。TDPが大きすぎて能力高めの空冷クーラーでも冷やせないものはなるべく使いたくない。&lt;/p&gt;&#xA;&lt;p&gt;中古でほとんど問題が起きないパーツ。ただし動作確認していないものはなるべく避ける。Ryzenの映像出力なしの8000シリーズみたいな需要が薄かったり、BTOでしか国内販売されていないものをAliexpressやヤフオクで見つけるとかなり安いことがある。買う場合は入念な下調べが必要。XeonやThreadripperをノリで買うのはやめよう。マザーボードを準備するのは大変だしなにより電気代が無駄にかかる上に冷やすのも大変。合うクーラーを探すのもだるい。ロマンは感じるんだけどねえ。&lt;/p&gt;&#xA;&lt;p&gt;基本的に電力当たりの計算能力(いわゆるワッパ)は新しいもののほうがいい。サーバー用途なら気にしたいね。N100とかIntelの末尾Tとかが低消費電力でサーバーにおすすめ。&lt;/p&gt;&#xA;&lt;p&gt;intel or AMD 問題はその時々な部分があるが基本的にはAMD。intelの企業姿勢がくそなこと、AMDのほうがベンチマークではなくユーザーを見ている気がすることから。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/65_diy/pc/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

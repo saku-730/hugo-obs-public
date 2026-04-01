@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Neovim on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/neovim/</link>
-    <description>Recent content in Neovim on My New Hugo Project</description>
+    <title>Neovim :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/neovim/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Neovim</title>
-      <link>http://localhost:1313/60_manual_2/62_software/neovim/</link>
+      <link>http://localhost:1313/60_manual_2/62_software/neovim/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/62_software/neovim/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;neovim&#34;&gt;Neovim&lt;/h1&gt;&#xA;&lt;p&gt;emacs対vim戦争の勝者?&lt;/p&gt;&#xA;&lt;p&gt;Vim解説含む&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/neovim/neovim/tree/master&#34;&gt;GitHub - neovim/neovim: Vim-fork focused on extensibility and usability&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/saku-730/my-nvim/tree/main&#34;&gt;設定リポジトリ&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;install&lt;/h2&gt;&#xA;&lt;p&gt;Linuxの場合、選択肢で悩むが今の所snapでいく。aptで入れられるものはバージョンが古い。snapでだめならtarballから。&lt;/p&gt;&#xA;&lt;p&gt;デフォルトで最低限のセットアップ済みの&lt;a href=&#34;https://github.com/dam9000/kickstart-modular.nvim&#34;&gt;kickstart-modular.nvim&lt;/a&gt;が使いやすいのでこれを使う。neovimディストリビューションではなくあくまで最低限の設定とプラグインが入っているもので作成者の意図としてもこれを元に各自設定を詰めていってほしいというもの。modularじゃない普通のkickstartはプラグインの設定変更がだるい。&lt;/p&gt;&#xA;&lt;h3 id=&#34;snap&#34;&gt;snap&lt;/h3&gt;&#xA;&lt;p&gt;バージョンを確認↓&#xA;&lt;a href=&#34;https://github.com/neovim/neovim/releases&#34;&gt;Releases · neovim/neovim&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;snap info nvim&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;バージョンがよければこれでいく。だめなら次のTarball&lt;/p&gt;&#xA;&lt;p&gt;snapからインストール、バージョン確認&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo snap install nvim --classic&#xA;neovim --version&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;パスの確認&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;which nvim&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;今回は&lt;code&gt;/snap/bin/nvim &lt;/code&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;tarball&#34;&gt;Tarball&lt;/h3&gt;&#xA;&lt;p&gt;ファイルダウンロード　バージョンによってリンクを変えること&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget https://github.com/neovim/neovim/releases/download/v0.10.0/nvim-linux64.tar.gz&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ファイル解凍&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tar xzvf nvim-linux64.tar.gz&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ファイル移動、実行ファイル(バイナリ)をシンボリックリンクとして配置&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo mv nvim-linux64 /usr/local/nvim&#xA;sudo ln -s /usr/local/nvim/bin/nvim /usr/bin/nvim&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;以下、バージョン確認等はsnap同じ。&lt;/p&gt;&#xA;&lt;h2 id=&#34;コマンド&#34;&gt;コマンド&lt;/h2&gt;&#xA;&lt;h3 id=&#34;編集&#34;&gt;編集&lt;/h3&gt;&#xA;&lt;p&gt;置換&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:%s/置換前/置換後/g&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;検索&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/検索文字列  &#xA;?検索文字列&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ファイル構造&#34;&gt;ファイル構造&lt;/h2&gt;&#xA;&lt;p&gt;設定ファイルは&lt;code&gt;~/.config/nvim&lt;/code&gt;にすべて含む。&lt;/p&gt;&#xA;&lt;p&gt;/nvim&#xA;├── init.lua&#xA;└── lua&#xA;├── keymaps.lua&#xA;├── kickstart&#xA;│   ├── health.lua&#xA;│   └── plugins&#xA;├── lazy-bootstrap.lua&#xA;├── lazy-plugins.lua&#xA;├── options.lua&#xA;└── plugins&lt;/p&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/62_software/neovim/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

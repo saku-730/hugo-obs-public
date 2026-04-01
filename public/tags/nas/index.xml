@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NAS on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/nas/</link>
-    <description>Recent content in NAS on My New Hugo Project</description>
+    <title>NAS :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/nas/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/nas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Truenas</title>
-      <link>http://localhost:1313/60_manual_2/64_os/truenas/</link>
+      <link>http://localhost:1313/60_manual_2/64_os/truenas/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/64_os/truenas/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;truenas&#34;&gt;Truenas&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.2.161/ui/dashboard&#34;&gt;TrueNAS - 192.168.2.161&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;truenas_adminがデフォルトルートユーザー&lt;/p&gt;&#xA;&lt;h2 id=&#34;ストレージ&#34;&gt;ストレージ&lt;/h2&gt;&#xA;&lt;p&gt;基本的な流れはPool作成してDataset作成して、SMB共有設定をする。&lt;/p&gt;&#xA;&lt;h3 id=&#34;pool作成&#34;&gt;Pool作成&lt;/h3&gt;&#xA;&lt;p&gt;Storage &amp;gt; Create Pool&lt;/p&gt;&#xA;&lt;p&gt;Name は基本的に(SSD/HDD)-(Size)-(ID)にしている。数字が先頭は不可。&lt;/p&gt;&#xA;&lt;h3 id=&#34;dataset作成&#34;&gt;Dataset作成&lt;/h3&gt;&#xA;&lt;p&gt;Datasets &amp;gt; Add Dataset&lt;/p&gt;&#xA;&lt;p&gt;適当な名前をつける。 設定適宜する。データセットは容量の設定が無く、基本的に共有しながら使えるだけ使う感じになる。それだと困る場合、Quotasを設定することで容量の上限を決められる。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.truenas.com/docs/scale/datasets/quotas/&#34;&gt;Quotas | TrueNAS Documentation Hub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Datasets &amp;gt; Dataset Space Management から編集する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;bootストレージ&#34;&gt;Bootストレージ&lt;/h2&gt;&#xA;&lt;p&gt;基本的にSSDミラー構成にする。片肺になったら通知。&lt;/p&gt;&#xA;&lt;p&gt;16GB(intel optane)での運用が制限付きで可能&lt;/p&gt;&#xA;&lt;p&gt;16GBの場合、古いバージョンはすぐに消すこととNAS以外の機能を入れないこと。&lt;/p&gt;&#xA;&lt;p&gt;System &amp;gt; Boot  からBoot環境が見れる。古いのがあれば削除すること。&lt;/p&gt;&#xA;&lt;p&gt;Storage &amp;gt; Disks(右上) &amp;gt; boot-pool のssdを選択、でS.M.A.R.Tテストと結果を見れる。やばかったらまだ動いていても変えたほうがいいかも。&lt;/p&gt;&#xA;&lt;h2 id=&#34;ユーザー管理&#34;&gt;ユーザー管理&lt;/h2&gt;&#xA;&lt;p&gt;Credentials &amp;gt; Users からユーザーの管理画面に入れる。&lt;/p&gt;&#xA;&lt;p&gt;ユーザーを追加するときはSSHは許可しない。管理者権限を与えたい場合、EditからAuxiliary Groupsにbuiltin_administratorsとbuiltin_usersを入れる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;省電力設定&#34;&gt;省電力設定&lt;/h2&gt;&#xA;&lt;p&gt;電気代を抑えるためのあれやこれや&lt;/p&gt;&#xA;&lt;h3 id=&#34;hdd周り&#34;&gt;HDD周り&lt;/h3&gt;&#xA;&lt;p&gt;Storage &amp;gt; Disks から対象HDDを選んでEdit&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;HDD Standby : 60 (60分触らないと回転停止)&#xA;2 Advanced Power Management : Level1Minimum power usage with Standby (一番消費電力が小さくなる設定)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;apps&#34;&gt;Apps&lt;/h2&gt;&#xA;&lt;h3 id=&#34;共通&#34;&gt;共通&lt;/h3&gt;&#xA;&lt;p&gt;基本的に、OSはIntel optane 16GBで余裕が無いので、追加したSSDにappsのシステムを置く。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/64_os/truenas/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

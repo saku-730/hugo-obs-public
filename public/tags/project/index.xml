@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/project/</link>
-    <description>Recent content in Project on My New Hugo Project</description>
+    <title>Project :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/project/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>プロジェクト進行方法</title>
-      <link>http://localhost:1313/50_manual_1/52_project/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E9%80%B2%E8%A1%8C%E6%96%B9%E6%B3%95/</link>
+      <link>http://localhost:1313/50_manual_1/52_project/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E9%80%B2%E8%A1%8C%E6%96%B9%E6%B3%95/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/52_project/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E9%80%B2%E8%A1%8C%E6%96%B9%E6%B3%95/</guid>
-      <description>&lt;p&gt;作成日時: 2024-05-31 00:44&#xA;最終更新日時:2024-05-31 00:44&lt;/p&gt;&#xA;&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;プロジェクト進行方向&#34;&gt;プロジェクト進行方向&lt;/h1&gt;&#xA;&lt;h2 id=&#34;流れ&#34;&gt;流れ&lt;/h2&gt;&#xA;&lt;p&gt;テーマ設定してから完了、記録までの流れ。&lt;/p&gt;&#xA;&lt;p&gt;大まかな流れとしては&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;---&#xA;title: &#xA;---&#xA;flowchart TD&#xA;&#x9;テーマ設定--&amp;gt;10_Making_nowにファイル作成 &#xA;&#x9;--&amp;gt;資料決定,収集&#xA;&#x9;--&amp;gt;|1回目|02_Projectにファイル移動&#xA;&#x9;--&amp;gt;資料読み込み&#xA;&#x9;資料読み込み--&amp;gt;資料決定,収集&#xA;&#x9;--&amp;gt;|2回目以降|資料読み込み&#xA;&#x9;--&amp;gt;セミナー発表/ブログ&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;テーマ設定&#34;&gt;テーマ設定&lt;/h3&gt;&#xA;&lt;p&gt;取り扱う題材、目的を設定する。&lt;/p&gt;&#xA;&lt;p&gt;とりあえず思いついたら10_Making_nowにファイルを作成。名前だけの空ファイルでいい。&lt;/p&gt;&#xA;&lt;p&gt;なるべく具体的な到達目標を設定する。&lt;/p&gt;&#xA;&lt;h3 id=&#34;資料決定収集&#34;&gt;資料決定,収集&lt;/h3&gt;&#xA;&lt;p&gt;必要な資料を集める。目安として書籍15-20冊。&#xA;テーマによって論文、webページも含める。これらが多ければ書籍は少なくても可。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://roadmap.sh/roadmaps&#34;&gt;Developer Roadmaps&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;↑も参考に。&lt;/p&gt;&#xA;&lt;p&gt;書籍の入手の方法として購入、図書館を考える。資料を大まかに3段階にレベル分けする。&#xA;1:入門,基礎,2:応用,3:発展&lt;/p&gt;&#xA;&lt;p&gt;そこまでいってやる気の準備と心構えができたらファイルを02_Projectに移動させる。&lt;/p&gt;&#xA;&lt;h3 id=&#34;資料読み込み&#34;&gt;資料読み込み&lt;/h3&gt;&#xA;&lt;p&gt;集めた資料をとにかく読む。段階ごとに読んでいく。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/50_manual_1/59_document/%E6%9C%AC%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9/&#34;&gt;本の読み方&lt;/a&gt;、&lt;a href=&#34;http://localhost:1313/50_manual_1/59_document/%E8%AB%96%E6%96%87%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9/&#34;&gt;論文の読み方&lt;/a&gt;も参考に。&lt;/p&gt;&#xA;&lt;p&gt;資料を読んだ上でより必要な資料を追加、さらに読み込みを加速させる。&lt;/p&gt;&#xA;&lt;h3 id=&#34;セミナー発表ブログ&#34;&gt;セミナー発表/ブログ&lt;/h3&gt;&#xA;&lt;p&gt;アウトプットする。複数の媒体で行うとより良い。&lt;/p&gt;&#xA;&lt;p&gt;ブログはとりあえず一番簡単なのでかならずするようにしたい。&#xA;テーマによっては同人誌/zennの本を作成すると良い。&lt;/p&gt;&#xA;&lt;h2 id=&#34;大型プロジェクト&#34;&gt;大型プロジェクト&lt;/h2&gt;&#xA;&lt;p&gt;かなり大きい、期間がかかるようなものを指す。&lt;/p&gt;&#xA;&lt;p&gt;目次となるページを作成し部分ごとにプロジェクトページを作成する。全般で参照するものと特定の部分で参照するもので分ける。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/52_project/%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E9%80%B2%E8%A1%8C%E6%96%B9%E6%B3%95/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

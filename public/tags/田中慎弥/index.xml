@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>田中慎弥 on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/%E7%94%B0%E4%B8%AD%E6%85%8E%E5%BC%A5/</link>
-    <description>Recent content in 田中慎弥 on My New Hugo Project</description>
+    <title>田中慎弥 :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/%E7%94%B0%E4%B8%AD%E6%85%8E%E5%BC%A5/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/%E7%94%B0%E4%B8%AD%E6%85%8E%E5%BC%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>孤独に生きよ</title>
-      <link>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/</link>
+      <link>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;孤独に生きよ&#34;&gt;孤独に生きよ&lt;/h1&gt;&#xA;&lt;p&gt;エッセイというか幸福論というか。孤独に生き続けた作家の孤独に生きることのすすめ。&lt;/p&gt;&#xA;&lt;p&gt;本書を通して一貫しての主張は奴隷になってはいけない、ということ。奴隷というのは自己の意識が存在しない、思考停止している、主体性が破壊されているような状態のこと。それは身体的なものでもあるが内面的なものでもある。&lt;/p&gt;&#xA;&lt;p&gt;そして奴隷から解放されるには逃げることを推奨する。逃げることを認めている。著者自身の経験も踏まえているのだろう。&lt;/p&gt;&#xA;&lt;p&gt;著者は少なからず大学に行かず、引きこもりをやっていて才能もないというコンプレックスのようなものを抱えているように思うがそれをある程度認めた上でどう向き合っていくかと言うのを丁寧に行っている。かなり紳士的な生き方だと思う。自分の弱さを見てみぬふりをせず認識した上でそれを認めた上で完全になくすことはできないからそれに対して取り組みつつ生きていくという、言葉にすれば簡単だが実行するのは、し続けるのは難しく辛いことをやり続けられているのは誇っていいのではないか。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

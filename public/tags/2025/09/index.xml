@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2025/09 on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/2025/09/</link>
-    <description>Recent content in 2025/09 on My New Hugo Project</description>
+    <title>2025/09 :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/2025/09/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/2025/09/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>flyway</title>
-      <link>http://localhost:1313/60_manual_2/62_software/flyway/</link>
+      <link>http://localhost:1313/60_manual_2/62_software/flyway/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/62_software/flyway/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;flyway&#34;&gt;flyway&lt;/h1&gt;&#xA;&lt;p&gt;データベースマイグレーションツール&lt;/p&gt;&#xA;&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://documentation.red-gate.com/fd/command-line-277579359.html&#34;&gt;Command-line - Redgate Flyway - Product Documentation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; wget -qO- https://download.red-gate.com/maven/release/com/redgate/flyway/flyway-commandline/11.13.1/**flyway-commandline-11.13.1-linux-x64.tar.gz** | tar -xvz &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo ln -s &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;pwd&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;/flyway-11.13.1/flyway /usr/local/bin&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;↑現在のディレクトリにflywayディレクトリをダウンロードしてシンボリックリンクでパスがそこに通っているようになる。そのためflywayディレクトリを移動させるときはそのシンボリックリンクも変更するのを忘れずに。&lt;/p&gt;&#xA;&lt;h2 id=&#34;作業フロー&#34;&gt;作業フロー&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;flyway.conf&lt;/code&gt;を作業ディレクトリに作成&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-flyway.conf&#34; data-lang=&#34;flyway.conf&#34;&gt;flyway.url=jdbc:postgresql://localhost:5432/specimen_db  &#xA;  &#xA;flyway.user=saku  &#xA;  &#xA;flyway.password=14afqrzv  &#xA;  &#xA;flyway.locations=filesystem:./migrate  &#xA;  &#xA;flyway.schemas=public&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;マイグレート用のsqlファイルを作成&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;flyway info&lt;/code&gt;で一応確認。修正。&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;flyway migrate&lt;/code&gt;でマイグレーション。&lt;/p&gt;&#xA;&lt;h2 id=&#34;コマンドリスト&#34;&gt;コマンドリスト&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;flyway info&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;とりあえず確認。エラー出たら対処。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/62_software/flyway/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/60_manual_2/63_programing/java/</link>
+      <link>http://localhost:1313/60_manual_2/63_programing/java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/63_programing/java/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;java&#34;&gt;Java&lt;/h1&gt;&#xA;&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;&#xA;&lt;p&gt;javaというか、jdkのインストール方法。&lt;/p&gt;&#xA;&lt;p&gt;jdkも色々種類あるが個々では無償でubuntuでは一番スタンダード？なcanonical提供のもので。&lt;/p&gt;&#xA;&lt;p&gt;↓最新バージョン調べ&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt search openjdk&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install openjdk-21-jdk&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;21の部分は適宜変更。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.javadrive.jp/start/install/index5.html&#34;&gt;Java | Java SEとJDK、JRE、JVMの違いに関する解説&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/63_programing/java/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>mise</title>
-      <link>http://localhost:1313/60_manual_2/62_software/mise/</link>
+      <link>http://localhost:1313/60_manual_2/62_software/mise/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/62_software/mise/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;mise&#34;&gt;mise&lt;/h1&gt;&#xA;&lt;p&gt;読み方はミーズ&lt;/p&gt;&#xA;&lt;h2 id=&#34;インストール&#34;&gt;インストール&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update -y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt install -y gpg sudo wget curl&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo install -dm &lt;span style=&#34;color:#ae81ff&#34;&gt;755&lt;/span&gt; /etc/apt/keyrings&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget -qO - https://mise.jdx.dev/gpg-key.pub | gpg --dearmor | sudo tee /etc/apt/keyrings/mise-archive-keyring.gpg 1&amp;gt; /dev/null&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;deb [signed-by=/etc/apt/keyrings/mise-archive-keyring.gpg arch=amd64] https://mise.jdx.dev/deb stable main&amp;#34;&lt;/span&gt; | sudo tee /etc/apt/sources.list.d/mise.list&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install -y mise&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/62_software/mise/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>Pandoc</title>
-      <link>http://localhost:1313/50_manual_1/59_document/pandoc/</link>
+      <link>http://localhost:1313/50_manual_1/59_document/pandoc/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/59_document/pandoc/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;pandoc&#34;&gt;Pandoc&lt;/h1&gt;&#xA;&lt;p&gt;panなdocをpanなdocに変換する&lt;/p&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://pandoc.org/installing.html&#34;&gt;Pandoc - Installing pandoc&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;基本はlatestの&lt;code&gt;.deb&lt;/code&gt;ファイルからインストールでok。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pandoc.org&#34;&gt;Pandoc - index&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/59_document/pandoc/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://localhost:1313/50_manual_1/51_web/react/</link>
+      <link>http://localhost:1313/50_manual_1/51_web/react/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/51_web/react/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;react&#34;&gt;React&lt;/h1&gt;&#xA;&lt;h2 id=&#34;学習ガイド&#34;&gt;学習ガイド&lt;/h2&gt;&#xA;&lt;p&gt;Javascriptの基礎をざっと理解してから、公式の&lt;a href=&#34;https://ja.react.dev/learn/describing-the-ui&#34;&gt;REACTを学ぶ&lt;/a&gt;を読んでいく。&lt;/p&gt;&#xA;&lt;h2 id=&#34;コンポーネント&#34;&gt;コンポーネント&lt;/h2&gt;&#xA;&lt;p&gt;REACT基本概念。&lt;/p&gt;&#xA;&lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;コンポーネントがコンポーネントをレンダーすることはよくあるがコンポーネントの定義をネストさせてはいけない。コンポーネントの定義中に別の未定義コンポーネントの定義を始めてはいけない。コンポーネントの定義はすべてトップレベルで行う。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ja.react.dev&#34;&gt;React&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/51_web/react/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>XML</title>
-      <link>http://localhost:1313/60_manual_2/63_programing/xml/</link>
+      <link>http://localhost:1313/60_manual_2/63_programing/xml/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/63_programing/xml/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;xml&#34;&gt;XML&lt;/h1&gt;&#xA;&lt;p&gt;XMLとXMLスキーマの両方を扱う。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://atmarkit.itmedia.co.jp/ait/series/2462/&#34;&gt;SEのためのXML Schema入門 - ＠IT&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/63_programing/xml/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>バックアップ</title>
-      <link>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;バックアップ&#34;&gt;バックアップ&lt;/h1&gt;&#xA;&lt;p&gt;個別のバックアップソフトウェアについては&lt;a href=&#34;http://localhost:1313/60_manual_2/62_software/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%B3%BB/&#34;&gt;バックアップ系&lt;/a&gt;で扱う。ここではバックアップ一般における方法論、方針等をまとめる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;バックアップ種類&#34;&gt;バックアップ種類&lt;/h2&gt;&#xA;&lt;h3 id=&#34;フルバックアップ&#34;&gt;フルバックアップ&lt;/h3&gt;&#xA;&lt;h3 id=&#34;差分バックアップ&#34;&gt;差分バックアップ&lt;/h3&gt;&#xA;&lt;h3 id=&#34;増分バックアップ&#34;&gt;増分バックアップ&lt;/h3&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>合成関数</title>
-      <link>http://localhost:1313/40_academic/43_scientce/%E5%90%88%E6%88%90%E9%96%A2%E6%95%B0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/40_academic/43_scientce/%E5%90%88%E6%88%90%E9%96%A2%E6%95%B0/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;合成関数&#34;&gt;合成関数&lt;/h1&gt;&#xA;&lt;h2 id=&#34;定義&#34;&gt;定義&lt;/h2&gt;&#xA;&lt;p&gt;2つの関数$f,g$の合成関数$f\circ g$を $(f\circ g)(x) = f(g(x))$で定義する。&lt;/p&gt;&#xA;&lt;p&gt;定義域は$g$の定義域の中で$g(x)$が$f$の定義域に含まれる集合。&lt;/p&gt;&#xA;&lt;p&gt;一般に$f\circ g \neq g\circ f$である。&lt;/p&gt;&#xA;&lt;p&gt;また3つ以上の関数についても&lt;/p&gt;&#xA;&lt;p&gt;$f\circ g\circ h = f(g(h(x)))$&lt;/p&gt;&#xA;&lt;h2 id=&#34;微分&#34;&gt;微分&lt;/h2&gt;&#xA;&lt;p&gt;合成関数$f \circ g$ の導関数は$f$の導関数と$g$の導関数の積でありこれを==連鎖律==という。&lt;/p&gt;&#xA;&lt;p&gt;$F(x)=(f \circ g)(x) = f(g(x))$で$g$が$x$において微分可能で$f$が$g(x)$において微分可能であれば&#xA;$$ F&amp;rsquo;(x) = f&amp;rsquo;(g(x)) ・g&amp;rsquo;(x)$$&#xA;$$\frac{dy}{dx}=\frac{dy}{du}\frac{du}{dx}$$&lt;/p&gt;&#xA;&lt;p&gt;多くのサイト、本にのっている証明法では途中で0の可能性がある割り算をやっているので厳密には正しくない。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;p&gt;1.&lt;a href=&#34;http://localhost:1313/30_reading_record/32_science/%E3%82%B9%E3%83%81%E3%83%A5%E3%83%AF%E3%83%BC%E3%83%88%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6i%E5%8E%9F%E8%91%97%E7%AC%AC8%E7%89%88/&#34;&gt;スチュワート微分積分学I(原著第8版)&lt;/a&gt;p40-42 ,146-152&lt;/p&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>圏外編集者</title>
-      <link>http://localhost:1313/30_reading_record/39_others/%E5%9C%8F%E5%A4%96%E7%B7%A8%E9%9B%86%E8%80%85/</link>
+      <link>http://localhost:1313/30_reading_record/39_others/%E5%9C%8F%E5%A4%96%E7%B7%A8%E9%9B%86%E8%80%85/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/39_others/%E5%9C%8F%E5%A4%96%E7%B7%A8%E9%9B%86%E8%80%85/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;圏外編集者&#34;&gt;圏外編集者&lt;/h1&gt;&#xA;&lt;p&gt;自分が面白いと思うものを読者など想定せずにとにかく書くのが雑誌編集者であれ。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/39_others/%E5%9C%8F%E5%A4%96%E7%B7%A8%E9%9B%86%E8%80%85/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>合成関数</title>
+      <link>http://localhost:1313/40_academic/43_scientce/%E5%90%88%E6%88%90%E9%96%A2%E6%95%B0/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/40_academic/43_scientce/%E5%90%88%E6%88%90%E9%96%A2%E6%95%B0/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>微分と積分</title>
-      <link>http://localhost:1313/40_academic/43_scientce/%E5%BE%AE%E5%88%86%E3%81%A8%E7%A9%8D%E5%88%86/</link>
+      <link>http://localhost:1313/40_academic/43_scientce/%E5%BE%AE%E5%88%86%E3%81%A8%E7%A9%8D%E5%88%86/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/40_academic/43_scientce/%E5%BE%AE%E5%88%86%E3%81%A8%E7%A9%8D%E5%88%86/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;微分と積分&#34;&gt;微分と積分&lt;/h1&gt;&#xA;&lt;h2 id=&#34;導関数&#34;&gt;導関数&lt;/h2&gt;&#xA;&lt;h3 id=&#34;合成関数の微分&#34;&gt;合成関数の微分&lt;/h3&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/40_academic/43_scientce/%E5%BE%AE%E5%88%86%E3%81%A8%E7%A9%8D%E5%88%86/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

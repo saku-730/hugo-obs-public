@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html id="R-html" lang="ja" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.159.1">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="LaTeX :: knowladge store">
+    <meta property="og:url" content="http://localhost:1313/50_manual_1/59_document/latex/index.html">
+    <meta property="og:site_name" content="knowladge store">
+    <meta property="og:title" content="LaTeX :: knowladge store">
+    <meta property="og:locale" content="ja">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="50_Manual_1">
+    <meta property="article:tag" content="2025/02">
+    <meta property="article:tag" content="TeX">
+    <meta property="article:tag" content="LaTeX">
+    <meta itemprop="name" content="LaTeX :: knowladge store">
+    <meta itemprop="wordCount" content="2480">
+    <meta itemprop="keywords" content="2025/02,TeX,LaTeX">
+    <title>LaTeX :: knowladge store</title>
+    <link href="../../../css/auto-complete/auto-complete.min.css?1775018587" rel="stylesheet">
+    <script src="../../../js/auto-complete/auto-complete.min.js?1775018587" defer></script>
+    <script src="../../../js/search-lunr.js?1775018587" defer></script>
+    <script src="../../../js/search.js?1775018587" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="../../../searchindex.ja.js?1775018587";
+    </script>
+    <script src="../../../js/lunr/lunr.min.js?1775018587" defer></script>
+    <script src="../../../js/lunr/lunr.stemmer.support.min.js?1775018587" defer></script>
+    <script src="../../../js/lunr/lunr.multi.min.js?1775018587" defer></script>
+    <script src="../../../js/lunr/tinyseg.js?1775018587" defer></script>
+    <script src="../../../js/lunr/lunr.ja.min.js?1775018587" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['ja'];
+    </script>
+    <link href="../../../fonts/fontawesome/css/all.min.css?1775018587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../../../fonts/fontawesome/css/all.min.css?1775018587" rel="stylesheet"></noscript>
+    <link href="../../../css/perfect-scrollbar/perfect-scrollbar.min.css?1775018587" rel="stylesheet">
+    <link href="../../../css/theme.css?1775018587" rel="stylesheet">
+    <link href="../../../css/format-html.css?1775018587" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/50_manual_1\/59_document\/latex\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `テキストをクリップボードにコピー`;
+      window.T_Copied_to_clipboard = `テキストをクリップボードにコピーしました!`;
+      window.T_Link_copied_to_clipboard = `リンクをクリップボードにコピーしました!`;
+      window.T_Reset_view = `ビューのリセット`;
+      window.T_View_reset = `リセットを見る`;
+      window.T_No_results_found = `"{0}" の結果が見つかりません`;
+      window.T_N_results_found = `"{0}" で {1} 件の結果が見つかりました`;
+      window.T_Browser_unsupported_feature = `このブラウザはこの機能をサポートしていません`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support html" data-origin="/50_manual_1/59_document/latex/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="メニュー (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="目次 (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#環境作成">環境作成</a>
+      <ul>
+        <li><a href="#どれいれるか">どれいれるか</a></li>
+        <li><a href="#tex-live-インストール">TeX Live インストール</a></li>
+        <li><a href="#tex-live-update">Tex Live update</a></li>
+        <li><a href="#vscode">VSCode</a></li>
+        <li><a href="#その他">その他</a></li>
+      </ul>
+    </li>
+    <li><a href="#基本の書き方">基本の書き方</a>
+      <ul>
+        <li><a href="#大小記号">大小記号</a></li>
+        <li><a href="#論理記号">論理記号</a></li>
+        <li><a href="#関数">関数</a></li>
+      </ul>
+    </li>
+    <li><a href="#数式環境">数式環境</a></li>
+    <li><a href="#画像">画像</a></li>
+    <li><a href="#文字サイズ">文字サイズ</a></li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="../../../index.html"><span itemprop="name">knowladge store</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="../../../50_manual_1/index.html"><span itemprop="name">50_Manual_1</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="../../../50_manual_1/59_document/index.html"><span itemprop="name">59_Document</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">LaTeX</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="../../../50_manual_1/59_document/index.html" title="59_Document (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="../../../50_manual_1/59_document/pandoc/index.html" title="Pandoc (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="更に"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 50_manual_1" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+<div class="R-taxonomy taxonomy-tags cstyle tags" title="タグ" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="../../../tags/2025/02/index.html">2025/02</a></li>
+    <li><a class="term-link" href="../../../tags/latex/index.html">LaTeX</a></li>
+    <li><a class="term-link" href="../../../tags/tex/index.html">TeX</a></li>
+  </ul>
+</div>
+  </header>
+
+<h1 id="latex">LaTeX</h1>
+
+<h6 id="目次"><strong>目次</strong><span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h6>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toc" data-lang="toc"><span style="display:flex;"><span>style:nestedList
+</span></span><span style="display:flex;"><span>minLevel:2
+</span></span><span style="display:flex;"><span>maxLevel:5</span></span></code></pre></div>
+<h1 id="latex">$\LaTeX$<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h1>
+<h2 id="環境作成">環境作成<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>編集にはVSCodeを使う想定。</p>
+<p>全体の構成図</p>
+<pre class="mermaid actionbar-wrapper align-center ">graph TD
+    User[user] --&gt;|ビルドボタン/保存| VSCode[VS Code]
+    
+    subgraph &#34;settings.json の役割&#34;
+    VSCode --&gt;| command: latexmk| latexmk[&#34;latexmk&#34;]
+    end
+
+    subgraph &#34;latexmk の役割&#34;
+    latexmk --&gt;|設定ファイルを読む| RCFile[.latexmkrc 設定ファイル]
+    end
+
+    subgraph &#34;tex build&#34;
+    latexmk --&gt;|必要な回数命令| Worker1[lualatex]
+    latexmk --&gt;|文献があれば命令| Worker2[upbibtex]
+    end
+
+    Worker1 --&gt; PDF[PDF]</pre>
+<p>latexmk は$\LaTeX$のビルドを管理するためツール。<code>.latexmkrc</code>を<code>~/</code>に作成すると設定ファイルとして読み込む。正しく読み込めているかは</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>latexmk</span></span></code></pre></div>
+<p>で</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Rc files read:
+</span></span><span style="display:flex;"><span>  /home/saku/.latexmkrc
+</span></span><span style="display:flex;"><span>Latexmk: This is Latexmk, John Collins, <span style="color:#ae81ff">15</span> June 2025. Version 4.87.</span></span></code></pre></div>
+<p>↑のようにファイル名が表示されればok</p>
+<h3 id="どれいれるか">どれいれるか<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>LaTeXと一言でいっても色々種類がある。</p>
+<p>そもそもの$\TeX$と$\LaTeX$の違いとして$\TeX$が組版システムでそのマクロ郡がLaTeXである(雑に言えば)。そしてLaTeX自体にも様々な種類がある。一応$\LaTeX$以外にもマクロ郡はある。$\LaTeX$のなかから選ぶとおおよそ同じような書き方ができる。ただし日本語対応などで違いある。</p>
+<p>主なLaTexとしてはpLaTeX、upLaTeXなどがある。色々見るところlualatexが良さそう。</p>
+<p>それらのLaTeXエンジンとその他のフォントやツールをまとめたディストリビューションとしてTeX Liveがあり基本はこれを使う。設定ファイル(<code>.latexmkrc</code>)の書き方によって実際に使用するLaTeXエンジンは切り替えられる。lualatexに設定する。</p>
+<p>TeX Liveで基本いいがデメリットとして他の数倍のデータ量であることと思ったよりもインストールにかかる時間が長い(25分くらい)ことがあるがまあ大丈夫でしょう。</p>
+<h3 id="tex-live-インストール">TeX Live インストール<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>[3]を参照。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+</span></span><span style="display:flex;"><span>tar zxf install-tl-unx.tar.gz
+</span></span><span style="display:flex;"><span>cd install-tl-20*
+</span></span><span style="display:flex;"><span>sudo ./install-tl</span></span></code></pre></div>
+<p>パスを通す。以下のパスを<code>.bashrc</code>に追記</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0"><code># TeX Live
+export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
+export MANPATH=/usr/local/texlive/2025/texmf-dist/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2025/texmf-dist/doc/info:$INFOPATH</code></pre></div>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>source .bashrc</span></span></code></pre></div>
+<h3 id="tex-live-update">Tex Live update<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo tlmgr update --self --all</span></span></code></pre></div>
+<h4 id="latexmkrc作成編集">.latexmkrc作成・編集<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>ユーザーディレクトリ直下(/home/saku/)に<code>.larexmkrc</code>を作成。latexmkの設定ファイルになりこれによりビルドがlatexmkツールの下で管理できる。</p>
+<p>以下の内容で作成。</p>
+<p>最後の`clean_ext~は削除対象のファイルを指定。vscodeのsetting.jsonでも指定しているがdviだけは消えないのでこっちで指定する。</p>
+<p>synctex.gz はtexファイルとpdfの同期をするために必要なので残しておく。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-perl" data-lang="perl"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env perl</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---------------------------------------------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># LuaLaTeX + upBibTeX (Japanese) 用</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---------------------------------------------------------</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># PDF生成モード (4 = lualatex)</span>
+</span></span><span style="display:flex;"><span>$pdf_mode <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># LuaLaTeX のコマンド設定</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (-halt-on-error はエラー時にすぐ止まる設定)</span>
+</span></span><span style="display:flex;"><span>$lualatex <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;lualatex -synctex=1 -file-line-error -halt-on-error -interaction=nonstopmode %O %S&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># BibTeX の設定</span>
+</span></span><span style="display:flex;"><span>$bibtex <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;upbibtex %O %B&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 索引 (index) を作る場合の設定 (日本語対応)</span>
+</span></span><span style="display:flex;"><span>$makeindex <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;upmendex %O -o %D %S&#39;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---------------------------------------------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># プレビューとその他の設定</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># ---------------------------------------------------------</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># プレビューの設定 (OS自動判定)</span>
+</span></span><span style="display:flex;"><span>$pvc_view_file_via_temporary <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ($^O <span style="color:#f92672">eq</span> <span style="color:#e6db74">&#39;linux&#39;</span>) {
+</span></span><span style="display:flex;"><span>    $pdf_previewer <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;xdg-open %S&#34;</span>;
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">elsif</span> ($^O <span style="color:#f92672">eq</span> <span style="color:#e6db74">&#39;darwin&#39;</span>) {
+</span></span><span style="display:flex;"><span>    $pdf_previewer <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;open %S&#34;</span>;
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>    $pdf_previewer <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;start %S&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 必要な回数だけ繰り返す回数の上限</span>
+</span></span><span style="display:flex;"><span>$max_repeat <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;</span></span></code></pre></div>
+<h3 id="vscode">VSCode<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>拡張機能 LaTeXワークショップを入れる</p>
+<p>setting.jsonに以下を追加</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>  <span style="color:#75715e">// ===== Latex =====
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 使用パッケージのコマンドや環境の補完を有効にする
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.intellisense.package.enabled&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">true</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ビルドのレシピ
+</span></span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.latex.recipes&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;lualatex-latexmk&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;tools&#34;</span>: [<span style="color:#e6db74">&#34;lualatex-latexmk&#34;</span>]
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  ]<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.latex.tools&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;lualatex-latexmk&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;command&#34;</span>: <span style="color:#e6db74">&#34;latexmk&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;args&#34;</span>: [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;-lualatex&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;-outdir=%OUTDIR%&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;-synctex=1&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;-interaction=nonstopmode&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;-halt-on-error&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;%DOC%&#34;</span>
+</span></span><span style="display:flex;"><span>      ],
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;env&#34;</span>: {}
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  ]<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// 生成ファイルを現在のディレクトリに吐き出す
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.latex.outDir&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// ビルドのレシピに使われるパーツ
+</span></span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.view.pdf.viewer&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;tab&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.view.pdf.external.synctex.args&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;-forward-search&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;%TEX%&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;%LINE%&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;-reuse-instance&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;-inverse-search&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;code.cmd -r -g \&#34;%f:%l\&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;%PDF%&#34;</span>
+</span></span><span style="display:flex;"><span>  ]<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.latex.autoClean.run&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;onBuilt&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.latex.clean.fileTypes&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.bbl&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.blg&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.idx&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.ind&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.lof&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.lot&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.toc&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.acn&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.acr&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.alg&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.glg&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.glo&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.gls&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.ist&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.fls&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.log&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.fdb_latexmk&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.snm&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.nav&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;*.dvi&#34;</span>,
+</span></span><span style="display:flex;"><span>  ]<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;[latex]&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;editor.formatOnSave&#34;</span>: <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;editor.defaultFormatter&#34;</span>: <span style="color:#e6db74">&#34;James-Yu.latex-workshop&#34;</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.latexindent.path&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;latexindent&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.latexindent.args&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;%TMPFILE%&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;-c=%DIR%/&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;-y=defaultIndent: &#39;%INDENT%&#39;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  ]<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;workbench.editorAssociations&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;*.pdf&#34;</span>: <span style="color:#e6db74">&#34;latex-workshop-pdf-hook&#34;</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;[python]&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;editor.formatOnType&#34;</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;security.workspace.trust.untrustedFiles&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;open&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;keyboard.dispatch&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;keyCode&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;terminal.integrated.inheritEnv&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;git.autofetch&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">true</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;workbench.editor.enablePreview&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;python.terminal.activateEnvironment&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;git.openRepositoryInParentFolders&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;always&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;search.followSymlinks&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;code-runner.languageIdToFileExtensionMap&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;bat&#34;</span>: <span style="color:#e6db74">&#34;.bat&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;powershell&#34;</span>: <span style="color:#e6db74">&#34;.ps1&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;typescript&#34;</span>: <span style="color:#e6db74">&#34;.ts&#34;</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;code-runner.runInTerminal&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">true</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;code-runner.executorMap&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;javascript&#34;</span>: <span style="color:#e6db74">&#34;node&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;java&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; javac $fileName &amp;&amp; java $fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;c&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; gcc $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;zig&#34;</span>: <span style="color:#e6db74">&#34;zig run&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;cpp&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; g++ $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;objective-c&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; gcc -framework Cocoa $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;php&#34;</span>: <span style="color:#e6db74">&#34;php&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;python&#34;</span>: <span style="color:#e6db74">&#34;python3 -u&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;perl&#34;</span>: <span style="color:#e6db74">&#34;perl&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;perl6&#34;</span>: <span style="color:#e6db74">&#34;perl6&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;ruby&#34;</span>: <span style="color:#e6db74">&#34;ruby&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;go&#34;</span>: <span style="color:#e6db74">&#34;go run&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;lua&#34;</span>: <span style="color:#e6db74">&#34;lua&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;groovy&#34;</span>: <span style="color:#e6db74">&#34;groovy&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;powershell&#34;</span>: <span style="color:#e6db74">&#34;powershell -ExecutionPolicy ByPass -File&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;bat&#34;</span>: <span style="color:#e6db74">&#34;cmd /c&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;shellscript&#34;</span>: <span style="color:#e6db74">&#34;bash&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;fsharp&#34;</span>: <span style="color:#e6db74">&#34;fsi&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;csharp&#34;</span>: <span style="color:#e6db74">&#34;scriptcs&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;vbscript&#34;</span>: <span style="color:#e6db74">&#34;cscript //Nologo&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;typescript&#34;</span>: <span style="color:#e6db74">&#34;ts-node&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;coffeescript&#34;</span>: <span style="color:#e6db74">&#34;coffee&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;scala&#34;</span>: <span style="color:#e6db74">&#34;scala&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;swift&#34;</span>: <span style="color:#e6db74">&#34;swift&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;julia&#34;</span>: <span style="color:#e6db74">&#34;julia&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;crystal&#34;</span>: <span style="color:#e6db74">&#34;crystal&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;ocaml&#34;</span>: <span style="color:#e6db74">&#34;ocaml&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;r&#34;</span>: <span style="color:#e6db74">&#34;Rscript&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;applescript&#34;</span>: <span style="color:#e6db74">&#34;osascript&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;clojure&#34;</span>: <span style="color:#e6db74">&#34;lein exec&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;haxe&#34;</span>: <span style="color:#e6db74">&#34;haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;rust&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; rustc $fileName &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;racket&#34;</span>: <span style="color:#e6db74">&#34;racket&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;scheme&#34;</span>: <span style="color:#e6db74">&#34;csi -script&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;ahk&#34;</span>: <span style="color:#e6db74">&#34;autohotkey&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;autoit&#34;</span>: <span style="color:#e6db74">&#34;autoit3&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;dart&#34;</span>: <span style="color:#e6db74">&#34;dart&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;pascal&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; fpc $fileName &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;d&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; dmd $fileName &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;haskell&#34;</span>: <span style="color:#e6db74">&#34;runghc&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;nim&#34;</span>: <span style="color:#e6db74">&#34;nim compile --verbosity:0 --hints:off --run&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;lisp&#34;</span>: <span style="color:#e6db74">&#34;sbcl --script&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;kit&#34;</span>: <span style="color:#e6db74">&#34;kitc --run&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;v&#34;</span>: <span style="color:#e6db74">&#34;v run&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;sass&#34;</span>: <span style="color:#e6db74">&#34;sass --style expanded&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;scss&#34;</span>: <span style="color:#e6db74">&#34;scss --style expanded&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;less&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; lessc $fileName $fileNameWithoutExt.css&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;FortranFreeForm&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; gfortran $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;fortran-modern&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; gfortran $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;fortran_fixed-form&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; gfortran $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;fortran&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; gfortran $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;sml&#34;</span>: <span style="color:#e6db74">&#34;cd $dir &amp;&amp; sml $fileName&#34;</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;workbench.startupEditor&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;none&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;explorer.confirmDragAndDrop&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;git.confirmSync&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;extensions.experimental.affinity&#34;</span><span style="color:#960050;background-color:#1e0010">:</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;asvetliakov.vscode-neovim&#34;</span>: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;editor.foldingImportsByDefault&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">true</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;editor.wordWrap&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;on&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;markdown.preview.breaks&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">true</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;editor.minimap.enabled&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;vscode-neovim.neovimInitVimPaths.linux&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;/home/saku/.config/nvim/init.lua&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;settingsSync.ignoredSettings&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;vscode-neovim.neovimExecutablePaths.linux&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;vscode-neovim.neovimInitVimPaths.linux&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;vscode-neovim.NVIM_APPNAME&#34;</span>
+</span></span><span style="display:flex;"><span>  ]<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;vscode-neovim.statusLineSeparator&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;vscode-neovim.neovimExecutablePaths.linux&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;/snap/bin/nvim&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;[search-result]&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;editor.lineNumbers&#34;</span>: <span style="color:#e6db74">&#34;on&#34;</span>
+</span></span><span style="display:flex;"><span>  }<span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;gitlens.views.branches.files.layout&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;tree&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;githubPullRequests.createOnPublishBranch&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;never&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;typescript.updateImportsOnFileMove.enabled&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;never&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;editor.indentSize&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;tabSize&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;indentRainbow.indicatorStyle&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;light&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;geminicodeassist.project&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;cryptic-idiom-t75q2&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;latex-workshop.formatting.latex&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;latexindent&#34;</span><span style="color:#960050;background-color:#1e0010">,</span></span></span></code></pre></div>
+<h3 id="その他">その他<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<p>ここまででほとんど環境作成は完了であるはずだがvscodeの拡張機能がエラーを出してしまう(pdfビルドはできてる)。まずvscodeの↓をlatexindentに変更する。</p>
+<p><a href="#R-image-567b93dabce11899c1a20a65228cb105" class="lightbox-link"><img class="lazy lightbox figure-image" loading="lazy" src="../../../obsidian/Pasted%20image%2020250903232841.png" style="height: auto;width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-567b93dabce11899c1a20a65228cb105"><img class="lazy lightbox lightbox-image" loading="lazy" src="../../../obsidian/Pasted%20image%2020250903232841.png"></a></p>
+<p>それでもエラーが出るが<a href="https://qiita.com/YuukiToriyama/items/10a3458b3d66dc0fdfc0" rel="external">[LaTeX][Fedora]latexindentコマンドを動かすまで - Qiita</a>を参考にperlモジュールを複数インストールする。</p>
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo cpan -i FindBin
+</span></span><span style="display:flex;"><span>sudo cpan -i YAML
+</span></span><span style="display:flex;"><span>sudo cpan -i YAML::Tiny
+</span></span><span style="display:flex;"><span>sudo cpan -i File::HomeDir
+</span></span><span style="display:flex;"><span>sudo cpan -i Unicode::LineBreak</span></span></code></pre></div>
+<p>これでエラーも解決して完璧だね。</p>
+<h2 id="基本の書き方">基本の書き方<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>復数のときは{}で囲むとうまくいくことが多い。</p>
+<table>
+  <thead>
+      <tr>
+          <th>意味</th>
+          <th>書き方</th>
+          <th>表示</th>
+          <th>備考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>平均 バー</td>
+          <td>\bar{x}</td>
+          <td>$\bar{x}$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>下付き文字</td>
+          <td>x_{av}</td>
+          <td>$x_{ab}$</td>
+          <td>復数のときは{}で囲む</td>
+      </tr>
+      <tr>
+          <td>上付き文字</td>
+          <td>x^{ab}</td>
+          <td>$x^{ab}$</td>
+          <td>復数のときは{}で囲む</td>
+      </tr>
+      <tr>
+          <td>積分記号</td>
+          <td>\int</td>
+          <td>$\int$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>定積分</td>
+          <td>\int_{b}^{a}</td>
+          <td>$\int_{b}^{a}$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>極限</td>
+          <td>\lim_{n\to \infty}</td>
+          <td>$\lim_{n\to \infty}$</td>
+          <td>\lim にするとイタリックでなくなる</td>
+      </tr>
+      <tr>
+          <td>イタリック</td>
+          <td>\textit</td>
+          <td>$\mathit{Eisenia}$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>和の記号</td>
+          <td>\sum</td>
+          <td>$\sum$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>和の記号</td>
+          <td>\sum_{n=1}^\infty</td>
+          <td>$\sum_{n=1}^\infty$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>和の記号</td>
+          <td>\sum_{1\le k\le n}</td>
+          <td>$\sum_{1\le k\le n}$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>和の記号</td>
+          <td>\sum\limits_{n=1}^\infty a_n</td>
+          <td>$\sum\limits_{n=1}^\infty a_n$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="大小記号">大小記号<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th>意味</th>
+          <th>書き方</th>
+          <th>表示</th>
+          <th>備考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>等しくない</td>
+          <td>\ne</td>
+          <td>$\ne$</td>
+          <td>\neqでも同じ</td>
+      </tr>
+      <tr>
+          <td>小なりイコール</td>
+          <td>\le</td>
+          <td>$\le$</td>
+          <td>\leqでも同じ</td>
+      </tr>
+      <tr>
+          <td>小なりイコール</td>
+          <td>\leqq</td>
+          <td>$\leqq$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>大なりイコール</td>
+          <td>\ge</td>
+          <td>$\ge$</td>
+          <td>\geqでも同じ</td>
+      </tr>
+      <tr>
+          <td>大なりイコール</td>
+          <td>\geqq</td>
+          <td>$\geqq$</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="論理記号">論理記号<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th>意味</th>
+          <th>書き方</th>
+          <th>表示</th>
+          <th>備考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>よって</td>
+          <td>\therefore</td>
+          <td>$\therefore$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="関数">関数<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+  <thead>
+      <tr>
+          <th>意味</th>
+          <th>書き方</th>
+          <th>表示</th>
+          <th>備考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>合成関数</td>
+          <td>\circ</td>
+          <td>$f\circ g$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="数式環境">数式環境<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<p>改行は <code>\\</code> で表す。その行の下に空間を入れる際には<code>\\[10pt]</code>とする。</p>
+<p>複数行の改行で=で揃える場合、<code>\begin{aligned}</code>と<code>\end{aligned}</code>で囲む。揃える場所に<code>&amp;</code>を入れる。</p>
+<p>例↓</p>
+<p>$$
+\begin{aligned}
+\frac{dN}{dt}&amp;=Nr\[10pt]
+\frac{1}{N}\frac{dN}{dt}&amp;=r ：変数分離するためにNを左辺に集める\
+\int\frac{1}{N}\frac{dN}{dt} dt&amp;=\int r dt ：両辺をtで積分する \
+\int \frac{1}{N}dN &amp;= rt+C ：変数変換(置換積分公式)により左辺が簡単にかける。\
+\log|N|&amp;=rt+C \
+N&amp;=e^{rt+C} \
+N&amp;=C&rsquo;e^{rt}&hellip;(2)
+\end{aligned}
+$$</p>
+<h2 id="画像">画像<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h2 id="文字サイズ">文字サイズ<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h2 id="参考">参考<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="リンクをクリップボードにコピー"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<ol>
+<li><a href="https://mathlandscape.com/latex-eq/#toc2" rel="external">【LaTeX】数式環境まとめ【amsmath】 | 数学の景色</a>\</li>
+<li><a href="https://blog.wtsnjp.com/2016/12/19/tex-and-latex/" rel="external">TeX と LaTeX の違い | ラング・ラグー</a></li>
+<li><a href="https://tug.org/texlive/quickinstall.html" rel="external">Quick install - TeX Live - TeX Users Group</a></li>
+<li><a href="https://qiita.com/rainbartown/items/d7718f12d71e688f3573" rel="external">VSCode で最高の LaTeX 環境を作る #Latexmk - Qiita</a></li>
+<li><a href="https://lualatexlab.blog.fc2.com/blog-entry-8.html" rel="external">【基本】いろいろあるLaTeXの違い - LuaLaTeX Lab</a></li>
+<li><a href="https://ja.wikibooks.org/wiki/TeX/LaTeX%E5%85%A5%E9%96%80" rel="external">TeX/LaTeX入門 - Wikibooks</a></li>
+<li><a href="https://qiita.com/AngelDevil/items/d78af71a6e0da5739850" rel="external">latexmkで中間ファイル削除【*.dvi,*.synctex.gzが消えない!】 #VSCode - Qiita</a></li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <a id="R-logo" class="R-default direction-row" href="../../../index.html">
+          <span class="logo-title default-animation">knowladge store</span>
+        </a>
+        <search><form action="../../../search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="検索 (CTRL+ALT+f)"><i class="fas fa-fw fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">検索</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="検索...">
+            <button class="search-clear" type="button" data-search-clear="" title="検索をクリア"><i class="fas fa-fw fa-times" title="検索をクリア"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks default-animation">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/index.html"><a class="padding" href="../../../index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main default-animation">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/30_reading_record/index.html"><a class="padding default-animation" href="../../../30_reading_record/index.html">30_Reading_record</a><ul id="R-subsections-57ff82c84f1623db769125a15922e108" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/40_academic/index.html"><a class="padding default-animation" href="../../../40_academic/index.html">40_academic</a><ul id="R-subsections-04412d84917e984880c2dec5efb5624c" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/50_manual_1/index.html"><a class="padding default-animation" href="../../../50_manual_1/index.html">50_Manual_1</a><ul id="R-subsections-449ade3a674ba1ea8c9f6e8bf21a37e5" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/50_manual_1/51_web/index.html"><a class="padding default-animation" href="../../../50_manual_1/51_web/index.html">51_Web</a><ul id="R-subsections-12b1caaac0c70f9a7fb0b48fc5f1f983" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/50_manual_1/52_project/index.html"><a class="padding default-animation" href="../../../50_manual_1/52_project/index.html">52_Project</a><ul id="R-subsections-82583a9e471a233a4dd14bf7aa337810" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/50_manual_1/53_music/index.html"><a class="padding default-animation" href="../../../50_manual_1/53_music/index.html">53_music</a><ul id="R-subsections-a2fd357d955e5410e8752d523109c9cd" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/50_manual_1/54_it/index.html"><a class="padding default-animation" href="../../../50_manual_1/54_it/index.html">54_IT</a><ul id="R-subsections-8ea4969db394432ebaf4f8468c926d74" class="collapsible-menu"></ul></li>
+            <li class="parent alwaysopen " data-nav-id="/50_manual_1/59_document/index.html"><a class="padding default-animation" href="../../../50_manual_1/59_document/index.html">59_Document</a><ul id="R-subsections-597f07c35c6ef4c6e0dcf5f7b062162d" class="collapsible-menu">
+            <li class="active " data-nav-id="/50_manual_1/59_document/latex/index.html"><a class="padding" href="../../../50_manual_1/59_document/latex/index.html">LaTeX</a></li>
+            <li class="" data-nav-id="/50_manual_1/59_document/pandoc/index.html"><a class="padding" href="../../../50_manual_1/59_document/pandoc/index.html">Pandoc</a></li>
+            <li class="" data-nav-id="/50_manual_1/59_document/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88/index.html"><a class="padding" href="../../../50_manual_1/59_document/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88/index.html">フォント</a></li>
+            <li class="" data-nav-id="/50_manual_1/59_document/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB/index.html"><a class="padding" href="../../../50_manual_1/59_document/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB/index.html">ライトノベル</a></li>
+            <li class="" data-nav-id="/50_manual_1/59_document/%E6%9B%B8%E3%81%8F%E3%81%93%E3%81%A8/index.html"><a class="padding" href="../../../50_manual_1/59_document/%E6%9B%B8%E3%81%8F%E3%81%93%E3%81%A8/index.html">書くこと</a></li>
+            <li class="" data-nav-id="/50_manual_1/59_document/%E6%9C%AC%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9/index.html"><a class="padding" href="../../../50_manual_1/59_document/%E6%9C%AC%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9/index.html">本の読み方</a></li>
+            <li class="" data-nav-id="/50_manual_1/59_document/%E8%AB%96%E6%96%87%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9/index.html"><a class="padding" href="../../../50_manual_1/59_document/%E8%AB%96%E6%96%87%E3%81%AE%E8%AA%AD%E3%81%BF%E6%96%B9/index.html">論文の読み方</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/60_manual_2/index.html"><a class="padding default-animation" href="../../../60_manual_2/index.html">60_Manual_2</a><ul id="R-subsections-9fa68aaefafbd7685816b7c3b3930793" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/70_dictionary/index.html"><a class="padding default-animation" href="../../../70_dictionary/index.html">70_Dictionary</a><ul id="R-subsections-d6a0ceb91ae595bc782103df70f95d38" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts default-animation">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin" class="default-animation"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding default-animation">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols default-animation">
+          <ul class="">
+          </ul>
+        </div>
+<div id="R-footer" class="default-animation"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="../../../js/js-yaml/js-yaml.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-color.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-dispatch.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-drag.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-ease.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-interpolate.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-selection.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-timer.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-transition.min.js?1775018587" defer></script>
+    <script src="../../../js/d3/d3-zoom.min.js?1775018587" defer></script>
+    <script src="../../../js/mermaid/mermaid.min.js?1775018587" defer></script>
+    <script>
+      window.relearn.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="../../../js/perfect-scrollbar/perfect-scrollbar.min.js?1775018587" defer></script>
+    <script src="../../../js/theme.js?1775018587" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

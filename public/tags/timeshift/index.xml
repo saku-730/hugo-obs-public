@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Timeshift on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/timeshift/</link>
-    <description>Recent content in Timeshift on My New Hugo Project</description>
+    <title>Timeshift :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/timeshift/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/timeshift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>バックアップ系</title>
-      <link>http://localhost:1313/60_manual_2/62_software/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%B3%BB/</link>
+      <link>http://localhost:1313/60_manual_2/62_software/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%B3%BB/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/62_software/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%B3%BB/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;バックアップ系&#34;&gt;バックアップ系&lt;/h1&gt;&#xA;&lt;p&gt;バックアップしないやつはアホ、ゴミ、バカ&lt;/p&gt;&#xA;&lt;h2 id=&#34;timeshift&#34;&gt;Timeshift&lt;/h2&gt;&#xA;&lt;p&gt;Linuxのシステムファイルのバックアップで昔からある定番どころ。中身はrsyncで要はrsyncの設定、リストアを簡単にGUIでするためのソフト。&lt;/p&gt;&#xA;&lt;p&gt;差分バックアップが基本。そのため初回のバックアップこそ時間がかかるがそれ以降は割と早く終わる。&lt;/p&gt;&#xA;&lt;p&gt;バックアップ自体はスケジュールを設定すれば裏で勝手にやってくれる。&lt;/p&gt;&#xA;&lt;p&gt;システムファイルのバックアップが本来的な使い方でデフォルト設定でも&lt;code&gt;/user/home&lt;/code&gt; はバックアップ対象から外れている。バックアップに含むこともできる。homeディレクトリはバックアップがうまくいかないこともあるらしいが、経験的には割とうまくいってくれる印象。&lt;/p&gt;&#xA;&lt;p&gt;心配であれば他のバックアップソフトにhome直下は任せよう。&lt;/p&gt;&#xA;&lt;p&gt;GPUドライバーがとんでCUIのみの状況になってもTimeshiftから復旧できる。起動できれば大抵の場合どうにかシステム復旧ができる。&lt;/p&gt;&#xA;&lt;p&gt;デメリットとしてNASなどネットワークストレージには対応していない。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/62_software/%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E7%B3%BB/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

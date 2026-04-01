@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slicer on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/slicer/</link>
-    <description>Recent content in Slicer on My New Hugo Project</description>
+    <title>Slicer :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/slicer/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/slicer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Slicer</title>
-      <link>http://localhost:1313/60_manual_2/62_software/slicer/</link>
+      <link>http://localhost:1313/60_manual_2/62_software/slicer/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/62_software/slicer/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;slicer&#34;&gt;Slicer&lt;/h1&gt;&#xA;&lt;p&gt;3Dプリンター用スライサーソフト。主にPrusa Slicer&lt;/p&gt;&#xA;&lt;h2 id=&#34;prusa-slicer&#34;&gt;Prusa Slicer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.prusa3d.com/en/page/prusaslicer_424/&#34;&gt;PrusaSlicer | Original Prusa 3D printers directly from Josef Prusa&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Prusa 公式が出している。使いやすい。Linuxは&lt;del&gt;Appimage&lt;/del&gt;。→いつの間にかFlatpakになっていた。バージョン管理はしやすくなったのでいい。結構頻繁に更新されている。Prusaが潰れない限りは大丈夫そう。潰れてもオープンソースでどうにかなるか?&lt;/p&gt;&#xA;&lt;h3 id=&#34;操作メモ&#34;&gt;操作メモ&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;拡大・縮小：印刷物を選択状態で下の方の位置調整のあたりに倍率設定がある。&lt;/li&gt;&#xA;&lt;li&gt;ブリム：基本なくてもPLAをMK3S+では大丈夫。&lt;/li&gt;&#xA;&lt;li&gt;サポート：強制サポートのみでいけることが多い。すべてのサポートだとアーチ構造もサポートつけたりするがある程度のオーバーハングはどうにかなる。&lt;/li&gt;&#xA;&lt;li&gt;印刷物の位置：複数の印刷物がある場合に印刷物を近づけたほうがプリンターの移動が少なくなって時間は短くなるが本当に数%であることが多い。そのため気にせずある程度まとまってればいい。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;印刷設定色々&#34;&gt;印刷設定色々&lt;/h2&gt;&#xA;&lt;h3 id=&#34;インフィルパターン&#34;&gt;インフィルパターン&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://help.prusa3d.com/ja/article/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%AB%E3%81%AE%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_177130&#34;&gt;インフィルのパターン | Prusa Knowledge Base&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;インフィルパターンは色々あるがこだわりがなければ耐久性、プリント効率の点でジャイロイドがいい。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/gyroidfinal-2048x1536.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://help.prusa3d.com/ja/article/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%AB%E3%81%AE%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_177130&#34;&gt;インフィルのパターン | Prusa Knowledge Base&lt;/a&gt;より&lt;/p&gt;&#xA;&lt;h3 id=&#34;スカートブリム&#34;&gt;スカート・ブリム&lt;/h3&gt;&#xA;&lt;p&gt;印刷の最初に印刷物の周りに印刷される一つの線がスカート、印刷の一層目に印刷物の周りに複数回、周回するように印刷するのがブリム。&lt;/p&gt;&#xA;&lt;p&gt;スカートはPlusaSlicerでは基本的に印刷される。印刷範囲を明示することなどが役割。フィラメントの消費量もあまりなく、また3Dプリンターの設定不備でフィラメントをうまく押し出せないなどの場合にはこの時点で気付けるのでいい。&lt;/p&gt;&#xA;&lt;p&gt;ブリムは印刷一層目が3Dプリンターのベースプレートへの張り付きをよくするための方法の一つ。一層目が小さかったりする場合には有効である。ただしある程度の大きさのものであればなくても印刷品質は変わらないのでフィラメント、時間の効率のためにも印刷する必要はない。ブリム以外の一層目の張り付き不良への対処法も参考に。&lt;/p&gt;&#xA;&lt;h3 id=&#34;サポート材&#34;&gt;サポート材&lt;/h3&gt;&#xA;&lt;p&gt;オーバーハングがきつすぎる場合にはサポート材を印刷したほうがいい。&lt;/p&gt;&#xA;&lt;h3 id=&#34;フィラメント&#34;&gt;フィラメント&lt;/h3&gt;&#xA;&lt;p&gt;フィラメントごとに設定を作れる。よく使われる種類のフィラメントは最初から設定が作られている。&lt;/p&gt;&#xA;&lt;p&gt;ELEGOO の PETGはデフォルトの Generic PETGでOKf&lt;/p&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/62_software/slicer/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

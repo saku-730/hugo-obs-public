@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ブルーバックス on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9/</link>
-    <description>Recent content in ブルーバックス on My New Hugo Project</description>
+    <title>ブルーバックス :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>生命と非生命のあいだ</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/</link>
+      <title>進化のからくり</title>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;生命と非生命のあいだ&#34;&gt;生命と非生命のあいだ&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;題名は「生物と無生物のあいだ」のもじり。もじりのもじりじゃねーか&lt;/p&gt;&#xA;&lt;p&gt;生命起源についての学説紹介。題名をもじりたかったのはわかるがこの題名だと生物の定義とか哲学的な話するのかな~と思っちゃうからやめてほしい。まあ生命の起源、なんて本は腐るほど出ているからそうしたくないのはわかるが。&lt;/p&gt;&#xA;&lt;p&gt;話の脱線、本題になかなか入らなかったりが多い。&lt;/p&gt;&#xA;&lt;p&gt;p227:アヴァロンの爆発&lt;/p&gt;&#xA;&lt;p&gt;5億7000万年前からの多細胞生物の急激な増加をアヴァロンの爆発と呼ぶ。カンブリア以前はあまり知らなかったので初耳。カンブリア紀の前をフォーチュニアン紀というのも初耳。&lt;/p&gt;&#xA;&lt;p&gt;第8章：生命のスペクトラム&lt;/p&gt;&#xA;&lt;p&gt;主に生命と非生命を0,1で分けるのではなくスペクトラム的に変化するのでは、という提案。生命の起源論が少し奇跡に頼らなくてすむようになる。スペクトラム的に考えるのは最近だと割と多く見るような気がする(性別とか種とか)のでこれはありな気もする。実際、生物の定義がそもそも完全にはできないことがある意味でスペクトラムを支持しているともいえる。ただこのスペクトラムの話は結局定義から逃げているのでは、という考えもあるので安易に採用してこれでいいよねとなるのもよくない。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/index.html</guid>
+      <description></description>
     </item>
     <item>
-      <title>進化のからくり</title>
-      <link>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/</link>
+      <title>生命と非生命のあいだ</title>
+      <link>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/31_living_things/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;進化のからくり&#34;&gt;進化のからくり&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/%E9%80%B2%E5%8C%96%E3%81%AE%E3%81%8B%E3%82%89%E3%81%8F%E3%82%8A.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;進化についての色々な話を散りばめてる。にしてもカワニナが好きなんだなと感じる。&lt;/p&gt;&#xA;&lt;p&gt;第5章：進化学者のやる気は好奇心の多さに比例する&lt;/p&gt;&#xA;&lt;p&gt;第6章：恋愛なんて無駄とか言わないで&lt;/p&gt;&#xA;&lt;p&gt;黒歴史からの進化学への融合の話はよかった。なんだかんだ研究者はいつまでも面倒でだるい勉強をし続けるべきだしそういう人間が勝てるのだと思う。&lt;/p&gt;&#xA;&lt;p&gt;第11章：エンドレスサマー&lt;/p&gt;&#xA;&lt;p&gt;最後の研究嫌いも不仲もなかったいう落ちがいい。最初のほうはああ、だめな話なのかなと思わせておいてどんどんよくなっていったみたいなありがちな話になりかけてたところでいや最初っからそんなことはない、普通の話だよってなるのがいい。&lt;/p&gt;&#xA;&lt;p&gt;全体的に研究者の精神性のいい話が多い。進化学の本ではなく研究者の本。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/31_living_things/%E7%94%9F%E5%91%BD%E3%81%A8%E9%9D%9E%E7%94%9F%E5%91%BD%E3%81%AE%E3%81%82%E3%81%84%E3%81%A0/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

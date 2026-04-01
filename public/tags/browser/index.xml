@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Browser on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/browser/</link>
-    <description>Recent content in Browser on My New Hugo Project</description>
+    <title>Browser :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/browser/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vivaldi</title>
-      <link>http://localhost:1313/60_manual_2/62_software/vivaldi/</link>
+      <link>http://localhost:1313/60_manual_2/62_software/vivaldi/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/62_software/vivaldi/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;vivaldi&#34;&gt;Vivaldi&lt;/h1&gt;&#xA;&lt;p&gt;個人的ベストブラウザソフト。&lt;/p&gt;&#xA;&lt;h2 id=&#34;同期&#34;&gt;同期&lt;/h2&gt;&#xA;&lt;p&gt;アカウントを設定することで別の端末でも設定等を同期できる。メモやブックマークもできるのでするべし。ただしマウスジェスチャーは同期されない。&lt;/p&gt;&#xA;&lt;p&gt;ラボのネットワークだとクラウド判定で同期が弾かれてうまくいかないためvpnを使うとうまくいく。&lt;/p&gt;&#xA;&lt;h2 id=&#34;エラーメモ&#34;&gt;エラーメモ&lt;/h2&gt;&#xA;&lt;h3 id=&#34;xdg-open&#34;&gt;xdg-open&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://forum.vivaldi.net/topic/100113/kde-plasma-kio-client-error&#34;&gt;KDE Plasma - KIO Client Error | Vivaldi Forum&lt;/a&gt;&#xA;KDI環境でKIO Client Errorによってxdg-openが正常に機能しない。これによってvscodeの同期が正常に機能しなかったりする。&#xA;ソフトウェアがログインや同期のときにブラウザを利用する場合にxdg-openを使うことがあるのでこのとき問題になる。&lt;/p&gt;&#xA;&lt;p&gt;他のブラウザでは起きていないエラーなのでそのときだけfirefox使ったりして一応対処。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/62_software/vivaldi/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

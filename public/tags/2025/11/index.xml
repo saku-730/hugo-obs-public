@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2025/11 on My New Hugo Project</title>
-    <link>http://localhost:1313/tags/2025/11/</link>
-    <description>Recent content in 2025/11 on My New Hugo Project</description>
+    <title>2025/11 :: タグ :: knowladge store</title>
+    <link>http://localhost:1313/tags/2025/11/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="http://localhost:1313/tags/2025/11/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CouchDB</title>
-      <link>http://localhost:1313/50_manual_1/54_it/couchdb/</link>
+      <link>http://localhost:1313/50_manual_1/54_it/couchdb/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/50_manual_1/54_it/couchdb/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;couchdb&#34;&gt;CouchDB&lt;/h1&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.couchdb.org/en/stable/index.html&#34;&gt;Overview — Apache CouchDB® 3.5 Documentation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/50_manual_1/54_it/couchdb/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>darktable</title>
-      <link>http://localhost:1313/60_manual_2/62_software/darktable/</link>
+      <link>http://localhost:1313/60_manual_2/62_software/darktable/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/60_manual_2/62_software/darktable/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;darktable&#34;&gt;darktable&lt;/h1&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;install&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://software.opensuse.org/download.html?project=graphics:darktable&amp;amp;package=darktable&#34;&gt;パッケージのインストール: graphics:darktable / darktable&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;↑で自分にあったosを選択。&lt;/p&gt;&#xA;&lt;h2 id=&#34;私的現像作業手順&#34;&gt;私的現像作業手順&lt;/h2&gt;&#xA;&lt;h3 id=&#34;データ準備&#34;&gt;データ準備&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;SDカードから全データ作業パソコンにコピー&lt;/li&gt;&#xA;&lt;li&gt;darktableのライトテーブルで写真の選択。捨てる(評価なし)、それ以外は感覚で★1-5&lt;/li&gt;&#xA;&lt;li&gt;選択して星がついたデータだけ作業パソコンの別ディレクトリにコピー&amp;amp;NASに保管&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;現像作業&#34;&gt;現像作業&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;セレクト&lt;/li&gt;&#xA;&lt;li&gt;レンズ補正。普段使っているカメラとレンズであればプリセットでインポート時に自動で行われる。&lt;/li&gt;&#xA;&lt;li&gt;トリミング&lt;/li&gt;&#xA;&lt;li&gt;露出&lt;/li&gt;&#xA;&lt;li&gt;ホワイトバランス&lt;/li&gt;&#xA;&lt;li&gt;コントラスト&lt;/li&gt;&#xA;&lt;li&gt;粒子&lt;/li&gt;&#xA;&lt;li&gt;現像&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4 id=&#34;1-セレクト&#34;&gt;1 セレクト&lt;/h4&gt;&#xA;&lt;p&gt;写真を選ぶ。&lt;/p&gt;&#xA;&lt;p&gt;SDカードを取り出して、全データを一旦作業パソコンのraw画像を保管する一時ディレクトリにコピーする。&lt;/p&gt;&#xA;&lt;p&gt;ライトテーブルのフィルムロールで一時ディレクトリを選択してインポートする。&lt;/p&gt;&#xA;&lt;p&gt;ダークテーブルではスペースで次の画像に進む。&lt;/p&gt;&#xA;&lt;p&gt;セレクトの基準は以下の通り&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;レーティング&lt;/th&gt;&#xA;          &lt;th&gt;基準&lt;/th&gt;&#xA;          &lt;th&gt;説明&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;rejected ✗&lt;/td&gt;&#xA;          &lt;td&gt;記録としても残す価値のない画像&lt;/td&gt;&#xA;          &lt;td&gt;　残さない、削除　&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;★1&lt;/td&gt;&#xA;          &lt;td&gt;記録としては一応残す&lt;/td&gt;&#xA;          &lt;td&gt;ブログに使ったり標本データベースにも残さないと思うが念のため残しておくだけ&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;★2-4&lt;/td&gt;&#xA;          &lt;td&gt;まあ必ず使うかはわからんが取り敢えず良さそうなやつ&lt;/td&gt;&#xA;          &lt;td&gt;★5がなかったりさらに画像ほしいときにここから選ぶ&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;★5&lt;/td&gt;&#xA;          &lt;td&gt;うまく撮れた画像。必ず使う画像&lt;/td&gt;&#xA;          &lt;td&gt;現像後すぐにサイトに貼ったり標本紐付けしたり&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;ショートカットはrejected は R でそれ以外は星の数&lt;/p&gt;&#xA;&lt;p&gt;星がついた画像を一旦、rawで保存する。NASで保存しておくのが理想ではある。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/Pasted%20image%2020251126062213.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;エクスポートでファイルフォーマットをコピーにすると未加工のrawで保存できる。&lt;/p&gt;&#xA;&lt;h4 id=&#34;2-レンズ補正&#34;&gt;2 レンズ補正&lt;/h4&gt;&#xA;&lt;p&gt;ここからはダークルームに移動。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/Pasted%20image%2020251126060141.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;基本的にプリセット登録しておいて画像情報からレンズ名、カメラ名が一致すれば自動でレンズ補正が行われるようにしておく。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/Pasted%20image%2020251126060327.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/Pasted%20image%2020251126060404.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;レンズ名やカメラ機種は撮影した画像の画像情報からコピペしよう。%を使っておくと任意の意味になる。(例 %7100% みたいにしておけば D7100 や D7100sなどにも適用できる。)&lt;/p&gt;&#xA;&lt;h4 id=&#34;3-トリミング&#34;&gt;3 トリミング&lt;/h4&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/obsidian/Pasted%20image%2020251126060757.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/60_manual_2/62_software/darktable/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>うまくてダメな写真とヘタだけどいい写真</title>
-      <link>http://localhost:1313/30_reading_record/39_others/%E3%81%86%E3%81%BE%E3%81%8F%E3%81%A6%E3%83%80%E3%83%A1%E3%81%AA%E5%86%99%E7%9C%9F%E3%81%A8%E3%83%98%E3%82%BF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%84%E3%81%84%E5%86%99%E7%9C%9F/</link>
+      <link>http://localhost:1313/30_reading_record/39_others/%E3%81%86%E3%81%BE%E3%81%8F%E3%81%A6%E3%83%80%E3%83%A1%E3%81%AA%E5%86%99%E7%9C%9F%E3%81%A8%E3%83%98%E3%82%BF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%84%E3%81%84%E5%86%99%E7%9C%9F/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/39_others/%E3%81%86%E3%81%BE%E3%81%8F%E3%81%A6%E3%83%80%E3%83%A1%E3%81%AA%E5%86%99%E7%9C%9F%E3%81%A8%E3%83%98%E3%82%BF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%84%E3%81%84%E5%86%99%E7%9C%9F/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;うまくてダメな写真とヘタだけどいい写真&#34;&gt;うまくてダメな写真とヘタだけどいい写真&lt;/h1&gt;&#xA;&lt;p&gt;写真の撮り方という技術的な面は後半で少し触れられているが大半は写真を撮るときの心構え。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;写真をとられるのはみんな嫌&lt;/li&gt;&#xA;&lt;li&gt;被写体にもっと気を使え&lt;/li&gt;&#xA;&lt;li&gt;写真の確認している時間があるならもっと写真撮れ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;p111&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;こいつ人間終わってる。いや、人間がはじまってもいないと思いました。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;人間終わってるを超える悪口ってあったんだ。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/39_others/%E3%81%86%E3%81%BE%E3%81%8F%E3%81%A6%E3%83%80%E3%83%A1%E3%81%AA%E5%86%99%E7%9C%9F%E3%81%A8%E3%83%98%E3%82%BF%E3%81%A0%E3%81%91%E3%81%A9%E3%81%84%E3%81%84%E5%86%99%E7%9C%9F/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>ひとの目、驚異の進化</title>
-      <link>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/</link>
+      <link>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;ひとの目驚異の進化&#34;&gt;ひとの目、驚異の進化&lt;/h1&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/32_science/%E3%81%B2%E3%81%A8%E3%81%AE%E7%9B%AE%E9%A9%9A%E7%95%B0%E3%81%AE%E9%80%B2%E5%8C%96/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>ルポ保育格差</title>
-      <link>http://localhost:1313/30_reading_record/34_society/%E3%83%AB%E3%83%9D%E4%BF%9D%E8%82%B2%E6%A0%BC%E5%B7%AE/</link>
+      <link>http://localhost:1313/30_reading_record/34_society/%E3%83%AB%E3%83%9D%E4%BF%9D%E8%82%B2%E6%A0%BC%E5%B7%AE/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/34_society/%E3%83%AB%E3%83%9D%E4%BF%9D%E8%82%B2%E6%A0%BC%E5%B7%AE/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;ルポ保育格差&#34;&gt;ルポ保育格差&lt;/h1&gt;&#xA;&lt;p&gt;保育事業についてのルポルタージュ&lt;/p&gt;&#xA;&lt;h2 id=&#34;感想とか&#34;&gt;感想とか&lt;/h2&gt;&#xA;&lt;p&gt;保育についての色々問題意識を引き起こす。教育の一部みたいなもの、最初なのに小学校や中学のように私立でもしっかりとした教育実態が担保されていないのは制度的な問題か。小中学校が私立のほうが質の高い教育の傾向があるのに保育園は私立でぶっ壊れ保育が起きてしまうのは選択肢がなさすぎるからか。&lt;/p&gt;&#xA;&lt;h2 id=&#34;要約&#34;&gt;要約&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第1章&#34;&gt;第1章&lt;/h3&gt;&#xA;&lt;p&gt;　ある社会福祉法人運営の認可保育所ではベルトで幼児を椅子に縛り動けなくする、大声で怒鳴る、無入やり食べさせるといった虐待行為が日常化していた。派遣の保育士が多く耐えられずに辞める人も多く人の出入りは非常に多い。&lt;/p&gt;&#xA;&lt;p&gt;　誤った保育だけでなく親への対応にも問題が見られる。親が仕事を休んでいるなら理由を問わず預かりを拒否することがある。また「親育て」としてぬいぐるみを子供と一緒に作っことが推奨されている園ではシングルマザーでぬいぐるみを作る余裕がない親を苦しめている。甘やかさない、として親が着替えを忘れた場合、保育園の貸出用の衣服を出さずにパンツで過ごさせる行為もまかり通っている。&lt;/p&gt;&#xA;&lt;p&gt;　以上のような行為はいくつかの保育園で行なわれているが保育園が閉鎖的であるためにそこで働く保育士は洗脳されてそれが当たり前になっていることが多い。&lt;/p&gt;&#xA;&lt;p&gt;　問題となる保育の実態は制度上は地域の第三者委員や社会福祉協議会、市区町村の保育化の相談窓口に訴えがいくことになる。しかし聞き取り調査で正直に虐待が聞き出せないことも多い。第三者評価は営利事業化してしまい、適切な評価を行えていない。親も行き帰りのタイミングでしか保育園と接することがなく保育の実態に気づけていないこともある。&lt;/p&gt;&#xA;&lt;p&gt;　保育園は幼児の生育において非常に重要な役割を持つがその適切な運用・保育実態について監査するような機能が現状十分に機能しておらず最悪の場合、虐待行為が日常化している。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第2章&#34;&gt;第2章&lt;/h3&gt;&#xA;&lt;p&gt;　保育士確保が叫ばれるが保育士の給与は低く年収300万円代が多い。280万円ほどの場合もある。1年目の給与が低いだけでなく昇給もあまりない。国からの補助などを合わせて国の示すモデルケースどおりであれば450-500万円ほどになることにになっている。このギャップの大きな要因は委託費の弾力運用が認められていることだ。私立保育園には市区町村から保育の委託を行う形で委託費が支払われているがその運用方法について人件費についてなどの割合は制限されていない。国の想定は七-八割であるが四割ほどにとどまることも多い。保育園には公立のものと私立のものがあり人件費については私立で問題が多い。私立の中では株式会社設立のものと社会福祉法人のものがあり株式会社のほうがより人件費割合が低い場合が多い。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第3章&#34;&gt;第3章&lt;/h3&gt;&#xA;&lt;p&gt;　待機児童問題はなぜ起きたのか。&lt;/p&gt;&#xA;&lt;p&gt;　育児休業を取れない人が多い。段々と育児休業は増えているがそれも正規雇用者が中心で非正規雇用者ではあまり育児休業は取れない。しかし女性の多くが非正規雇用者である。本来は育児休業をとって数年で復職したいができない人がいるため結果的に0歳児保育が必要になっている。ただし保育園側は一人あたりのコストが0歳児では多い。一人の保育士が1歳児は6人見れるが0歳児は3人しか見れないためである。そのため保育園側の0才児保育に対しての消極的姿勢と共働きが増え、労働者が育児休業をとれないというミスマッチが生まれている。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第4章&#34;&gt;第4章&lt;/h3&gt;&#xA;&lt;p&gt;　学童保育、小学校での放課後保育も難しい状況にある。保育園の保育士と同様に学童保育の職員の給与は低く昇給も少ない。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第5章&#34;&gt;第5章&lt;/h3&gt;&#xA;&lt;p&gt;　保育においては一斉保育が行われているがそこからの脱却がより充実した保育には必要である。型にはめずに自由に振る舞えるような環境・空間を作ることが充実した保育に求められる。&lt;/p&gt;&#xA;&lt;h3 id=&#34;第6章&#34;&gt;第6章&lt;/h3&gt;&#xA;&lt;p&gt;　保育園の需要が共働きの増加により増大しそれに速急に対応するために企業による保育園の設置を許可した。しかしそれにより保育園が資本主義的に組み込まれていき質の低い保育も見られた。保育士が不足した状態や保育園運営のノウハウのないまま保育園の設置が進められてしまった。そのため保育の質を担保することが求められる。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>孤独に生きよ</title>
-      <link>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;孤独に生きよ&#34;&gt;孤独に生きよ&lt;/h1&gt;&#xA;&lt;p&gt;エッセイというか幸福論というか。孤独に生き続けた作家の孤独に生きることのすすめ。&lt;/p&gt;&#xA;&lt;p&gt;本書を通して一貫しての主張は奴隷になってはいけない、ということ。奴隷というのは自己の意識が存在しない、思考停止している、主体性が破壊されているような状態のこと。それは身体的なものでもあるが内面的なものでもある。&lt;/p&gt;&#xA;&lt;p&gt;そして奴隷から解放されるには逃げることを推奨する。逃げることを認めている。著者自身の経験も踏まえているのだろう。&lt;/p&gt;&#xA;&lt;p&gt;著者は少なからず大学に行かず、引きこもりをやっていて才能もないというコンプレックスのようなものを抱えているように思うがそれをある程度認めた上でどう向き合っていくかと言うのを丁寧に行っている。かなり紳士的な生き方だと思う。自分の弱さを見てみぬふりをせず認識した上でそれを認めた上で完全になくすことはできないからそれに対して取り組みつつ生きていくという、言葉にすれば簡単だが実行するのは、し続けるのは難しく辛いことをやり続けられているのは誇っていいのではないか。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>懐旧</title>
-      <link>http://localhost:1313/70_dictionary/72_vocabulary/%E6%87%90%E6%97%A7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/70_dictionary/72_vocabulary/%E6%87%90%E6%97%A7/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;懐旧&#34;&gt;懐旧&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;昔のことを、なつかしく思い出すこと&#xA;[1] より&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;例文&#34;&gt;例文&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/30_reading_record/36_novel/%E7%9C%A0%E3%82%8C%E3%81%AC%E5%A4%9C%E3%81%AB%E8%AA%AD%E3%82%80%E6%9C%AC/&#34;&gt;眠れぬ夜に読む本&lt;/a&gt; p105&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;それは少年の時、この近くで育ったため、懐旧の情にかられるからだ。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kotobank.jp/word/%E6%87%90%E6%97%A7-457019&#34;&gt;懐旧(カイキュウ)とは？ 意味や使い方 - コトバンク&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>理系の人々</title>
-      <link>http://localhost:1313/30_reading_record/37_comics/%E7%90%86%E7%B3%BB%E3%81%AE%E4%BA%BA%E3%80%85/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/37_comics/%E7%90%86%E7%B3%BB%E3%81%AE%E4%BA%BA%E3%80%85/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;理系の人々&#34;&gt;理系の人々&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;理系における地獄への道は善意と不用意な発言で敷きつめられている&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;2巻 p20&lt;/p&gt;&#xA;&lt;p&gt;2巻 p44 覚えがありすぎる。そして短時間の睡眠では結局回復できない。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>眠れぬ夜に読む本</title>
-      <link>http://localhost:1313/30_reading_record/36_novel/%E7%9C%A0%E3%82%8C%E3%81%AC%E5%A4%9C%E3%81%AB%E8%AA%AD%E3%82%80%E6%9C%AC/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/30_reading_record/36_novel/%E7%9C%A0%E3%82%8C%E3%81%AC%E5%A4%9C%E3%81%AB%E8%AA%AD%E3%82%80%E6%9C%AC/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;眠れぬ夜に読む本&#34;&gt;眠れぬ夜に読む本&lt;/h1&gt;&#xA;&lt;p&gt;p86 &lt;a href=&#34;http://localhost:1313/70_dictionary/72_vocabulary/%E9%9B%85%E5%8F%B7/&#34;&gt;雅号&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;p92 「ランボオ」はどこかで「ミロンガ」になって「ミロンガ」はビルの老朽化に伴い2022年12月6日に閉店。その後、別の場所で同じく「ミロンガ」として2023年2月6日から回転したとのこと。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://loveretro.jp/2023/02/new-milonga/&#34;&gt;神保町 昭和28年創業、神田のタンゴ喫茶のミロンガ・ヌオーバ/ Milonga Nuevaはどんな店舗なんだろう？その場所は？ | レトロに恋して&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://san-tatsu.jp/articles/101098/&#34;&gt;【移転】コーヒー片手にタンゴの調べにひたる。神田神保町の老舗喫茶『ミロンガ・ヌオーバ』｜さんたつ by 散歩の達人&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;p104 宝塚の図書館は砂の城の背景だったのか。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/30_reading_record/34_society/%E3%83%AB%E3%83%9D%E4%BF%9D%E8%82%B2%E6%A0%BC%E5%B7%AE/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>雅号</title>
-      <link>http://localhost:1313/70_dictionary/72_vocabulary/%E9%9B%85%E5%8F%B7/</link>
+      <link>http://localhost:1313/70_dictionary/72_vocabulary/%E9%9B%85%E5%8F%B7/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/70_dictionary/72_vocabulary/%E9%9B%85%E5%8F%B7/</guid>
-      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;雅号&#34;&gt;雅号&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;雅号（がごう）は、文人・画家・書家などが、本名以外につける風雅な名のことである。&#xA;[1]より&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;昔の芸名みたいなもの。今でも書道をやっていると使うことがあるとかないとか。明治くらいの作家の多くは名字はそのままで下の名前だけ雅号にしている。&lt;/p&gt;&#xA;&lt;h2 id=&#34;具体例&#34;&gt;具体例&lt;/h2&gt;&#xA;&lt;p&gt;狐狸庵(こりあん)：遠藤周作 &lt;a href=&#34;http://localhost:1313/30_reading_record/36_novel/%E7%9C%A0%E3%82%8C%E3%81%AC%E5%A4%9C%E3%81%AB%E8%AA%AD%E3%82%80%E6%9C%AC/&#34;&gt;眠れぬ夜に読む本&lt;/a&gt; p86&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E9%9B%85%E5%8F%B7&#34;&gt;雅号 - Wikipedia&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kotobank.jp/word/%E9%9B%85%E5%8F%B7-461397&#34;&gt;雅号(ガゴウ)とは？ 意味や使い方 - コトバンク&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/70_dictionary/72_vocabulary/%E9%9B%85%E5%8F%B7/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>懐旧</title>
+      <link>http://localhost:1313/70_dictionary/72_vocabulary/%E6%87%90%E6%97%A7/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/70_dictionary/72_vocabulary/%E6%87%90%E6%97%A7/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>孤独に生きよ</title>
+      <link>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/35_humanities/%E5%AD%A4%E7%8B%AC%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%88/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>眠れぬ夜に読む本</title>
+      <link>http://localhost:1313/30_reading_record/36_novel/%E7%9C%A0%E3%82%8C%E3%81%AC%E5%A4%9C%E3%81%AB%E8%AA%AD%E3%82%80%E6%9C%AC/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/36_novel/%E7%9C%A0%E3%82%8C%E3%81%AC%E5%A4%9C%E3%81%AB%E8%AA%AD%E3%82%80%E6%9C%AC/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>理系の人々</title>
+      <link>http://localhost:1313/30_reading_record/37_comics/%E7%90%86%E7%B3%BB%E3%81%AE%E4%BA%BA%E3%80%85/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/37_comics/%E7%90%86%E7%B3%BB%E3%81%AE%E4%BA%BA%E3%80%85/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

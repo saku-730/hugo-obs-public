@@ -1,3 +1,16 @@
 baseURL = 'https://example.org/'
 languageCode = 'ja'
-title = 'My New Hugo Project'
+title = 'knowladge store'
+theme = "hugo-theme-relearn"
+hasCJKLanguage = true # 日本語・中国語・韓国語の単語カウントを有効にする
+summaryLength = 0 # サマリーの長さを120単語にする
+relativeurls = true
+enableGitInfo = false
+timezone = "Asia/Tokyo"
+
+DefaultContentLanguage = "ja"
+
+[params]
+  showVisitedLinks = false
+  ordersectionsby = 'title'
+
