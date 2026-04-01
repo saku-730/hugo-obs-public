@@ -6,7 +6,7 @@ created: 2024-10-12
 updated: 2025-08-31
 author: John_Maynard_Smith
 ---
-![](/obsidian/Evolution_and%20_the_Theory_of_Games.jpg)
+![](/static/Evolution_and%20_the_Theory_of_Games.jpg)
 
 和訳「進化とゲーム理論　闘争の論理」
 

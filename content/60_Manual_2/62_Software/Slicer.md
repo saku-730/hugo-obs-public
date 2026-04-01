@@ -34,7 +34,7 @@ Prusa 公式が出している。使いやすい。Linuxは~~Appimage~~。→い
 
 インフィルパターンは色々あるがこだわりがなければ耐久性、プリント効率の点でジャイロイドがいい。
 
-![](/obsidian/gyroidfinal-2048x1536.jpg)
+![](/static/gyroidfinal-2048x1536.jpg)
 
 [インフィルのパターン \| Prusa Knowledge Base](https://help.prusa3d.com/ja/article/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%AB%E3%81%AE%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3_177130)より
 
