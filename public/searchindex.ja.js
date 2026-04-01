@@ -1,7 +1,7 @@
 var relearn_searchindex = [
   {
     "breadcrumb": "",
-    "content": "このサイトについて",
+    "content": "obsidianの個人メモの一部を公開しているものです。そのため、言葉足らず、間違い、などあるかもしれませんがご了承くださいね。\n作成者、問い合わせについては→X twitter リンク",
     "description": "",
     "tags": [],
     "title": "このサイトについて",

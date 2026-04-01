@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://obs2hugo.kero-web.com/'
 languageCode = 'ja'
 title = 'knowladge store'
 theme = "hugo-theme-relearn"
