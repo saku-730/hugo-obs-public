@@ -7,14 +7,6 @@ created: 2025-12-18
 updated: 2026-03-17
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# goose
-
 ## install
 
 ```bash

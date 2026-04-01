@@ -6,14 +6,6 @@ tags:
 created: 2025-06-30
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Ruby-on-Rails
-
 開発者の幸福はRailsの基本的な哲学
 
 ## Install

@@ -5,14 +5,6 @@ tags:
 created: 2024-06-15
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Code_writing
-
 クソコードを書かないために。
 
 

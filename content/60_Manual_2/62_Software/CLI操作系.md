@@ -6,14 +6,6 @@ created: 2025-08-16
 updated: 2025-08-31
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# CLI操作系
-
 ## Tree
 
 ディレクトリ構成をツリー状に文字で出力してくれる。

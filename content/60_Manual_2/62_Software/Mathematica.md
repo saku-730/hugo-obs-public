@@ -5,14 +5,6 @@ tags:
 created: 2024-06-06
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Mathematica
-
 天才が作った技術計算システム。
 
 ## 資料

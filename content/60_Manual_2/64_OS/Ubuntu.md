@@ -6,14 +6,6 @@ tags:
 created: 2024-06-15
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Ubuntu
-
 ## 基本コマンド
 
 ### ファイル・ストレージ管理

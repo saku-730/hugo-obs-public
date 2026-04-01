@@ -8,14 +8,6 @@ draft: false
 author: ""
 publish: manning
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# API Design Patterns
-
 [API Design Patterns - JJ Geewax](https://www.manning.com/books/api-design-patterns)
 
 manning の無料のやつ。

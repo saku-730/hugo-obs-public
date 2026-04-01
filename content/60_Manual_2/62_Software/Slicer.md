@@ -10,14 +10,6 @@ updated: 2025-08-31
 aliases:
   - Prusa Slicer
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Slicer
-
 3Dプリンター用スライサーソフト。主にPrusa Slicer
 
 ## Prusa Slicer

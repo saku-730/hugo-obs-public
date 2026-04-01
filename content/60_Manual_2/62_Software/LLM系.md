@@ -7,14 +7,6 @@ tags:
 created: 2025-06-08
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# LLM系
-
 企業が作った(汎用)LLMを使う上でのメモ。
 
 ## 全般的に

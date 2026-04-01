@@ -5,14 +5,6 @@ tags:
 created: 2025-03-06
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# OBS
-
 ## インストール
 
 FFmpegが必須。

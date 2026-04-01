@@ -7,14 +7,6 @@ created: 2025-11-09
 updated: 2026-03-17
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# darktable
-
 ## install
 
 [パッケージのインストール: graphics:darktable / darktable](https://software.opensuse.org/download.html?project=graphics:darktable&package=darktable)

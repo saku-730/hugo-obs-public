@@ -8,14 +8,6 @@ updated: 2025-08-31
 author: ""
 publish: 2021/3
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Go言語ハンズオン
-
 Goの解説本。珍しく徳永先生が勧めた本。実際わかりやすい。ただしmoduleモードには対応していないので注意。
 
 [Go言語ハンズオン - 秀和システム新社 あなたの学びをサポート！](https://www.shuwasystem.co.jp/book/9784798063997.html)

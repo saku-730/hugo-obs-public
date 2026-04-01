@@ -8,14 +8,6 @@ created: 2024-10-23
 updated: 2026-03-17
 author: 高津カリノ
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# WORKING!!
-
 ファミレス、ワグナリアの日常系4コマ漫画
 
 すぐにカップリングをおこなうカプ厨である面は否定できない。

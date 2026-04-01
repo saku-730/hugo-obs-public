@@ -7,14 +7,6 @@ tags:
 created: 2024-11-02
 updated: 2026-02-05
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# node_js
-
 javascriptの実行環境。nord.jsもあるの間違いの原因すぎるだろ。
 
 ## install

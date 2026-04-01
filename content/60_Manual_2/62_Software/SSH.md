@@ -5,14 +5,6 @@ tags:
 created: 2024-11-01
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# SSH
-
 Secure Shell
 
 とりあえずサーバーをいじるときに。特に断りがなければopensshでやる。

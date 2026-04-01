@@ -10,14 +10,6 @@ aliases:
   - git
   - github
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Git
-
 Linus がつくった履歴管理の定番。
 
 ## 運用メモ

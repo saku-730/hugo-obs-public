@@ -5,14 +5,6 @@ tags:
 created: 2025-06-16
 updated: 2025-08-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Windows
-
 ## Windows11
 
 ### ハードウェア要件

@@ -6,14 +6,6 @@ tags:
 created: 2024-11-03
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Go
-
 検索するときはGolangとかね。
 
 ## install

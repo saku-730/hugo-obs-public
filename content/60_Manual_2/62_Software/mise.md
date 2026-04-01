@@ -6,14 +6,6 @@ created: 2025-09-19
 updated: 2026-03-17
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# mise
-
 読み方はミーズ
 
 ## インストール

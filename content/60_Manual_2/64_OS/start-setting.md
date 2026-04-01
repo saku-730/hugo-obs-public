@@ -5,14 +5,6 @@ tags:
 created: 2025-07-01
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# start-setting
-
 ## Ubuntu
 
 ```bash

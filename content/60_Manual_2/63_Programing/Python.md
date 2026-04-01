@@ -5,14 +5,6 @@ tags:
 created: 2024-06-15
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Python
-
 クソみたいな環境でおなじみ。
 
 ## 環境構築

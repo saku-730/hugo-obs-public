@@ -7,14 +7,6 @@ tags:
 created: 2025-06-01
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Truenas
-
 [TrueNAS - 192.168.2.161](http://192.168.2.161/ui/dashboard)
 
 truenas_adminがデフォルトルートユーザー

@@ -6,14 +6,6 @@ tags:
 created: 2025-02-27
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# dir-diagram
-
 自作。ディレクトリ図をいちいち作るのが面倒だったのでChatgptに9.9割つくってもらった。
 
 [GitHub - saku-730/directory_diagram.](https://github.com/saku-730/directory_diagram)

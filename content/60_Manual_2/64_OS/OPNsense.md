@@ -6,14 +6,6 @@ tags:
 created: 2025-05-16
 updated: 2026-03-17
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# OPNsense
-
 ## ハードウェア
 
 - CPU：i3-7100T

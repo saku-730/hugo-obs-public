@@ -7,14 +7,6 @@ tags:
 created: 2025-03-05
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# R
-
 ## インストール
 
 [The Comprehensive R Archive Network](https://ftp.yz.yamagata-u.ac.jp/pub/cran/)

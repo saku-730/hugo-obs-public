@@ -6,14 +6,6 @@ created: 2025-09-25
 updated: 2026-01-22
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# React
-
 ## 学習ガイド
 
 Javascriptの基礎をざっと理解してから、公式の[REACTを学ぶ](https://ja.react.dev/learn/describing-the-ui)を読んでいく。

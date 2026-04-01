@@ -8,14 +8,6 @@ created: 2024-06-01
 updated: 2025-08-31
 date: 2024-06-01
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Zotero
-
 極める、使いこなす。
 
 文献管理ソフトZoteroの使い方。

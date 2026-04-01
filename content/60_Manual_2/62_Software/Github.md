@@ -8,14 +8,6 @@ created: 2025-10-29
 updated: 2026-03-17
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Github
-
 ## Github Actions
 
 ビルド、テスト、デプロイなどをGithub上で自動化して行うためのもの。ある程度決まりきった処理を特定の時間や特定のタイミングに行うといった処理に最適。

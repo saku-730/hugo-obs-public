@@ -7,14 +7,6 @@ updated: 2025-08-31
 author: 高橋留美子
 publish: ""
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# 境界のRINNE
-
 ## 持ってる
 
 1-6

@@ -6,14 +6,6 @@ tags:
 created: 2025-02-18
 updated: 2026-01-22
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Next-js
-
 ## インストール
 
 [node_js]({{% relref "/50_Manual_1/51_Web/node_js" %}})のインストールが必要。

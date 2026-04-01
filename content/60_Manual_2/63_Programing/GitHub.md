@@ -6,14 +6,6 @@ created: 2025-08-05
 updated: 2025-08-31
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# GitHub
-
 ## GitHub Action
 
 一時的にGithubの仮想マシン上でシェルスクリプトを走らせてサービスのデプロイをしたり更新を自動化したりできる。

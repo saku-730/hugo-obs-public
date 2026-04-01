@@ -5,14 +5,6 @@ tags:
 created: 2024-10-31
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# lua
-
 きっかけはNeovimでした。
 
 

@@ -9,14 +9,6 @@ tags:
 created: 2024-06-06
 updated: 2026-03-30
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Neovim
-
 emacs対vim戦争の勝者?
 
 Vim解説含む

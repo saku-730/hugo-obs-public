@@ -5,14 +5,6 @@ tags:
 created: 2025-06-23
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# WINE
-
 Wine Is Not an Emulator
 
 ## Install

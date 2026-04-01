@@ -5,14 +5,6 @@ tags:
 created: 2024-11-03
 updated: 2026-01-22
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Web_general
-
 Webサイト一般の色々。
 
 ## ファイル構造

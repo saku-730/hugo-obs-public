@@ -7,14 +7,6 @@ created: 2025-08-31
 updated: 2026-01-22
 draft: false
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# PostgreSQL
-
 ## Install
 
 ```bash

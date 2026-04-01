@@ -9,14 +9,6 @@ created: 2024-05-30
 updated: 2025-08-31
 date: 2024-05-30
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# MX Linux
-
 MXLinuxをメインPC/ノートPCとして使っていく上でのメモ。
 
 ## 環境

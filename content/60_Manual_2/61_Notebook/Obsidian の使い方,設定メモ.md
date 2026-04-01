@@ -7,14 +7,6 @@ tags:
 created: 2024-05-30
 updated: 2025-08-31
 ---
-###### **目次**
-```toc
-style:nestedList
-minLevel:2
-maxLevel:5
-```
-# Obsidian の使い方,設定メモ
-
 ## 概要
 Obidianの運用上、色々変更した設定や使い方をとりあえずメモしていくノート
 
