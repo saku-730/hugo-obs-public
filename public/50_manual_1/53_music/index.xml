@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>53_music on My New Hugo Project</title>
+    <link>http://localhost:1313/50_manual_1/53_music/</link>
+    <description>Recent content in 53_music on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/50_manual_1/53_music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>REAPER</title>
+      <link>http://localhost:1313/50_manual_1/53_music/reaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/53_music/reaper/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;reaper&#34;&gt;REAPER&lt;/h1&gt;&#xA;&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;&#xA;&lt;h3 id=&#34;大基本&#34;&gt;大基本&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;音声、映像、MIDIデータなどはすべて&lt;code&gt;アイテム&lt;/code&gt;という扱いになる。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;midi&#34;&gt;Midi&lt;/h3&gt;&#xA;&lt;p&gt;トラックを挿入後、Insert &amp;gt; New Midi Item または Ctrl + 左クリックで追加する。&lt;/p&gt;&#xA;&lt;h3 id=&#34;書き出し&#34;&gt;書き出し&lt;/h3&gt;&#xA;&lt;p&gt;File - Render&lt;/p&gt;&#xA;&lt;h2 id=&#34;設定&#34;&gt;設定&lt;/h2&gt;&#xA;&lt;p&gt;Options &amp;gt; preferences (ctrl + p)&lt;/p&gt;&#xA;&lt;h3 id=&#34;初期設定基本固定&#34;&gt;初期設定(基本固定)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;インターフェース : Audio - Device よりAudio system を ASIOにする。 ASIO Driver で出力したい機器を選択する。&#xA;&lt;img src=&#34;http://localhost:1313/obsidian/REAPER_2.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;VST : Plugins - VST より pathsを追加する。Edit path &amp;gt; Add path より&lt;code&gt;C¥ProgramFiles¥VSTPlugIns&lt;/code&gt;を追加する。(なければ作成する。) このフォルダにVSTを入れていくことになる。またexeファイルで自動でインストールするような音源はこのフォルダを多くの場合、インストール先のフォルダとして選んでくれる。[2]&lt;/li&gt;&#xA;&lt;li&gt;各アイテムを繰り返さない : デフォルトだと各アイテム(Midi等)を伸ばそうとするとループしていってしまう。ドラムとかなら便利だが基本的にその挙動はしてほしくないのでループをしないように変更する。Project &amp;gt; Item Loop Defaults から 各アイテムのループについて変更可能。&#xA;&lt;img src=&#34;http://localhost:1313/obsidian/REAPER_1.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;音源&#34;&gt;音源&lt;/h2&gt;&#xA;&lt;h3 id=&#34;インストール&#34;&gt;インストール&lt;/h3&gt;&#xA;&lt;h4 id=&#34;dllvst3ファイルが配布されている場合&#34;&gt;dll/vst3ファイルが配布されている場合&lt;/h4&gt;&#xA;&lt;p&gt;参考[3]&lt;/p&gt;&#xA;&lt;p&gt;dll/vst3ファイルを&lt;code&gt;C¥ProgramFiles¥VSTPlugIns&lt;/code&gt;にコピーする。&lt;/p&gt;&#xA;&lt;p&gt;プラグインが読み込まれていない場合、preferences の Plug-ins - VST から Re-scan すると読み込まれる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>チップチューン</title>
+      <link>http://localhost:1313/50_manual_1/53_music/%E3%83%81%E3%83%83%E3%83%97%E3%83%81%E3%83%A5%E3%83%BC%E3%83%B3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/53_music/%E3%83%81%E3%83%83%E3%83%97%E3%83%81%E3%83%A5%E3%83%BC%E3%83%B3/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;チップチューン&#34;&gt;チップチューン&lt;/h1&gt;&#xA;&lt;h2 id=&#34;magical-8bit-plug&#34;&gt;Magical 8bit Plug&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ymck.net/app/magical-8bit-plug&#34;&gt;Magical 8bit Plug | YMCK Official Website&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;日本製チップチューン音源最大手&lt;/p&gt;&#xA;&lt;p&gt;ファミコン音源にならって作成されている。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

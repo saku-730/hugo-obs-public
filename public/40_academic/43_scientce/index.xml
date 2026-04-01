@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>43_Scientce on My New Hugo Project</title>
+    <link>http://localhost:1313/40_academic/43_scientce/</link>
+    <description>Recent content in 43_Scientce on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/40_academic/43_scientce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>合成関数</title>
+      <link>http://localhost:1313/40_academic/43_scientce/%E5%90%88%E6%88%90%E9%96%A2%E6%95%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/40_academic/43_scientce/%E5%90%88%E6%88%90%E9%96%A2%E6%95%B0/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;合成関数&#34;&gt;合成関数&lt;/h1&gt;&#xA;&lt;h2 id=&#34;定義&#34;&gt;定義&lt;/h2&gt;&#xA;&lt;p&gt;2つの関数$f,g$の合成関数$f\circ g$を $(f\circ g)(x) = f(g(x))$で定義する。&lt;/p&gt;&#xA;&lt;p&gt;定義域は$g$の定義域の中で$g(x)$が$f$の定義域に含まれる集合。&lt;/p&gt;&#xA;&lt;p&gt;一般に$f\circ g \neq g\circ f$である。&lt;/p&gt;&#xA;&lt;p&gt;また3つ以上の関数についても&lt;/p&gt;&#xA;&lt;p&gt;$f\circ g\circ h = f(g(h(x)))$&lt;/p&gt;&#xA;&lt;h2 id=&#34;微分&#34;&gt;微分&lt;/h2&gt;&#xA;&lt;p&gt;合成関数$f \circ g$ の導関数は$f$の導関数と$g$の導関数の積でありこれを==連鎖律==という。&lt;/p&gt;&#xA;&lt;p&gt;$F(x)=(f \circ g)(x) = f(g(x))$で$g$が$x$において微分可能で$f$が$g(x)$において微分可能であれば&#xA;$$ F&amp;rsquo;(x) = f&amp;rsquo;(g(x)) ・g&amp;rsquo;(x)$$&#xA;$$\frac{dy}{dx}=\frac{dy}{du}\frac{du}{dx}$$&lt;/p&gt;&#xA;&lt;p&gt;多くのサイト、本にのっている証明法では途中で0の可能性がある割り算をやっているので厳密には正しくない。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;p&gt;1.&lt;a href=&#34;http://localhost:1313/30_reading_record/32_science/%E3%82%B9%E3%83%81%E3%83%A5%E3%83%AF%E3%83%BC%E3%83%88%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6i%E5%8E%9F%E8%91%97%E7%AC%AC8%E7%89%88/&#34;&gt;スチュワート微分積分学I(原著第8版)&lt;/a&gt;p40-42 ,146-152&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>微分と積分</title>
+      <link>http://localhost:1313/40_academic/43_scientce/%E5%BE%AE%E5%88%86%E3%81%A8%E7%A9%8D%E5%88%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/40_academic/43_scientce/%E5%BE%AE%E5%88%86%E3%81%A8%E7%A9%8D%E5%88%86/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;微分と積分&#34;&gt;微分と積分&lt;/h1&gt;&#xA;&lt;h2 id=&#34;導関数&#34;&gt;導関数&lt;/h2&gt;&#xA;&lt;h3 id=&#34;合成関数の微分&#34;&gt;合成関数の微分&lt;/h3&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

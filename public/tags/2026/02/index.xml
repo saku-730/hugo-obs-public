@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2026/02 on My New Hugo Project</title>
+    <link>http://localhost:1313/tags/2026/02/</link>
+    <description>Recent content in 2026/02 on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/tags/2026/02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ComfyUI</title>
+      <link>http://localhost:1313/60_manual_2/62_software/comfyui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/60_manual_2/62_software/comfyui/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;comfyui&#34;&gt;ComfyUI&lt;/h1&gt;&#xA;&lt;h2 id=&#34;モデルプラットフォーム&#34;&gt;モデルプラットフォーム&lt;/h2&gt;&#xA;&lt;h3 id=&#34;civit-ai&#34;&gt;CIVIT AI&lt;/h3&gt;&#xA;&lt;p&gt;一番使うことになるであろう、AIモデルや画像の共有プラットフォーム&lt;/p&gt;&#xA;&lt;p&gt;CLIでのダウンロード方法は↓&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget --content-disposition  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://civitai.com/api/download/models/1234567&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最後の1234567はURLの&lt;code&gt;VersionId=&lt;/code&gt;の部分。&lt;/p&gt;&#xA;&lt;h2 id=&#34;ワークフロー&#34;&gt;ワークフロー&lt;/h2&gt;&#xA;&lt;h3 id=&#34;checkpoint&#34;&gt;CheckPoint&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://civitai.com/models/827184?modelVersionId=2514310&#34;&gt;WAI-illustrious-SDXL - v16.0 | Illustrious Checkpoint | Civitai&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;clipテキストエンコード-プロンプト&#34;&gt;CLIPテキストエンコード プロンプト&lt;/h3&gt;&#xA;&lt;h3 id=&#34;vae&#34;&gt;VAE&lt;/h3&gt;&#xA;&lt;p&gt;変分自己符号化器（Variational Auto-Encoder）&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;とにかく&lt;strong&gt;AIにしかわからない画像を人間に分かるように変換するときのAIモデルだ。&lt;/strong&gt;&#xA;[2] より&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://comfyui-wiki.com/ja&#34;&gt;ComfyUI ウィキ チュートリアル マニュアル | ComfyUI Wiki&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ultra-noob.com/blog/2023/44/&#34;&gt;【ComfyUI基礎シリーズ#5】VAEを覚えよう | 謎の技術研究部&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Volumio</title>
+      <link>http://localhost:1313/60_manual_2/64_os/volumio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/60_manual_2/64_os/volumio/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;volumio&#34;&gt;Volumio&lt;/h1&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://volumio.com/get-started/&#34;&gt;Get Started - Volumio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>ライトノベル</title>
+      <link>http://localhost:1313/50_manual_1/59_document/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/59_document/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8E%E3%83%99%E3%83%AB/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;ライトノベル&#34;&gt;ライトノベル&lt;/h1&gt;&#xA;&lt;h2 id=&#34;書き方特徴&#34;&gt;書き方特徴&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;少し前のことを思い出すなどは、明示的にセリフを再度書くなどしてわかりやすくする。(このすば1 p33)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

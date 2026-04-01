@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>33_Computer on My New Hugo Project</title>
+    <link>http://localhost:1313/30_reading_record/33_computer/</link>
+    <description>Recent content in 33_Computer on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/30_reading_record/33_computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Design Patterns</title>
+      <link>http://localhost:1313/30_reading_record/33_computer/api-design-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/33_computer/api-design-patterns/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;api-design-patterns&#34;&gt;API Design Patterns&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.manning.com/books/api-design-patterns&#34;&gt;API Design Patterns - JJ Geewax&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;manning の無料のやつ。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Go言語ハンズオン</title>
+      <link>http://localhost:1313/30_reading_record/33_computer/go%E8%A8%80%E8%AA%9E%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/33_computer/go%E8%A8%80%E8%AA%9E%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;go言語ハンズオン&#34;&gt;Go言語ハンズオン&lt;/h1&gt;&#xA;&lt;p&gt;Goの解説本。珍しく徳永先生が勧めた本。実際わかりやすい。ただしmoduleモードには対応していないので注意。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.shuwasystem.co.jp/book/9784798063997.html&#34;&gt;Go言語ハンズオン - 秀和システム新社 あなたの学びをサポート！&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;出版が秀和システムで船井電気をTOBしたりするある意味終わってた出版社であるため正誤表がない。しかしそこそこ間違いが見られる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;正誤表&#34;&gt;正誤表&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;p171：図3-25 下が並行処理&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>LLM自作入門</title>
+      <link>http://localhost:1313/30_reading_record/33_computer/llm%E8%87%AA%E4%BD%9C%E5%85%A5%E9%96%80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/33_computer/llm%E8%87%AA%E4%BD%9C%E5%85%A5%E9%96%80/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;llm自作入門&#34;&gt;LLM自作入門&lt;/h1&gt;&#xA;&lt;p&gt;PyTorchを使ってフルスクラッチでLLMを作っていく。最初は一つの小説をもとにしてその後はopneAIが公開している学習済みモデルを使って高性能にしていく。&lt;/p&gt;&#xA;&lt;p&gt;基本的に作ること、実装することに重きをおいているのでトークナイゼーションについてなど理論的な背景がほとんど語られなかったり、様々ある方法の一部のみの紹介に終わっている部分もある。&lt;a href=&#34;http://localhost:1313/30_reading_record/33_computer/%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E5%85%A5%E9%96%80/&#34;&gt;大規模言語モデル入門&lt;/a&gt;と合わせて読むとかなり補完しあってくれる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>デザイニング・ウェブナビゲーション</title>
+      <link>http://localhost:1313/30_reading_record/33_computer/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%A6%E3%82%A7%E3%83%96%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/33_computer/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%A6%E3%82%A7%E3%83%96%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;デザイニングウェブナビゲーション&#34;&gt;デザイニング・ウェブナビゲーション&lt;/h1&gt;&#xA;&lt;p&gt;p3&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;誰にも気にされていないときが、ナビゲーションにとって理想的な状態だと言えます。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>プログラムはなぜ動くのか</title>
+      <link>http://localhost:1313/30_reading_record/33_computer/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AF%E3%81%AA%E3%81%9C%E5%8B%95%E3%81%8F%E3%81%AE%E3%81%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/33_computer/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AF%E3%81%AA%E3%81%9C%E5%8B%95%E3%81%8F%E3%81%AE%E3%81%8B/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;プログラムはなぜ動くのか&#34;&gt;プログラムはなぜ動くのか&lt;/h1&gt;&#xA;&lt;p&gt;ハードウェアとしてのCPUやメモリが実際どういうことやっているのかの詳しい説明があっていい。多くの本はソフトウェアでどういうふうにメモリ制御するか、またはメモリの物理的な仕組みになっていてその中間があまりないので。ただ初版2001年、第二版が2007年で出される例(例/Windows xp)が通用しなくなりつつある。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>大規模言語モデル入門</title>
+      <link>http://localhost:1313/30_reading_record/33_computer/%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E5%85%A5%E9%96%80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/33_computer/%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB%E5%85%A5%E9%96%80/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;大規模言語モデル入門&#34;&gt;大規模言語モデル入門&lt;/h1&gt;&#xA;&lt;p&gt;大規模言語モデルについての理論的な本ではかなり詳細に正確に記述された本。その分、他にもニューラルネットワークなどを勉強した上で読まないと事故になる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>情報理論</title>
+      <link>http://localhost:1313/30_reading_record/33_computer/%E6%83%85%E5%A0%B1%E7%90%86%E8%AB%96/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/33_computer/%E6%83%85%E5%A0%B1%E7%90%86%E8%AB%96/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;情報理論&#34;&gt;情報理論&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>

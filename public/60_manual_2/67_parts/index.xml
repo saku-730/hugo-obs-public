@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>67_Parts on My New Hugo Project</title>
+    <link>http://localhost:1313/60_manual_2/67_parts/</link>
+    <description>Recent content in 67_Parts on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/60_manual_2/67_parts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>アルミフレーム</title>
+      <link>http://localhost:1313/60_manual_2/67_parts/%E3%82%A2%E3%83%AB%E3%83%9F%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/60_manual_2/67_parts/%E3%82%A2%E3%83%AB%E3%83%9F%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;アルミフレーム&#34;&gt;アルミフレーム&lt;/h1&gt;&#xA;&lt;p&gt;フレーム材として非常に扱いやすい。Misumiであればmm単位で長さを指定できてかつ安い。&lt;/p&gt;&#xA;&lt;h2 id=&#34;種類&#34;&gt;種類&lt;/h2&gt;&#xA;&lt;p&gt;断面が正方形の標準と正方形を複数組み合わせたようなタイプがある。&lt;/p&gt;&#xA;&lt;p&gt;基本的には断面の正方形の1辺の大きさで分けられる。&lt;/p&gt;&#xA;&lt;h3 id=&#34;2020&#34;&gt;20×20&lt;/h3&gt;&#xA;&lt;p&gt;一番小さい(あまり使われないが15×15もある)。かなり細く感じるがそこまで強度が要求されないものであれば十分使える。&lt;/p&gt;&#xA;&lt;h3 id=&#34;4040&#34;&gt;40×40&lt;/h3&gt;&#xA;&lt;p&gt;ツーバイ材で2×4くらいの強度がある。アルミフレームのなかでも同じくらいの立ち位置。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mitsu-ri.net/articles/parts0002&#34;&gt;アルミフレームとは？種類やメリット、活用事例を解説！｜金属加工総合メディア Mitsuri Media&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jp.misumi-ec.com/special/alumiframe/selection/select/&#34;&gt;商品特長・選び方 | アルミフレーム・フレームキャップ・溝カバー | アルミフレーム総合情報 | MISUMI(ミスミ)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

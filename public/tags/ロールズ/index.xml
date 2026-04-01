@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ロールズ on My New Hugo Project</title>
+    <link>http://localhost:1313/tags/%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%BA/</link>
+    <description>Recent content in ロールズ on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/tags/%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ジョン・ロールズ</title>
+      <link>http://localhost:1313/30_reading_record/35_humanities/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/35_humanities/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%AB%E3%82%BA/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;ジョンロールズ&#34;&gt;ジョン・ロールズ&lt;/h1&gt;&#xA;&lt;p&gt;副題：誰もが「生きづらくない社会」へ&lt;/p&gt;&#xA;&lt;p&gt;ジョン・ロールズの思想の簡単な解説書。&lt;/p&gt;&#xA;&lt;p&gt;新書でかなり軽く読める。ロールズの正義の二原理とその前提を概説している。簡単に読めるが、内容は浅い。批判に対しての回答や、より原理の説明以上の、深堀した議論は殆どないので、それは他の本で。&lt;/p&gt;&#xA;&lt;p&gt;無知のベールを被って考えるのは、人間には難しすぎるのかもしれない。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

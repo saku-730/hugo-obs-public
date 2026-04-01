@@ -1,0 +1,7 @@
+draft_paths:
+exclude_paths:
+  - 00_Everyday&progress/**
+  - 10_Projects/**
+  - 20_Research/**
+  - 80_Daily/**
+  - 90_Template/**

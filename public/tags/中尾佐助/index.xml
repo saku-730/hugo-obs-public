@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>中尾佐助 on My New Hugo Project</title>
+    <link>http://localhost:1313/tags/%E4%B8%AD%E5%B0%BE%E4%BD%90%E5%8A%A9/</link>
+    <description>Recent content in 中尾佐助 on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/tags/%E4%B8%AD%E5%B0%BE%E4%BD%90%E5%8A%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分類の発想</title>
+      <link>http://localhost:1313/30_reading_record/39_others/%E5%88%86%E9%A1%9E%E3%81%AE%E7%99%BA%E6%83%B3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/30_reading_record/39_others/%E5%88%86%E9%A1%9E%E3%81%AE%E7%99%BA%E6%83%B3/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;分類の発想&#34;&gt;分類の発想&lt;/h1&gt;&#xA;&lt;p&gt;分類について、植物学者が書いた本。特に2章の具体例が無駄に長いところは飛ばし読みしても問題ない。&lt;/p&gt;&#xA;&lt;p&gt;具体例として色々な分類を挙げるがその分類本来の目的から外れているような指摘をして重箱の隅をつつくような気持ち悪いネット民みたいな批判が批判が多い。その割にはこの分類自体の説明が少なくこの著者自身の意見もよくわからない。&lt;/p&gt;&#xA;&lt;p&gt;分類のやり方は類型分類、規格分類、系譜分類、動的分類にわけられる。&lt;/p&gt;&#xA;&lt;h2 id=&#34;類型分類&#34;&gt;類型分類&lt;/h2&gt;&#xA;&lt;p&gt;一番普及している分類。分類基準-クライテリオン-を割と分類作成者が自由に作ることができる。作りやすいが厳密性が失われやすい。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

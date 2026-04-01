@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Npm on My New Hugo Project</title>
+    <link>http://localhost:1313/tags/npm/</link>
+    <description>Recent content in Npm on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>node_js</title>
+      <link>http://localhost:1313/50_manual_1/51_web/node_js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/50_manual_1/51_web/node_js/</guid>
+      <description>&lt;h6 id=&#34;目次&#34;&gt;&lt;strong&gt;目次&lt;/strong&gt;&lt;/h6&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toc&#34; data-lang=&#34;toc&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;style:nestedList&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;minLevel:2&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxLevel:5&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;node_js&#34;&gt;node_js&lt;/h1&gt;&#xA;&lt;p&gt;javascriptの実行環境。nord.jsもあるの間違いの原因すぎるだろ。&lt;/p&gt;&#xA;&lt;h2 id=&#34;install&#34;&gt;install&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://nodejs.org/en/about/previous-releases&#34;&gt;Node.js — Node.js Releases&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;versionについて。ubuntuみたいな定期的なアップデートとlong term support(LTS)の仕組み。バージョンは年2回更新で偶数が4月、奇数が10月。偶数のがLTSにあたり2.5年間サポートされる。最新機能とかそこまでしっかり追うんじゃなければ基本、その時の偶数の最新にしておけばいいかと。サポート切れにならないようにだけ気をつけよう。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://nodejs.org/en/download/package-manager/current&#34;&gt;Node.js — Download Node.js®&lt;/a&gt;&#xA;↑公式に従ってインストール。&lt;/p&gt;&#xA;&lt;p&gt;手順としてはNode Version Manager(nvm)をインストールしてnvmによってNode.jsをインストールする。nvm?↓&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/nvm-sh/nvm&#34;&gt;GitHub - nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;nvmをインストールしたら&lt;code&gt;source .bashrc&lt;/code&gt;すること。もしくはターミナルの再起動。&lt;/p&gt;&#xA;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://qiita.com/non_cal/items/a8fee0b7ad96e67713eb&#34;&gt;Node.jsとはなにか？なぜみんな使っているのか？ JavaScript - Qiita&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nodejs.org/en&#34;&gt;Node.js — Run JavaScript Everywhere&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://qiita.com/nolanlover0527/items/2c61292a731af6020730&#34;&gt;npm installの「npm」って何? JavaScript - Qiita&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
