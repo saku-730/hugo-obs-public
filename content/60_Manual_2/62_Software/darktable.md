@@ -56,7 +56,7 @@ SDカードを取り出して、全データを一旦作業パソコンのraw画
 
 星がついた画像を一旦、rawで保存する。NASで保存しておくのが理想ではある。
 
-![](/static/Pasted%20image%2020251126062213.png)
+![](/attachments/Pasted%20image%2020251126062213.png)
 
 エクスポートでファイルフォーマットをコピーにすると未加工のrawで保存できる。
 
@@ -64,39 +64,39 @@ SDカードを取り出して、全データを一旦作業パソコンのraw画
 
 ここからはダークルームに移動。
 
-![](/static/Pasted%20image%2020251126060141.png)
+![](/attachments/Pasted%20image%2020251126060141.png)
 
 基本的にプリセット登録しておいて画像情報からレンズ名、カメラ名が一致すれば自動でレンズ補正が行われるようにしておく。
 
-![](/static/Pasted%20image%2020251126060327.png)
+![](/attachments/Pasted%20image%2020251126060327.png)
 
-![](/static/Pasted%20image%2020251126060404.png)
+![](/attachments/Pasted%20image%2020251126060404.png)
 
 レンズ名やカメラ機種は撮影した画像の画像情報からコピペしよう。%を使っておくと任意の意味になる。(例 %7100% みたいにしておけば D7100 や D7100sなどにも適用できる。)
 
 #### 3 トリミング
 
-![](/static/Pasted%20image%2020251126060757.png)
+![](/attachments/Pasted%20image%2020251126060757.png)
 
 高解像度のデジタル写真はどんどんトリミングしていこう。
 
 #### 4 露出
 
-![](/static/Pasted%20image%2020251126061344.png)
+![](/attachments/Pasted%20image%2020251126061344.png)
 
 #### 5 ホワイトバランス
 
-![](/static/Pasted%20image%2020251126061656.png)
+![](/attachments/Pasted%20image%2020251126061656.png)
 
 #### 6 粒子
 
-![](/static/Pasted%20image%2020251126061737.png)
+![](/attachments/Pasted%20image%2020251126061737.png)
 
 #### 7 エクスポート
 
 ライトテーブルに戻ってエクスポートする必要のある画像をすべて選択して以下の項目を選んでエクスポート開始。ストレージは最初のコピーのときのままだろうから変更しよう。
 
-![](/static/Pasted%20image%2020251126062004.png)
+![](/attachments/Pasted%20image%2020251126062004.png)
 
 ## 参考
 

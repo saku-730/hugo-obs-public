@@ -26,10 +26,10 @@ Options > preferences (ctrl + p)
 ### 初期設定(基本固定)
 
 - インターフェース : Audio - Device よりAudio system を ASIOにする。 ASIO Driver で出力したい機器を選択する。
-  ![](/static/REAPER_2.png)
+  ![](/attachments/REAPER_2.png)
 - VST : Plugins - VST より pathsを追加する。Edit path > Add path より`C¥ProgramFiles¥VSTPlugIns`を追加する。(なければ作成する。) このフォルダにVSTを入れていくことになる。またexeファイルで自動でインストールするような音源はこのフォルダを多くの場合、インストール先のフォルダとして選んでくれる。[2]
 - 各アイテムを繰り返さない : デフォルトだと各アイテム(Midi等)を伸ばそうとするとループしていってしまう。ドラムとかなら便利だが基本的にその挙動はしてほしくないのでループをしないように変更する。Project > Item Loop Defaults から 各アイテムのループについて変更可能。
-  ![](/static/REAPER_1.png)
+  ![](/attachments/REAPER_1.png)
 
 ## 音源
 

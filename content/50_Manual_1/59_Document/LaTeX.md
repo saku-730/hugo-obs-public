@@ -369,7 +369,7 @@ setting.jsonに以下を追加
 
 ここまででほとんど環境作成は完了であるはずだがvscodeの拡張機能がエラーを出してしまう(pdfビルドはできてる)。まずvscodeの↓をlatexindentに変更する。
 
-![](/static/Pasted%20image%2020250903232841.png)
+![](/attachments/Pasted%20image%2020250903232841.png)
 
 それでもエラーが出るが[\[LaTeX\]\[Fedora\]latexindentコマンドを動かすまで - Qiita](https://qiita.com/YuukiToriyama/items/10a3458b3d66dc0fdfc0)を参考にperlモジュールを複数インストールする。
 

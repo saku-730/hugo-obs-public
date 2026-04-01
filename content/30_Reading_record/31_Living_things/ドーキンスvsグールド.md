@@ -19,7 +19,7 @@ subtitle: ""
 total: 208
 ---
 %% To save images locally, enable the 'Enable Cover Image Save' option in the settings and enter as follows: %%
-![](/static/%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9vs%E3%82%B0%E3%83%BC%E3%83%AB%E3%83%89.jpg)
+![](/attachments/%E3%83%89%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B9vs%E3%82%B0%E3%83%BC%E3%83%AB%E3%83%89.jpg)
 
 # ドーキンスvs.グールド
 
