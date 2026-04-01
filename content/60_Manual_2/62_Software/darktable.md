@@ -111,4 +111,4 @@ SDカードを取り出して、全データを一旦作業パソコンのraw画
 1. [darktable](https://www.darktable.org)
 2. [darktable user manual - darktable](https://docs.darktable.org/usermanual/development/en/)
 3. [darktable入門 - darktableで簡単RAW現像 -](https://darktable.eksd.jp)
-4. [うまくてダメな写真とヘタだけどいい写真]({{< relref "/30_Reading_record/39_Others/うまくてダメな写真とヘタだけどいい写真" >}})
+4. [うまくてダメな写真とヘタだけどいい写真]({{% relref "/30_Reading_record/39_Others/うまくてダメな写真とヘタだけどいい写真" %}})

@@ -37,7 +37,7 @@ Google作成。最近はバカと言われがち(2026-01)
 
 [GitHub - google-gemini/gemini-cli: An open-source AI agent that brings the power of Gemini directly into your terminal.](https://github.com/google-gemini/gemini-cli)
 
-その時の新し目の[node_js]({{< relref "/50_Manual_1/51_Web/node_js" >}})がインストールされている必要がある。
+その時の新し目の[node_js]({{% relref "/50_Manual_1/51_Web/node_js" %}})がインストールされている必要がある。
 
 インストール 
 ```sh
@@ -76,7 +76,7 @@ OpenAI作成。
 
 ChatGPTのCLI版
 
-インストール 参照[node_js]({{< relref "/50_Manual_1/51_Web/node_js" >}})
+インストール 参照[node_js]({{% relref "/50_Manual_1/51_Web/node_js" %}})
 
 ```bash
 npm i -g @openai/codex

@@ -149,5 +149,5 @@ func main(){
 ## 参考
 
 1. [The Go Programming Language](https://go.dev)
-2. [Go言語ハンズオン]({{< relref "/30_Reading_record/33_Computer/Go言語ハンズオン" >}})
+2. [Go言語ハンズオン]({{% relref "/30_Reading_record/33_Computer/Go言語ハンズオン" %}})
 3. [go command - cmd/go - Go Packages](https://pkg.go.dev/cmd/go)

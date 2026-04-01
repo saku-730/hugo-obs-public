@@ -34,11 +34,11 @@ sudo apt install cifs-utils -y
 sudo apt install dkms -y
 ```
 
-Vivaldiインストール -> [Vivaldi]({{< relref "/60_Manual_2/62_Software/Vivaldi" >}})
+Vivaldiインストール -> [Vivaldi]({{% relref "/60_Manual_2/62_Software/Vivaldi" %}})
 
 
 
-LaTeX環境作成 -> [LaTeX]({{< relref "/50_Manual_1/59_Document/LaTeX" >}}#環境作成)
+LaTeX環境作成 -> [LaTeX]({{% relref "/50_Manual_1/59_Document/LaTeX" %}}#環境作成)
 
 ## 参考
 

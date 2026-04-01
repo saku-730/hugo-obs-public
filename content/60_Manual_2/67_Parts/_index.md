@@ -4,4 +4,4 @@ type: chapter
 ---
 ## 一覧
 
-- [アルミフレーム]({{< relref "/60_Manual_2/67_Parts/アルミフレーム" >}})
+- [アルミフレーム]({{% relref "/60_Manual_2/67_Parts/アルミフレーム" %}})

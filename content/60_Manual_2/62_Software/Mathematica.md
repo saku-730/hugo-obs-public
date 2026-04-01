@@ -30,7 +30,7 @@ maxLevel:5
 
 ### 変数
 
-組み込みオブジェクトがAaaaみたいに大文字スタートなので==スネークケース==(参考 [Code_writing]({{< relref "/60_Manual_2/63_Programing/Code_writing" >}}#変数名))で作成する。数字を含むことはできるが頭文字は必ずアルファベットにする。数式でみにくくなるので基本的には変数に数字を含めない。
+組み込みオブジェクトがAaaaみたいに大文字スタートなので==スネークケース==(参考 [Code_writing]({{% relref "/60_Manual_2/63_Programing/Code_writing" %}}#変数名))で作成する。数字を含むことはできるが頭文字は必ずアルファベットにする。数式でみにくくなるので基本的には変数に数字を含めない。
 
 ギリシャ文字の入力は↓
 [Title Unavailable \| Site Unreachable](https://reference.wolfram.com/language/tutorial/MathematicalAndOtherNotation.html.ja)
