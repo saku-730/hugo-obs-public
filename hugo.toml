@@ -13,4 +13,6 @@ DefaultContentLanguage = "ja"
 [params]
   showVisitedLinks = false
   ordersectionsby = 'title'
-
+[services]
+  [services.googleAnalytics]
+    ID = G-63GBRWRD2E
