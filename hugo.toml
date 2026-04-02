@@ -15,4 +15,4 @@ DefaultContentLanguage = "ja"
   ordersectionsby = 'title'
 [services]
   [services.googleAnalytics]
-    ID = G-63GBRWRD2E
+    ID = 'G-63GBRWRD2E'
