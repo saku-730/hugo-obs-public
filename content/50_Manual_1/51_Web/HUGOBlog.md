@@ -4,8 +4,9 @@ tags:
   - 2024/05
   - HUGO
   - Blog
+  - Markdown
 created: 2024-05-31
-updated: 2026-03-31
+updated: 2026-04-02
 ---
 作成日時: 2024-05-31 01:38 
 最終更新日時:2024-05-31 01:38
@@ -130,3 +131,18 @@ hugo new /home/saku/Documents/blog/content/posts/$year/$today/index.md
 
 ## 多言語対応
 
+[HUGOを多言語対応にするときの言語切り替えボタンのリンク - ja](https://blog.ecology-bio.net/posts/2024/1030/)
+
+## Google Analytics
+
+hugoでGoogle Analyticsに対応させる方法。
+
+テーマで公式に対応している場合は、その案内通りにやればOK。多くは`hugo.toml`をいじることになる。
+
+テーマで特にない場合は、[HugoにGoogle Analyticsを導入する -STYSK BLOG](https://stysk.com/posts/2023/12/25/google_analytics_on_hugo/)を参考にする。
+
+主に`hugo.toml`をいじってタグを設定に入れることと、テーマのhtmlのテンプレートファイルにタグのリンクを手動で追加する。ただし、テーマをgit サブモジュールにしている場合、テーマファイルを直接いじっても、github側では反映されない。そのため、本体側に`layouts`ディレクトリなどを作って、上書きする。hugoでは、テーマと本体側で同じファイルがある場合、本体側が優先されるらしい。
+
+## 参考
+
+1. [HugoにGoogle Analyticsを導入する -STYSK BLOG](https://stysk.com/posts/2023/12/25/google_analytics_on_hugo/)
