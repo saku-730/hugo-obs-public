@@ -4,7 +4,7 @@ tags:
   - 2025/09
   - XML
 created: 2025-09-18
-updated: 2026-03-17
+updated: 2026-04-12
 draft: false
 ---
 XMLとXMLスキーマの両方を扱う。

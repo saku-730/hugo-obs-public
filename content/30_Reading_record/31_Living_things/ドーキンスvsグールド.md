@@ -7,7 +7,7 @@ tags:
   - グールド
   - ちくま学芸文庫
 created: 2025-02-20
-updated: 2026-03-17
+updated: 2026-04-12
 author: キム・ステルレルニー
 cover: "http://books.google.com/books/content?id=eX5XAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
 isbn: 4480088784 9784480088789

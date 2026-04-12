@@ -3,7 +3,7 @@ title: mise
 tags:
   - 2025/09
 created: 2025-09-19
-updated: 2026-03-17
+updated: 2026-04-12
 draft: false
 ---
 読み方はミーズ

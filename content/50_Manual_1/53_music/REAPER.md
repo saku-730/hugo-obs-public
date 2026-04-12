@@ -3,7 +3,7 @@ title: REAPER
 tags:
   - 2025/01
 created: 2025-01-10
-updated: 2025-08-31
+updated: 2026-04-13
 ---
 ## 使い方
 
@@ -30,6 +30,34 @@ Options > preferences (ctrl + p)
 - VST : Plugins - VST より pathsを追加する。Edit path > Add path より`C¥ProgramFiles¥VSTPlugIns`を追加する。(なければ作成する。) このフォルダにVSTを入れていくことになる。またexeファイルで自動でインストールするような音源はこのフォルダを多くの場合、インストール先のフォルダとして選んでくれる。[2]
 - 各アイテムを繰り返さない : デフォルトだと各アイテム(Midi等)を伸ばそうとするとループしていってしまう。ドラムとかなら便利だが基本的にその挙動はしてほしくないのでループをしないように変更する。Project > Item Loop Defaults から 各アイテムのループについて変更可能。
   ![](/attachments/REAPER_1.png)
+
+### Midi
+
+[REAPER基本設定：MIDIデバイスの設定 : ペロリーパー \| PeloREAPER](https://peloreaper.blog.jp/archives/57038734.html)
+
+接続時に、キーボード側の電源がONになっていないと、認識しない。
+
+![](/attachments/Pasted%20image%2020260413000539.png)
+
+Audio > Midi Inputs / Outputs に表示されていればOK
+
+#### 録音
+
+トラックの赤ボタンを押して、録音状態にする。赤ボタンを右クリックで、Input Midi からキーボードを選択する。
+
+#### ポチポチ入力
+
+Midi 編集画面で Actions > Show Actions List 
+
+stepで検索して MIDI inputs as step input mode を on にする。
+
+![](/attachments/Pasted%20image%2020260413015555.png)
+
+### テンポ
+
+#### 全体
+
+
 
 ## 音源
 
@@ -85,3 +113,4 @@ Options > Show Reaper resource ~
 1. [なんとなくわかるREAPER｜minoba](https://note.com/minoba_sound/n/n6c4a54995dbd)
 2. [\[汎用説明記事\] REAPERでのVSTの導入方法 - YTPMV.info](https://ytpmv.info/reaper-install-vst/)
 3. [VST導入方法 - NiVE（にヴぇ）派](https://fear443243.hatenablog.com/entry/2023/10/25/183734)
+4. [ペロリーパー \| PeloREAPER](https://peloreaper.blog.jp)
