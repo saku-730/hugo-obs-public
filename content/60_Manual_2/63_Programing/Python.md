@@ -3,7 +3,7 @@ title: Python
 tags:
   - 2024/06
 created: 2024-06-15
-updated: 2026-04-12
+updated: 2026-04-13
 ---
 クソみたいな環境でおなじみ。
 

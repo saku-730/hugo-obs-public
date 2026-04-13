@@ -3,7 +3,7 @@ title: API Design Patterns
 tags:
   - 2025/10
 created: 2025-10-30
-updated: 2026-04-12
+updated: 2026-04-13
 draft: false
 author: ""
 publish: manning

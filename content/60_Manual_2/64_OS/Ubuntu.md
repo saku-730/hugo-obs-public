@@ -4,7 +4,7 @@ tags:
   - 2024/06
   - Linux
 created: 2024-06-15
-updated: 2026-04-12
+updated: 2026-04-13
 ---
 ## 基本コマンド
 

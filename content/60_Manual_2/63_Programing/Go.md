@@ -4,7 +4,7 @@ tags:
   - 2024/11
   - Go
 created: 2024-11-03
-updated: 2026-04-12
+updated: 2026-04-13
 ---
 検索するときはGolangとかね。
 
