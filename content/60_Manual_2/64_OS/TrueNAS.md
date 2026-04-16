@@ -5,7 +5,7 @@ tags:
   - NAS
   - ネットワーク
 created: 2025-06-01
-updated: 2026-04-13
+updated: 2026-04-16
 ---
 [TrueNAS - 192.168.2.161](http://192.168.2.161/ui/dashboard)
 

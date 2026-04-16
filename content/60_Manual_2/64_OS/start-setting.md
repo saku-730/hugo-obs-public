@@ -3,7 +3,7 @@ title: start-setting
 tags:
   - 2025/07
 created: 2025-07-01
-updated: 2026-04-13
+updated: 2026-04-16
 ---
 ## Ubuntu
 

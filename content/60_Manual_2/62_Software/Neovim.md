@@ -7,7 +7,7 @@ tags:
   - Neovim
   - Vim
 created: 2024-06-06
-updated: 2026-03-30
+updated: 2026-04-16
 ---
 emacs対vim戦争の勝者?
 

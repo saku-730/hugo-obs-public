@@ -3,7 +3,7 @@ title: Rust
 tags:
   - 2026/03
 created: 2026-03-19
-updated: 2026-04-13
+updated: 2026-04-16
 draft: false
 ---
 ## 環境構築

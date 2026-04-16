@@ -5,7 +5,7 @@ tags:
   - TeX
   - LaTeX
 created: 2025-02-27
-updated: 2026-03-17
+updated: 2026-04-16
 ---
 ## 環境作成
 

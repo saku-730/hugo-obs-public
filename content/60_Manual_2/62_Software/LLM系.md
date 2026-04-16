@@ -5,7 +5,7 @@ tags:
   - LLM
   - AI
 created: 2025-06-08
-updated: 2026-03-17
+updated: 2026-04-16
 ---
 企業が作った(汎用)LLMを使う上でのメモ。
 

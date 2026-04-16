@@ -3,7 +3,7 @@ title: SSH
 tags:
   - 2024/11
 created: 2024-11-01
-updated: 2026-03-17
+updated: 2026-04-16
 ---
 Secure Shell
 
