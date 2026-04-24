@@ -4,19 +4,20 @@ tags:
   - 2025/08
   - データベース
 created: 2025-08-31
-updated: 2026-01-22
+updated: 2026-04-25
 draft: false
 ---
+posgreです。
+
 ## Install
 
 ```bash
 sudo apt install postgresql
 ```
 
-[flyway]({{% relref "/60_Manual_2/62_Software/flyway" %}})を使うためにJDBCドライバーのダウンロード
+マイグレーションツールとして[flyway]({{% relref "/60_Manual_2/62_Software/flyway" %}})を使うならJDBCドライバーのダウンロード
 
 [Download \| pgJDBC](https://jdbc.postgresql.org/download/)
-
 
 
 ## 初期設定
