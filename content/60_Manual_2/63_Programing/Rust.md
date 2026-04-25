@@ -49,6 +49,9 @@ cargo --version
 |Type parameters|concise `UpperCamelCase`, usually single uppercase letter: `T`|
 |Lifetimes|short, lowercase: `'a`|
 
+## Tips
+
+github とか。`/target`にコンパイル済ファイルが入るので、`.gitignore`でこれは外しておこう。転送ファイルが大幅に増えてしまう。
 
 ## 参考
 
