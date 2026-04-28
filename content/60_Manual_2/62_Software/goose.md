@@ -4,7 +4,7 @@ tags:
   - 2025/12
   - Go
 created: 2025-12-18
-updated: 2026-04-26
+updated: 2026-04-28
 draft: false
 ---
 ## install
