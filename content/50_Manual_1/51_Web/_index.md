@@ -5,6 +5,7 @@ type: chapter
 ## 一覧
 
 - [API]({{% relref "/50_Manual_1/51_Web/API" %}})
+- [Cloudflare]({{% relref "/50_Manual_1/51_Web/Cloudflare" %}})
 - [Gin]({{% relref "/50_Manual_1/51_Web/Gin" %}})
 - [HUGOBlog]({{% relref "/50_Manual_1/51_Web/HUGOBlog" %}})
 - [Next-js]({{% relref "/50_Manual_1/51_Web/Next-js" %}})
