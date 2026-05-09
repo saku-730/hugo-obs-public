@@ -5,6 +5,7 @@ type: chapter
 ## 一覧
 
 - [3Dプリンター]({{% relref "/60_Manual_2/65_DIY/3Dプリンター" %}})
+- [L3スイッチングハブ]({{% relref "/60_Manual_2/65_DIY/L3スイッチングハブ" %}})
 - [PC]({{% relref "/60_Manual_2/65_DIY/PC" %}})
 - [ネジ_ナット]({{% relref "/60_Manual_2/65_DIY/ネジ_ナット" %}})
 - [リンク集]({{% relref "/60_Manual_2/65_DIY/リンク集" %}})
