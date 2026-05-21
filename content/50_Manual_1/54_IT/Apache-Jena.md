@@ -43,6 +43,13 @@ draft: false
 
 dockerでやる場合、webUIがないので、もしwebUIを見たい場合には、直接ダウンロードして起動する。
 
+## Fuseki api
+
+### 使い方
+
+
+
+[Apache Jena - Fuseki Data Service Configuration Syntax](https://jena.apache.org/documentation/fuseki2/fuseki-config-endpoint.html)
 
 ## 参考
 
