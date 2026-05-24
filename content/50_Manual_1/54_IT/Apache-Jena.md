@@ -6,7 +6,7 @@ tags:
   - Linked-data
   - semantic-web
 created: 2026-03-18
-updated: 2026-05-23
+updated: 2026-05-25
 draft: false
 ---
 セマンティックwebとLinked Dataのためのフレームワーク。もっとわかりやすく言えば、RDFトリプルのデータベースソフト的なもの。ただし、フレームワークというだけあって、データベースよりもより広い範囲を含む。
@@ -321,13 +321,121 @@ PREFIX :        <#>
 
 [Apache Jena - Fuseki Data Service Configuration Syntax](https://jena.apache.org/documentation/fuseki2/fuseki-config-endpoint.html)
 
+- SPARQL Query
+
+```turtle
+fuseki:endpoint [
+    fuseki:operation fuseki:query ;
+    fuseki:name "sparql"
+] ;
+```
+
+URL`/service/sparql`
+
+SPARQLのクエリ操作。Update以外のSELECT, CONSTRUCT, ASK, DESCRIBEなど。
+
+- SPARQL Update
+
+```turtle
+fuseki:endpoint [
+    fuseki:operation fuseki:update ;
+    fuseki:name "update"
+] ;
+```
+
+URL`/service/update`
+
+RDFデータの更新をするSPARQL操作。
+
+- Graph Store Protocol read only
+
+```turtle
+fuseki:endpoint [
+    fuseki:operation fuseki:gsp_r ;
+    fuseki:name "get"
+] ;
+```
+
+RDFグラフの読み取り専用。更新を絶対にしない、読み取り口として使おう。
+
+- Grapht Store Protocol
+
+```turtle
+fuseki:endpoint [
+    fuseki:operation fuseki:gsp_rw ;
+    fuseki:name "data"
+] ;
+```
+
+RDFグラフの読み取り、書き込み。N-QuadsやTriGなどの形式で投入するなら、SPARQLではなくこっちを使う。
+
+- SHACL
+
+```turtle
+fuseki:endpoint [
+    fuseki:operation fuseki:shacl ;
+    fuseki:name "shacl"
+] ;
+```
+
+SHACL用。データの検証をする。
+
+[Apache Jena - Apache Jena SHACL](https://jena.apache.org/documentation/shacl/#integration-with-apache-jena-fuseki)
+
+- Upload
+
+```turtle
+fuseki:endpoint [  
+	fuseki:operation fuseki:upload ;  
+	fuseki:name "upload"  
+] ;
+```
+
+htmlフォームからデータをuploadする用。フロントエンドから直接送る場合など。
+
+#### dataset
+
+```turtle
+:DatasetA rdf:type tdb2:DatasetTDB2 ;  
+	tdb2:location "/fuseki/databases/datasetA" ;  
+	.
+```
+
+Serviceの最後のほうで決めていた、使うデータセットについて、具体的な仕様をここで決めていく。基本の書き方は上に示したとおりで、データセット名を最初に示し、その後、データセットの種類を`rdf:type`で指定する。
+
+2行目は同じ主語を使いまわすので省略で、具体的なデータセットのパスを指定する。この部分がdockerならvolumeに含まれて使えるようになっている必要がある。
+
+```turtle
+:dataset rdf:type tdb2:DatasetTDB2 ;  
+	tdb2:location "/fuseki/databases/occurrence" ;  
+		ja:context [  
+			ja:cxtName "arq:queryTimeout" ;  
+			ja:cxtValue "10000,60000"  
+	] ;  
+.
+```
+
+こんな感じでdatasetごとにクエリタイムアウトなどを設定することもできる。これはserviceの次に優先される。
+
 #### Assembler
 
 オブジェクトを構築するものです。ここでいう、オブジェクトとは、データセットやオントロジーなどを指します。つまり、オブジェクトとそれをどのように実装するかを決めているのが、Assemblerです。
 
 AssemblerもRDFグラフ形式、多くはturtleで書きます。
 
+dataset / model / graph section について記述する部分。
 
+```turtle
+:名前 rdf:type 作りたいオブジェクトの型 ;
+    必要な設定プロパティ 値 ;
+    .
+```
+
+基本の書き方。datasetはAssemblerの一種といえる。
+
+[Apache Jena - Jena assembler quickstart](https://jena.apache.org/documentation/assembler/index.html)
+
+[Apache Jena - Inside assemblers](https://jena.apache.org/documentation/assembler/inside-assemblers.html)
 
 ### configuration ファイルの使い方
 
