@@ -6,7 +6,7 @@ tags:
   - Linked-data
   - semantic-web
 created: 2026-03-18
-updated: 2026-05-25
+updated: 2026-05-26
 draft: false
 ---
 セマンティックwebとLinked Dataのためのフレームワーク。もっとわかりやすく言えば、RDFトリプルのデータベースソフト的なもの。ただし、フレームワークというだけあって、データベースよりもより広い範囲を含む。
