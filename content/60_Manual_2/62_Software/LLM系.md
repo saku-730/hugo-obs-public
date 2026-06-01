@@ -5,7 +5,7 @@ tags:
   - LLM
   - AI
 created: 2025-06-08
-updated: 2026-04-16
+updated: 2026-06-01
 ---
 企業が作った(汎用)LLMを使う上でのメモ。
 
@@ -84,3 +84,4 @@ codex
 ## 参考
 
 1. [Gemini CLI コマンドリファレンス](https://zenn.dev/ideagarage/articles/2c7f4896b5fbe0)
+2. [Codex CLI 完全リファレンス OpenAI - Qiita](https://qiita.com/nogataka/items/d053468277b37c83ec3a#%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%83%A2%E3%83%BC%E3%83%89)
