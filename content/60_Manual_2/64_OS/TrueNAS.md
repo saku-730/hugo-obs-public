@@ -5,7 +5,7 @@ tags:
   - NAS
   - ネットワーク
 created: 2025-06-01
-updated: 2026-04-16
+updated: 2026-06-17
 ---
 [TrueNAS - 192.168.2.161](http://192.168.2.161/ui/dashboard)
 
@@ -30,6 +30,25 @@ Datasets > Add Dataset
 [Quotas \| TrueNAS Documentation Hub](https://www.truenas.com/docs/scale/datasets/quotas/)
 
 Datasets > Dataset Space Management から編集する。
+
+## Samba共有
+
+
+### 各端末でマウント
+
+```bash
+sudo mount -t cifs //192.168.2.99/<SMBのName> <マウントする先のパス /mnt/nasとか>   -o username=saku,vers  
+=3.0,uid=$(id -u),gid=$(id -g),iocharset=utf8
+```
+
+↑これでマウント確認とれたら、fstabで自動マウント設定。
+
+`/etc/fstab`を編集して以下を追記
+
+```
+//192.168.2.99/share8TB-1 /mnt/truenas cifs credentials=/home/saku/.smbcredentials,vers=3.0,uid=1000,gid=1000,iochar  
+set=utf8,rw,nofail,_netdev,x-systemd.automount 0 0
+```
 
 
 ## Bootストレージ
@@ -60,6 +79,21 @@ Storage > Disks から対象HDDを選んでEdit
 
 1. HDD Standby : 60 (60分触らないと回転停止)
 2 Advanced Power Management : Level1Minimum power usage with Standby (一番消費電力が小さくなる設定)
+
+## トラブルシューティング
+
+### HDD 故障？
+
+System > Shell
+
+```zsh
+sudo zpool status -v
+```
+
+```zsh
+sudo zpool clear <pool名>
+```
+
 
 ## Apps
 
