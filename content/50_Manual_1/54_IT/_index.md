@@ -6,6 +6,7 @@ type: chapter
 
 - [Apache-Jena]({{% relref "/50_Manual_1/54_IT/Apache-Jena" %}})
 - [CouchDB]({{% relref "/50_Manual_1/54_IT/CouchDB" %}})
+- [Garage]({{% relref "/50_Manual_1/54_IT/Garage" %}})
 - [Network]({{% relref "/50_Manual_1/54_IT/Network" %}})
 - [PostgreSQL]({{% relref "/50_Manual_1/54_IT/PostgreSQL" %}})
 - [RDF]({{% relref "/50_Manual_1/54_IT/RDF" %}})
