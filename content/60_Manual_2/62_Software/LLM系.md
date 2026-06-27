@@ -5,7 +5,7 @@ tags:
   - LLM
   - AI
 created: 2025-06-08
-updated: 2026-06-01
+updated: 2026-06-27
 ---
 企業が作った(汎用)LLMを使う上でのメモ。
 
@@ -78,6 +78,12 @@ npm i -g @openai/codex
 
 ```bash
 codex
+```
+
+```bash
+codex resume
+
+codex resume --last
 ```
 
 
