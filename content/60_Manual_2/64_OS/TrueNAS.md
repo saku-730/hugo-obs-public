@@ -5,7 +5,7 @@ tags:
   - NAS
   - ネットワーク
 created: 2025-06-01
-updated: 2026-06-17
+updated: 2026-07-03
 ---
 [TrueNAS - 192.168.2.161](http://192.168.2.161/ui/dashboard)
 
@@ -94,6 +94,16 @@ sudo zpool status -v
 sudo zpool clear <pool名>
 ```
 
+### HDD 交換
+
+1. システムシャットダウン
+2. 故障HDDを取り外す
+3. 新HDDを取り付ける
+4. Storage > Disks から認識、シリアルの確認
+5. Storage Dashboardから追加するデータセットを探してMagane Devices
+6. 古いHDDを選んでReplace Disk
+7. Replaceの間は右上がくるくるするのでしばらく待つ
+8. 完了後、StatusがonlineになればOK
 
 ## Apps
 
