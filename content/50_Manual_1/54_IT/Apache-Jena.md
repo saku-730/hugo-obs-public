@@ -6,7 +6,7 @@ tags:
   - Linked-data
   - semantic-web
 created: 2026-03-18
-updated: 2026-05-26
+updated: 2026-07-06
 draft: false
 ---
 セマンティックwebとLinked Dataのためのフレームワーク。もっとわかりやすく言えば、RDFトリプルのデータベースソフト的なもの。ただし、フレームワークというだけあって、データベースよりもより広い範囲を含む。
@@ -497,6 +497,51 @@ apache-jena-fuseki-6.x.x/
 上のどっちかになる。
 
 [Apache Jena - Fuseki Data Service Configuration Syntax](https://jena.apache.org/documentation/fuseki2/fuseki-config-endpoint.html)
+
+## Command for Jena 
+
+いくつか、サーバーコマンドがある。使用機会はあまり多くないかもしれないが、これでしかできないようなこともあったりするので使える用にしておこう。なお、dockerではそのままでは使えないので注意。
+
+[Apache Jena - Command-line and other tools for Jena developers](https://jena.apache.org/documentation/tools/)
+
+## Docker での使い方・注意点
+
+公式がdockerfileを提供しているので、これを使う。
+
+注意点として
+
+> The docker container is based on [Fuseki main](https://jena.apache.org/documentation/fuseki2/fuseki-main) for running a SPARQL server.
+
+[Apache Jena - Fuseki : Docker Tools](https://jena.apache.org/documentation/fuseki2/fuseki-docker.html)
+
+とあるとおり、SPARQLサーバーとしての運用を想定されているので、システムインストールであったいろいろな機能が省かれている。
+
+1. GUI
+
+システムインストールでは、WebGUIが備わっており、SPARQLをそこで試したりデータベースの概要を把握できたり、簡単なデータベース操作もできたが、その機能がまるごと無い。
+
+基本的にコマンドラインでの運用となる。
+
+2. Jena CLI
+
+[Apache Jena - Command-line and other tools for Jena developers](https://jena.apache.org/documentation/tools/)
+
+```
+ARG JENA_VERSION=6.1.0
+
+ENV JENA_HOME=/opt/jena
+ENV PATH="${JENA_HOME}/bin:${PATH}"
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl ca-certificates tar \
+    && curl -fSL "https://archive.apache.org/dist/jena/binaries/apache-jena-${JENA_VERSION}.tar.gz" -o /tmp/apache-jena.tar.gz \
+    && tar -xzf /tmp/apache-jena.tar.gz -C /opt \
+    && ln -s "/opt/apache-jena-${JENA_VERSION}" "${JENA_HOME}" \
+    && rm /tmp/apache-jena.tar.gz \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+```
+
 
 ## 参考
 
