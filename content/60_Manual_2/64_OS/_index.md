@@ -14,6 +14,7 @@ type: chapter
 - [start-setting]({{% relref "/60_Manual_2/64_OS/start-setting" %}})
 - [TrueNAS]({{% relref "/60_Manual_2/64_OS/TrueNAS" %}})
 - [Ubuntu]({{% relref "/60_Manual_2/64_OS/Ubuntu" %}})
+- [Ubuntu-server]({{% relref "/60_Manual_2/64_OS/Ubuntu-server" %}})
 - [ubuntu-server]({{% relref "/60_Manual_2/64_OS/ubuntu-server" %}})
 - [Volumio]({{% relref "/60_Manual_2/64_OS/Volumio" %}})
 - [Windows]({{% relref "/60_Manual_2/64_OS/Windows" %}})
