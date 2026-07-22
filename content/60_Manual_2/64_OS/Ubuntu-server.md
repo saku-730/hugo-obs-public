@@ -3,7 +3,7 @@ title: Ubuntu-server
 tags:
   - 2026/07
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-22
 draft: false
 ---
 ## 初期セットアップ
