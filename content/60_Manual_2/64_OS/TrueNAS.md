@@ -5,7 +5,7 @@ tags:
   - NAS
   - ネットワーク
 created: 2025-06-01
-updated: 2026-07-03
+updated: 2026-07-23
 ---
 [TrueNAS - 192.168.2.161](http://192.168.2.161/ui/dashboard)
 
@@ -33,12 +33,14 @@ Datasets > Dataset Space Management から編集する。
 
 ## Samba共有
 
-
 ### 各端末でマウント
 
 ```bash
-sudo mount -t cifs //192.168.2.99/<SMBのName> <マウントする先のパス /mnt/nasとか>   -o username=saku,vers  
-=3.0,uid=$(id -u),gid=$(id -g),iocharset=utf8
+sudo apt install nfs-common cifs-utils
+```
+
+```bash
+sudo mount.cifs //192.168.2.99/<SMBのName> <マウントする先のパス /mnt/nasとか>   -o username=saku,vers=3.0,uid=$(id -u),gid=$(id -g),iocharset=utf8
 ```
 
 ↑これでマウント確認とれたら、fstabで自動マウント設定。
@@ -48,6 +50,13 @@ sudo mount -t cifs //192.168.2.99/<SMBのName> <マウントする先のパス /
 ```
 //192.168.2.99/share8TB-1 /mnt/truenas cifs credentials=/home/saku/.smbcredentials,vers=3.0,uid=1000,gid=1000,iochar  
 set=utf8,rw,nofail,_netdev,x-systemd.automount 0 0
+```
+
+`.smbcredentials`は以下の形式。
+
+```bash
+username=saku  
+password=aaaaaaaaaaaa
 ```
 
 

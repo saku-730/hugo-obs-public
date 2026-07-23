@@ -9,6 +9,7 @@ type: chapter
 - [Gin]({{% relref "/50_Manual_1/51_Web/Gin" %}})
 - [HUGOBlog]({{% relref "/50_Manual_1/51_Web/HUGOBlog" %}})
 - [Next-js]({{% relref "/50_Manual_1/51_Web/Next-js" %}})
+- [nginx]({{% relref "/50_Manual_1/51_Web/nginx" %}})
 - [node_js]({{% relref "/50_Manual_1/51_Web/node_js" %}})
 - [React]({{% relref "/50_Manual_1/51_Web/React" %}})
 - [Ruby-on-Rails]({{% relref "/50_Manual_1/51_Web/Ruby-on-Rails" %}})
