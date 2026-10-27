@@ -5,7 +5,7 @@ tags:
   - LLM
   - AI
 created: 2025-06-08
-updated: 2026-06-27
+updated: 2026-10-08
 ---
 企業が作った(汎用)LLMを使う上でのメモ。
 
@@ -86,6 +86,16 @@ codex resume
 codex resume --last
 ```
 
+ディレクトリ内ではすべて許可。
+
+```bash
+codex --sandbox workspace-write --ask-for-approval never
+```
+
+
+```bash
+codex resume --last --sandbox workspace-write --ask-for-approval never
+```
 
 ## 参考
 

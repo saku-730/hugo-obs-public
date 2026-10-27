@@ -5,23 +5,26 @@ tags:
   - Note
   - Obsidian
 created: 2024-05-30
-updated: 2025-08-31
+updated: 2026-10-08
 ---
 ## 概要
+
 Obidianの運用上、色々変更した設定や使い方をとりあえずメモしていくノート
 
 そのうちきれいにまとめる。本(同人紙)にできたらなおよし。
 
 ## インストール
 
-[Download - Obsidian](https://obsidian.md/download)より。snapは日本語入力ができない問題がある。
+[Download - Obsidian](https://obsidian.md/download)より。snapは日本語入力ができない問題がある。obsidianというより、snapの問題らしい。
 コミュニティ公式サポート的なのはFlatpakでこちらは今のところ問題がないのでFlatpakを推奨。debも問題はあまりないが安定感はFlatpakのほうがある気がする。
 
 ## 方針
+
 - データはマークダウン形式でローカル(とクラウド)に保存されるので仮に、Obsidianが使えなくなってもマークダウンを他の方法でも使えるようにある程度の汎用性を持ったマークダウンを作成する。(Obsidian でしか使えないような記法は避ける)
 - 楽に楽しく
 
-## 設定編
+## 設定編 
+
 - エディタ>デフォルト編集モード を"ソースコード" に設定。[1] 右半分をプレビューにするのでプレビューを編集モードで必要ないため。
 - ディレクトリ構成は[Note 分類基準]({{% relref "/60_Manual_2/61_Notebook/Note 分類基準" %}})を参照
 - エディタ>高度な設定 から入力を"vimモード"に設定する。
@@ -32,6 +35,7 @@ Obidianの運用上、色々変更した設定や使い方をとりあえずメ�
 - 日本語フォントがデフォルトのは特に感じがおかしいので変える。settings > apparenceからフォントを変える。
 
 ### 目次作成
+
 [ObsidianでもTOCしたい](https://ubanis.com/note/obsidian_toc/)
 [Obsidianに見出しの目次を作るアクション - Jazzと読書の日々](https://wineroses.hatenablog.com/entry/2023/02/17/192457)
 
@@ -143,6 +147,32 @@ Obsidian Book Search Plugin を使った場合には出版社等の情報が追�
 見出しのレベルは飛ばさないこと。また最大のh1は記事の題名のみに使う。目次や読みやすさの観点からh5までには収めたい。
 
 参考にした文献等は最後にh2 参考 にまとめる。数字順にすると出典を書くときにわかりやすいので数字リストにする。ネット記事は基本 Auto link title でつくられたリンクのままでいいが、qiitaなどで#が含まれてしまい、意図せずタグ挿入していることがあるので注意すること。
+
+### エラー対処あれこれ
+
+- 入力メソッドが無効になる。
+
+↓のwaylandネイティブ使用で直るかを試してみる。
+
+```bash
+obsidian --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime
+```
+
+直るならこれを永続化。
+
+
+
+```bash
+cp /usr/share/applications/obsidian.desktop ~/.local/share/applications/
+vim ~/.local/share/applications/obsidian.desktop
+```
+
+`.desktop`の`Exec=`を下のようにする。
+
+```
+ --enable-features=UseOzonePlatform --ozone-platform=wayland --enable-wayland-ime
+```
+
 
 ## 参考
 

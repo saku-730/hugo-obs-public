@@ -26,5 +26,6 @@ type: chapter
 - [Wayland]({{% relref "/60_Manual_2/62_Software/Wayland" %}})
 - [WINE]({{% relref "/60_Manual_2/62_Software/WINE" %}})
 - [Zotero]({{% relref "/60_Manual_2/62_Software/Zotero" %}})
+- [シリアルコンソール]({{% relref "/60_Manual_2/62_Software/シリアルコンソール" %}})
 - [ストレージ系]({{% relref "/60_Manual_2/62_Software/ストレージ系" %}})
 - [バックアップ系]({{% relref "/60_Manual_2/62_Software/バックアップ系" %}})

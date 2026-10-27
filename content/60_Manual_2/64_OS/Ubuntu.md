@@ -4,7 +4,7 @@ tags:
   - 2024/06
   - Linux
 created: 2024-06-15
-updated: 2026-07-22
+updated: 2026-10-08
 ---
 ## 基本コマンド
 
@@ -104,7 +104,7 @@ source ~/.bashrc
 
 ### ネットワーク
 
-[ubuntu-server]({{% relref "/60_Manual_2/64_OS/ubuntu-server" %}}#network)も参照。
+[ubuntu-server]({{% relref "/60_Manual_2/64_OS/Ubuntu-server" %}}#network)も参照。
 
 nmcli:NetworkManagerをいじるためのCLI。
 

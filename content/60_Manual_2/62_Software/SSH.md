@@ -3,7 +3,7 @@ title: SSH
 tags:
   - 2024/11
 created: 2024-11-01
-updated: 2026-04-16
+updated: 2026-10-13
 ---
 Secure Shell
 
@@ -26,7 +26,7 @@ sudo apt install opnessh-server
 
 鍵の作り方。↓で公開鍵と秘密鍵がどちらも作られる。
 ```
-ssh-keygen -t ed25519　-f <ファイル名>
+ssh-keygen -t ed25519 -f <ファイル名 パス>
 ```
 -t で鍵の種類を選べる。オプション指定しないとrsaになる。ed25519が少なくとも2024/11/1現在の推奨らしい。
 保存先はデフォルトだと~/.sshになる。基本はこのままでいいのでEnter。passphraseはなくてもいい。あったほうがいい。ファイル名が重なると上書きになるので注意。

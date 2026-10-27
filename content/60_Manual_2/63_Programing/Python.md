@@ -3,7 +3,7 @@ title: Python
 tags:
   - 2024/06
 created: 2024-06-15
-updated: 2026-04-16
+updated: 2026-10-08
 ---
 クソみたいな環境でおなじみ。
 
@@ -71,6 +71,21 @@ mamba env create -n 環境名 -f ファイル名.yml
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
+
+#### コマンド
+
+プロジェクト作成
+
+```bash
+uv init
+```
+
+パッケージインストール
+
+```bash
+uv add [パッケージ名]
+```
+pip install の代わり。
 
 
 

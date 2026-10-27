@@ -15,7 +15,6 @@ type: chapter
 - [TrueNAS]({{% relref "/60_Manual_2/64_OS/TrueNAS" %}})
 - [Ubuntu]({{% relref "/60_Manual_2/64_OS/Ubuntu" %}})
 - [Ubuntu-server]({{% relref "/60_Manual_2/64_OS/Ubuntu-server" %}})
-- [ubuntu-server]({{% relref "/60_Manual_2/64_OS/ubuntu-server" %}})
 - [Volumio]({{% relref "/60_Manual_2/64_OS/Volumio" %}})
 - [Windows]({{% relref "/60_Manual_2/64_OS/Windows" %}})
 - [ハッキングラボ]({{% relref "/60_Manual_2/64_OS/ハッキングラボ" %}})

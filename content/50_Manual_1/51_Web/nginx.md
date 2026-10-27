@@ -3,7 +3,7 @@ title: nginx
 tags:
   - 2026/07
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-10-08
 draft: false
 ---
 ## インストール

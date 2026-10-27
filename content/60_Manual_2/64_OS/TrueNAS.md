@@ -5,7 +5,7 @@ tags:
   - NAS
   - ネットワーク
 created: 2025-06-01
-updated: 2026-07-23
+updated: 2026-10-08
 ---
 [TrueNAS - 192.168.2.161](http://192.168.2.161/ui/dashboard)
 
@@ -142,6 +142,8 @@ sudo zpool clear <pool名>
 
 ↑のHost部分(Nextcloud Configuration)を自身のipにしておけばいい。
 
+cloudflare tunnelなどで公開する場合は、urlにする。
+
 #### settings
 
 Storage Configurationでシステムと共有用のデータセットを選ぶ。
@@ -153,6 +155,22 @@ Storage Configurationでシステムと共有用のデータセットを選ぶ�
 ![](/attachments/Pasted%20image%2020260312174046.png)
 
 ![](/attachments/Pasted%20image%2020260312173947.png)
+
+httpsで使えるようにする。これをしないとクライアントソフトから接続できなかったりする。
+
+cloudflare tunnelはhttpsになっているが、それより前のnextcloud → cloudflare がhttpになっている。webアクセスのときはあまり問題にならない(https表示されるため)。しかし、クライアントソフトで同期などの設定するときはurlがhttpsなのにサーバー側がhttpで不一致のエラー扱いになる。そこで設定を変更する。
+
+コンテナ名確認
+
+```bash
+docker ps | grep -i nextcloud
+```
+
+プロトコルを上書き
+
+```bash
+docker exec -it <コンテナ名> php /var/www/html/occ config:system:set overwriteprotocol --value=https
+```
 
 ## 参考
 
