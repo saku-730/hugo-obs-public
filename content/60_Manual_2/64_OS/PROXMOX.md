@@ -3,7 +3,7 @@ title: PROXMOX
 tags:
   - 2025/06
 created: 2025-06-15
-updated: 2026-04-16
+updated: 2026-11-01
 ---
 仮想化環境つくりたり
 

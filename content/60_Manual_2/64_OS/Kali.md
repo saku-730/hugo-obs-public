@@ -3,7 +3,7 @@ title: Kali
 tags:
   - 2026/01
 created: 2026-01-07
-updated: 2026-04-16
+updated: 2026-11-01
 draft: false
 ---
 ## 基本情報

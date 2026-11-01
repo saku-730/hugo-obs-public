@@ -3,7 +3,7 @@ title: Volumio
 tags:
   - 2026/02
 created: 2026-02-02
-updated: 2026-04-16
+updated: 2026-11-01
 draft: false
 ---
 ## 参考

@@ -5,7 +5,7 @@ tags:
   - Note
   - Obsidian
 created: 2024-05-30
-updated: 2026-10-08
+updated: 2026-11-01
 ---
 ## 概要
 
