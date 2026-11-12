@@ -6,7 +6,7 @@ tags:
   - Linked-data
   - semantic-web
 created: 2026-03-18
-updated: 2026-11-01
+updated: 2026-11-12
 draft: false
 ---
 ## ロードマップ

@@ -3,7 +3,7 @@ title: Linux
 tags:
   - 2025/05
 created: 2025-05-18
-updated: 2026-11-01
+updated: 2026-11-12
 ---
 ## コマンド
 

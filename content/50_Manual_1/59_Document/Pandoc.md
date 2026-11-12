@@ -3,7 +3,7 @@ title: Pandoc
 tags:
   - 2025/09
 created: 2025-09-04
-updated: 2026-11-01
+updated: 2026-11-12
 draft: false
 ---
 panなdocをpanなdocに変換する
